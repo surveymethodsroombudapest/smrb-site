@@ -9,6 +9,7 @@ module.exports = function (config){
       });
     
     config.addPassthroughCopy({"./src/static": ""})
+    eleventyConfig.addWatchTarget("./src/static/");
 
     return {
         dir: {
