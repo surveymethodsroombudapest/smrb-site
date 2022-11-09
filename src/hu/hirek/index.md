@@ -1,0 +1,15 @@
+---
+layout: "base.njk"
+templateEngineOverride: njk,md
+---
+
+{% for hir in collections.hirek_hu %}
+    <div class="card">
+    <img class="card-img-top" src="holder.js/100x180/" alt="Title">
+    <div class="card-body">
+        <h4 class="card-title">{{hir.data.title}}</h4>
+        <p class="card-text">{{hir.data.content}}</p>
+    </div>
+</div>
+
+{% endfor %}

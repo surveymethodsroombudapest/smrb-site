@@ -1,20 +1,42 @@
-const { EleventyI18nPlugin } = require("@11ty/eleventy");
+const minify = require('html-minifier')
 
-module.exports = function (config){
-    
+module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        // any valid BCP 47-compatible language tag is supported
-        defaultLanguage: "", // Required, this site uses "en"
-      });
+    // Passthroughs
+    eleventyConfig.addPassthroughCopy({ "./src/static": "" })
     
-    config.addPassthroughCopy({"./src/static": ""})
+    // Layout aliases
+	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+
     eleventyConfig.addWatchTarget("./src/static/");
 
+    // Minify HTML
+	const isProduction = process.env.ELEVENTY_ENV === "production";
+
+	var htmlMinify = function(value, outputPath) {
+		if (outputPath && outputPath.indexOf('.html') > -1) {
+			return minify(value, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				minifyCSS: true
+			});
+		}
+	}
+
+	// html min only in production
+	if (isProduction) {
+		eleventyConfig.addTransform("htmlmin", htmlMinify);
+	}
+    
     return {
+        markdownTemplateEngine: 'njk',
+        dataTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
         dir: {
             input: "src",
-            output: "public"
+            output: "public",
+            data: "_data"
         }
     }
 }

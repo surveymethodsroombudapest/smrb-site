@@ -1,3 +1,4 @@
 {
-    "lang": "hu"
+    "locale": "hu",
+    "layout": "base.njk"
 }

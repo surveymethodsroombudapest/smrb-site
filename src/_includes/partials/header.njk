@@ -1,0 +1,30 @@
+<header>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <ul class="nav navbar-nav">
+            {% for item in mainnav %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ item[locale].link }}">{{ item[locale].label }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <ul class="lgs">
+
+            {%- for lgg in site.languages -%}
+                {% set translatedUrl = "/{{lgg.code}}/" -%}
+
+                {% for item in collections.all -%}
+                    {% if item.data.ref == ref and item.data.locale == lgg.code -%}
+                        {% set translatedUrl = item.url -%}
+                    {% endif -%}
+                {% endfor -%}
+
+                <li class="lgs-item">
+                    <a class="lgs-link " href="{{ translatedUrl }}">{{ lgg.label }}</a>
+                </li>
+
+            {%- endfor -%}
+
+        </ul>
+    </nav>
+</header>
