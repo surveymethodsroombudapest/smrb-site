@@ -11,14 +11,14 @@ module.exports = [
         }
     },
     {
-        id: "research",
+        id: "proj",
         hu: {
-            label: "Kutatások",
-            link: "/hu/kutatasok"
+            label: "Projektek",
+            link: "/hu/projektek"
         },
         en: {
-            label: "Research",
-            link: "/en/research"
+            label: "Projects",
+            link: "/en/projects"
         }
     },
     {
@@ -32,4 +32,26 @@ module.exports = [
             link: "/en/researchers"
         }
     },
+    {
+        id: "publ",
+        hu: {
+            label: "Publikációk",
+            link: "/hu/publikaciok/"
+        },
+        en: {
+            label: "Publications",
+            link: "/en/publications/"
+        }
+    },
+    {
+        id: "contact",
+        hu: {
+            label: "Kapcsolat",
+            link: "/hu/kapcsolat/"
+        },
+        en: {
+            label: "Contact us",
+            link: "/en/contact/"
+        }
+    }
 ]

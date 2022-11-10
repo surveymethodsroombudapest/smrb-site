@@ -1,3 +1,4 @@
 {
-    "tags": "kutatok_hu"
+    "tags": "kutatok_hu",
+    "permalink": "/{{ title | slugify }}/"
 }
