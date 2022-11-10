@@ -1,6 +1,6 @@
 ---
 name: "Szeitl Blanka"
-position: "Tanársegéd, ELTE TáTK Statisztika Tanszék"
+pos: "Tanársegéd, ELTE TáTK Statisztika Tanszék"
 img: "szeitl.jpg"
 ref: "szeitl-bio"
 ---
