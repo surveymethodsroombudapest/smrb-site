@@ -1,4 +1,4 @@
-const minify = require('html-minifier')
+// const minify = require('html-minifier')
 
 module.exports = function (eleventyConfig) {
 
@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
     eleventyConfig.addWatchTarget("./src/static/");
-
+    /*
     // Minify HTML
 	const isProduction = process.env.ELEVENTY_ENV === "production";
 
@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 	if (isProduction) {
 		eleventyConfig.addTransform("htmlmin", htmlMinify);
 	}
-    
+    */
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
