@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+<div class="row justify-content-center align-items-center g-2">
+    <div class="col col-md-8">
+        {%- for kut in kutatok %}
+            <div class="card">
+                <div class="row">
+                <div class="col-md-3">
+                <img class="card-img-top" src="{{kut.data.img}}" alt="Title">
+                </div>
+                <div class="col-md-9">
+                <div class="card-body">
+                    <h4 class="card-title">{{kut.data.name | safe}}</h4>
+                    <p class="card-text">{{kut.data.pos | safe}}</p>
+                    <a href="{{kut.url}}">Read more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        {% endfor -%}
+    </div>
+</div>
+

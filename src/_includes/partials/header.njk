@@ -1,30 +1,45 @@
 <header>
-    <nav class="navbar navbar-expand navbar-light bg-light">
-        <ul class="nav navbar-nav">
-            {% for item in mainnav %}
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ item[locale].link }}">{{ item[locale].label }}</a>
-                </li>
-            {% endfor %}
-        </ul>
+    <nav class="navbar navbar-expand-md bg-white">
+        <a href="/hu/" class="navbar-brand">
+            <i class="bi bi-house"></i>
+            SMRB
+        </a>
 
-        <ul class="lgs">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-            {%- for lgg in site.languages -%}
-                {% set translatedUrl = "/{{lgg.code}}/" -%}
+                {% for item in mainnav %}
+                    <li class="nav-item">
+                        <a class="nav-link {{'active' if page.url == item[locale].link }}" href="{{ item[locale].link }}">{{ item[locale].label }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="">
+            <ul class="nav navbar-nav">
 
-                {% for item in collections.all -%}
-                    {% if item.data.ref == ref and item.data.locale == lgg.code -%}
-                        {% set translatedUrl = item.url -%}
-                    {% endif -%}
-                {% endfor -%}
+                {%- for lgg in site.languages -%}
+                    
+                    {% set translatedUrl = "/" + lgg.code + "/" -%}
+                    
+                    {% for item in collections.all -%}
+                        {% if item.data.ref == ref and item.data.locale == lgg.code -%}
+                            {% set translatedUrl = item.url -%}
+                        {% endif -%}
+                    {% endfor -%}
 
-                <li class="lgs-item">
-                    <a class="lgs-link " href="{{ translatedUrl }}">{{ lgg.label }}</a>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ 'active' if locale == lgg.code}}" href="{{ translatedUrl }}">{{ lgg.label }}</a>
+                    </li>
 
-            {%- endfor -%}
+                {%- endfor -%}
 
-        </ul>
+            </ul>
+        </div>
     </nav>
 </header>
+
+{# TODO összecsukáskor jobb oldalra kerül lgs, mehetne rögtön balra a menügombtól#}

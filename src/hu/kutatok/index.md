@@ -1,15 +1,11 @@
 ---
-layout: "base.njk"
+layout: "layouts/kutatok.njk"
+ref: kuthome
+eleventyExcludeFromCollections: true
+pagination:
+    data: collections.kutatok_hu
+    alias: kutatok
+    size: 10
 ---
 
-{% for item in kutatok_hu %}
-    <div class="card">
-        <a href="{{item.url}}">
-        <img class="card-img-top" src="{{item.img}}" alt="Title">
-        <div class="card-body">
-            <h4 class="card-title">{{item.name}}</h4>
-            <p class="card-text">{{item.pos}}</p>
-        </div>
-        </a>
-    </div>
-{% endfor %}
+{# TODO az excludefromcollections kiszedi a collections.all-ból is, így nem működik a nyelv-választó #}

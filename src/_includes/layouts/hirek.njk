@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+
+{% for hir in collections.hirek_hu %}
+    <div class="card">
+    <img class="card-img-top" src="holder.js/100x180/" alt="Title">
+    <div class="card-body">
+        <h4 class="card-title">{{hir.data.title | safe}}</h4>
+        <p class="card-text">{{hir.data.content | safe}}</p>
+    </div>
+</div>
+
+{% endfor %}
+
+<p>Hírek layout check</p>
+
+<i class="bi-alarm"></i>

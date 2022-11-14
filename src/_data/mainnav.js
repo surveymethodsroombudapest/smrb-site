@@ -3,33 +3,33 @@ module.exports = [
         id: "news",
         hu: {
             label: "Hírek",
-            link: "/hu/hirek"
+            link: "/hu/hirek/"
         },
         en: {
             label: "News",
-            link: "/en/news"
+            link: "/en/news/"
         }
     },
     {
         id: "proj",
         hu: {
             label: "Projektek",
-            link: "/hu/projektek"
+            link: "/hu/projektek/"
         },
         en: {
             label: "Projects",
-            link: "/en/projects"
+            link: "/en/projects/"
         }
     },
     {
         id: "researchers",
         hu: {
             label: "Kutatók",
-            link: "/hu/kutatok"
+            link: "/hu/kutatok/"
         },
         en: {
-            label: "Researchers",
-            link: "/en/researchers"
+            label: "Team",
+            link: "/en/researchers/"
         }
     },
     {

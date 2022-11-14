@@ -1,11 +1,11 @@
 module.exports = {
     languages: [
         {
-            label: "magyar",
+            label: "HU",
             code: "hu"
         },
         {
-            label: "english",
+            label: "EN",
             code: "en"
         },
     ],

@@ -1,0 +1,33 @@
+---
+layout: base.njk
+---
+<div class="container-fluid">
+    <div class="row justify-content-center mt-5 gx-5">
+        <div class="col-md-6">
+            <h1 class="">{{title}}</h1>
+            <div class="pt-3 me-4">
+                {{ content | safe }}
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            {# TODO ugyanezt angolul is#}
+            <h1 class="pb-3">Kutatóink</h1>
+            {% for item in collections.kutatok_hu %}
+                <div class="card border-1">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{item.data.img}}" alt="">
+                        </div>
+                        <div class="col-md-9 align-items-center">
+                            <div class="card-body">
+                                <h5 class="card-title">{{item.data.name}}</h5>
+                                <p>{{item.data.pos}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
