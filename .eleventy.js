@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
 
   // date filter (localized)
 eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
-  locale = locale ? locale : "en";
+  locale = locale ? locale : "hu";
   moment.locale(locale);
   return moment(date).format(format);
 });

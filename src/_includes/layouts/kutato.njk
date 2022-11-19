@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+<div class="container-fluid">
+<div class="row justify-content-center py-5">
+    <div class="col col-md-8">
+        <a href="/hu/kutatok/" class="link-tatk fs-5"><i class="bi bi-arrow-left"></i> Vissza a többi kutatóhoz</a>
+    </div>
+</div>
+<div class="row justify-content-center align-items-center">
+    <div class="col col-md-8">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle w-20 w-md-75 float-end">
+            </div>
+            <div class="col-lg-8">
+                <h1>{{name}}</h1>
+                <h6>{{pos}}</h6>
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+

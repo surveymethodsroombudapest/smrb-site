@@ -1,4 +1,4 @@
 ---
-layout: layouts/kutatok.njk
+layout: layouts/rolunk.njk
 ref: kuthome
 ---
