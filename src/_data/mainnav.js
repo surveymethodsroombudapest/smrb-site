@@ -22,7 +22,7 @@ module.exports = [
         }
     },
     {
-        id: "researchers",
+        id: "team",
         hu: {
             label: "Kutatók",
             link: "/hu/kutatok/"

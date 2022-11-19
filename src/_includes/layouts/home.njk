@@ -2,32 +2,30 @@
 layout: base.njk
 ---
 <div class="container-fluid">
-    <div class="row justify-content-center mt-5 gx-5">
-        <div class="col-md-6">
-            <h1 class="">{{title}}</h1>
-            <div class="pt-3 me-4">
-                {{ content | safe }}
-            </div>
-
-        </div>
+    <div class="row justify-content-center align-items-center bg-light" id="mission-row">
         <div class="col-md-4">
-            {# TODO ugyanezt angolul is#}
-            <h1 class="pb-3">Kutatóink</h1>
-            {% for item in collections.kutatok_hu %}
-                <div class="card border-1">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="{{item.data.img}}" alt="">
-                        </div>
-                        <div class="col-md-9 align-items-center">
-                            <div class="card-body">
-                                <h5 class="card-title">{{item.data.name}}</h5>
-                                <p>{{item.data.pos}}</p>
-                            </div>
-                        </div>
-                    </div>
+            <img src="/static/img/logo.png" class="img-fluid float-end">
+        </div>
+        <div class="col-md-6">
+            
+            <p id="mission">Nunc condimentum elementum augue nec bibendum. Integer quis mi sapien. Nam eu mauris ac lacus pharetra pretium. Donec sit amet lorem et lectus blandit euismod vel ut odio. In hac habitasse platea dictumst. Donec nisi ipsum, euismod eu facilisis non, sagittis sed est. Nulla a metus at ipsum gravida porta dignissim at orci. In malesuada diam fermentum, suscipit lectus nec, lacinia ligula. Fusce in leo non justo ultricies tristique sed ultrices risus.</p>
+            
+            <a href="/hu/kutatok/" class="btn btn-light">Kutatócsoportunkról bővebben...</a> {# TODO legyen locale-függő link #}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h1 class="pt-5 pb-3">Legfrissebb</h1>
+            {% for hir in collections.hirek_hu %}
+                <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{hir.data.title}}</h4>
+                    {# TODO normálisabb dátum-formátum #}
+                    <h6 class="card-subtitle mb-2 text-muted">{{ hir.data.date | safe }}</h6>
+                    <p class="card-text text-truncate">{{ hir.data.content | safe}}</p>
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </div>

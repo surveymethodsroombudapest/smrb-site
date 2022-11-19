@@ -1,11 +1,13 @@
 ---
-layout: "layouts/kutatok.njk"
+layout: "layouts/rolunk.njk"
 ref: kuthome
-eleventyExcludeFromCollections: true
-pagination:
-    data: collections.kutatok_hu
-    alias: kutatok
-    size: 10
+title: Bemutatkozás
 ---
 
 {# TODO az excludefromcollections kiszedi a collections.all-ból is, így nem működik a nyelv-választó #}
+
+A Survey Methods Room Budapest az Eötvös Lóránd Tudományegyetemen működő kutatócsoport. A kutatócsoportot 2022 szeptemberében alakult, a Társadalomtudományi Kar Statisztika Tanszékének három oktatója hozta létre. A kutatócsoport alapítói: Szeitl Blanka, Tátrai Annamária, Fellner Zita.
+
+Kutatócsoportunk fő profilja a kérdőíves felmérések módszertani vizsgálata: ide tartoznak többek között a mintavétellel, súlyozással, kiválasztással és becsléssel kapcsolatos vizsgálatok. Foglalkozunk valószínűségi és nemvalószínűségi mintákkal, valamint kérdőíves kísérletekkel is, valamint olyan alkalmazott elemzésekkel, melyeknek módszertani relevanciája van. Adatgyűjtések tervezésével és kiértékelésével, validálásával, indikátorok fejlesztésével egyaránt foglalkozunk. Elemzéseink során adminisztratív adatokkal is dolgozunk.
+
+A survey-típusú, azaz kérdőíves adatgyűjtéseknek központi szerepe van az empirikus társadalomkutatásban, az adatfelvételek sikeressége viszont egyre komolyabb szakmai és logisztikai nehézségekkel küzd. A Társadalomtudományi Kar Statisztika Tanszékén önálló kutatócsoportot hozunk létre, melyben több senior, és junior kutató munkájával, valamint a hallgatók bevonásával vizsgáljuk a survey felmérések módszertani kritériumaihoz kapcsolódó aspektusokat. A kutatócsoport elsősorban olyan felmérésekkel foglalkozik (valós adatokkal, vagy szimulációk segítségével), melyek kérdőíves adatgyűjtésből származnak, (azaz nem vizsgálunk found data jellegű adatokat. Célunk a nemzetközi tudományos közegbe történő beágyazódás, együttműködés más egyetemekkel, kutatócsoportokkal, rendszeres konferencia megjelenések, idegen nyelvű publikációk, valamint saját workshopok szervezése is. Mindezekkel aktívan és hosszú távon kívánunk hozzájárulni az egyetemen folyó tudományos munkához. A kutatócsoport a kar survey statisztika és adatanalitika mesterszakos hallgatóinak, illetve a survey kutatások módszertana iránt érdeklődő magyar és angol nyelven hallgató alapszakos hallgatóinak is nyújt bekapcsolódási lehetőséget az aktív kutatási munkába.
