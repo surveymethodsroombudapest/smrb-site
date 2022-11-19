@@ -1,8 +1,22 @@
+$tatk-lila: #9063cd;
+
 .lgs-active:hover {
     color: black;
 }
 
+a {
+    color: $tatk-lila;
+    text-decoration: none;
+    
+    &:hover {
+        color: gray;
+    }
+}
+
+.card:hover {
+    background-color: lightgray;
+}
+
 #mission-row {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding: 15rem 0;
 }

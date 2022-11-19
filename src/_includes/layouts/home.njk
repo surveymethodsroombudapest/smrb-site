@@ -13,19 +13,27 @@ layout: base.njk
             <a href="/hu/kutatok/" class="btn btn-light">Kutatócsoportunkról bővebben...</a> {# TODO legyen locale-függő link #}
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h1 class="pt-5 pb-3">Legfrissebb</h1>
-            {% for hir in collections.hirek_hu %}
-                <div class="card">
+    <div class="row justify-content-center">
+        <div class="col-md col-lg-10">
+            <h1 class="pt-5 pb-4">Legfrissebb</h1>
+            <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-5">
+            {% for hir in collections["hirek_" + locale] %}
+                <div class="col">
+                <div class="card h-75">
                 <div class="card-body">
                     <h4 class="card-title">{{hir.data.title}}</h4>
                     {# TODO normálisabb dátum-formátum #}
-                    <h6 class="card-subtitle mb-2 text-muted">{{ hir.data.date | safe }}</h6>
-                    <p class="card-text text-truncate">{{ hir.data.content | safe}}</p>
+                    <h6 class="card-subtitle mb-2 text-muted"><time datetime="{{ hir.data.date | date('YYYY-MM-DD')}}">{{ hir.data.date | date('YYYY.MM.DD', locale) }}</time></h6> {# TODO ezt újra #}
+                    <p class="card-text text-truncate">{{ hir.data.content | safe }}</p> {# TODO text-truncate nem működik #}
+                    <a href="{{hir.url}}" class="stretched-link">Tovább...</a>
                 </div>
             </div>
+            </div>
             {% endfor %}
+            <div class="col">
+                <a href="/hu/hirek">Tovább a többi hírre</a>
+            </div>
+            </div>
         </div>
     </div>
 </div>

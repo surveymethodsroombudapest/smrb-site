@@ -1,6 +1,7 @@
 // const minify = require('html-minifier')
 const fs = require("fs");
 const NOT_FOUND_PATH = "public/404.html";
+const moment = require("moment");
 
 module.exports = function (eleventyConfig) {
 
@@ -13,12 +14,38 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/static/");
   
   // collections
+  eleventyConfig.addCollection("hirek_hu", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/hirek/!(index).md").reverse();
+  });
+  eleventyConfig.addCollection("hirek_en", (collection) => {
+    return collection.getFilteredByGlob("./src/en/news/!(index).md")
+  });
   eleventyConfig.addCollection("kutatok_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/kutatok/!(index).md")
   });
+  eleventyConfig.addCollection("kutatok_en", (collection) => {
+    return collection.getFilteredByGlob("./src/en/researchers/!(index).md")
+  });
+  eleventyConfig.addCollection("proj_hu", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/projektek/!(index).md")
+  });
+  eleventyConfig.addCollection("proj_en", (collection) => {
+    return collection.getFilteredByGlob("./src/en/projects/!(index).md")
+  });
+  eleventyConfig.addCollection("publ_hu", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/publikaciok/!(index).md")
+  });
+  eleventyConfig.addCollection("publ_en", (collection) => {
+    return collection.getFilteredByGlob("./src/en/publications/!(index).md")
+  }); 
 
-  
 
+  // date filter (localized)
+eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
+  locale = locale ? locale : "en";
+  moment.locale(locale);
+  return moment(date).format(format);
+});
   /*
   // Minify HTML
 const isProduction = process.env.ELEVENTY_ENV === "production";

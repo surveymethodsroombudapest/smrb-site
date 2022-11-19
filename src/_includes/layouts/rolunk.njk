@@ -14,15 +14,15 @@ layout: base.njk
             {# TODO ugyanezt angolul is#}
             <h1 class="pb-3">Kutatóink</h1>
             {% for item in collections.kutatok_hu %}
-                <div class="card border-1">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="{{item.data.img}}" alt="">
+                <div class="card border-1 mb-3 p-2">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 ">
+                            <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle float-end">
                         </div>
-                        <div class="col-md-9 align-items-center">
+                        <div class="col-md-9">
                             <div class="card-body">
-                                <h5 class="card-title">{{item.data.name}}</h5>
-                                <p>{{item.data.pos}}</p>
+                                 <a href="{{item.url}}" class="stretched-link"><h4 class="card-title">{{item.data.name}}</h4></a>
+                                <p class="card-subtitle">{{item.data.pos}}</p>
                             </div>
                         </div>
                     </div>
