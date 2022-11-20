@@ -18,14 +18,14 @@ layout: base.njk
   </div>
   <div class="row justify-content-center">
     <div class="col-md col-lg-10">
-      <h1 class="pt-5 pb-4">Legfrissebb</h1>
+      <h3 class="pt-5 pb-4">Legfrissebb</h3>
       <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
         {% # TODO ez most csak magyarul működik%}
         {% for hir in collections.hirek_hu limit:3 %}
           <div class="col">
             <div class="card h-100">
               <div class="card-body">
-                <h4 class="card-title">{{hir.data.title}}</h4>
+                <h5 class="card-title">{{hir.data.title}}</h5>
                 {% # TODO dátum sok helyen fog kelleni, legyen belőle shortcode %}
                 <h6 class="card-subtitle mb-2 text-muted">
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
