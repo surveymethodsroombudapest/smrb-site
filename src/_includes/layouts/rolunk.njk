@@ -21,14 +21,16 @@ layout: base.njk
                         </div>
                         <div class="col-9">
                             <div class="card-body">
-                                 <a href="{{item.url}}" class="stretched-link kutato-link"><h4 class="card-title">{{item.data.name}}</h4></a>
+                                <a href="{{item.url}}" class="stretched-link kutato-link">
+                                    <h4 class="card-title">{{item.data.name}}</h4>
+                                </a>
                                 <p class="card-subtitle">{{item.data.pos}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
-            </div>
-        
+            {% endfor %}
+        </div>
+
     </div>
 </div>

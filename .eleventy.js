@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
 
   eleventyConfig.addWatchTarget("./src/static/");
-  
+
   // collections
   eleventyConfig.addCollection("hirek_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/hirek/!(index).md").reverse();
@@ -37,17 +37,17 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addCollection("publ_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/publications/!(index).md")
-  }); 
+  });
 
 
   // date filter (localized)
-eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
-  locale = locale ? locale : "hu";
-  moment.locale(locale);
-  return moment(date).format(format);
-});
+  eleventyConfig.addFilter("date", function (date, format, locale) {
+    locale = locale ? locale : "hu";
+    moment.locale(locale);
+    return moment(date).format(format);
+  });
 
-eleventyConfig.addNunjucksShortcode("goback", (link, text) => `
+  eleventyConfig.addNunjucksShortcode("goback", (link, text) => `
     <a href="${link}" class="goback"><i class="bi bi-caret-left"></i> ${text}</a>
   `);
   /*

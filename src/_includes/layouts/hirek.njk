@@ -2,28 +2,23 @@
 layout: base.njk
 ---
 
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <h1 class="title">Hírek</h1>
+            {% for hir in collections.hirek_hu %}
 
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title">{{hir.data.title | safe}}</h4>
+                        <h6 class="card-subtitle text-muted">{{ hir.data.date | date('YYYY. MM. DD.')}}</h6>
+                        <p class="card-text">{{hir.data.content | safe}}</p>
+                        <a href="{{hir.url}}" class="stretched-link link-tatk">Tovább...</a>
+                    </div>
 
-<div class="container-fluid">   
-        <div class="row justify-content-center">   
-            <div class="col-md-10 col-lg-8">
-            <h1 class="pt-5 pb-3">Hírek</h1>
-                {% for hir in collections.hirek_hu %}
+                </div>
 
-    <div class="card mb-3">
-    <div class="card-body">
-        <h4 class="card-title">{{hir.data.title | safe}}</h4>
-        <h6 class="card-subtitle text-muted">{{hir.data.date}}</h6>
-        <p class="card-text">{{hir.data.content | safe}}</p>
-        <a href="{{hir.url}}" class="stretched-link link-tatk">Tovább...</a>
+            {% endfor %}
+        </div>
     </div>
-
 </div>
-
-{% endfor %}
-            </div>
-        </div>  
-</div>  
-
-
-

@@ -4,8 +4,6 @@ ref: kuthome
 title: Bemutatkozás
 ---
 
-{# TODO az excludefromcollections kiszedi a collections.all-ból is, így nem működik a nyelv-választó #}
-
 A Survey Methods Room Budapest az Eötvös Lóránd Tudományegyetemen működő kutatócsoport. A kutatócsoportot 2022 szeptemberében alakult, a Társadalomtudományi Kar Statisztika Tanszékének három oktatója hozta létre. A kutatócsoport alapítói: Szeitl Blanka, Tátrai Annamária, Fellner Zita.
 
 Kutatócsoportunk fő profilja a kérdőíves felmérések módszertani vizsgálata: ide tartoznak többek között a mintavétellel, súlyozással, kiválasztással és becsléssel kapcsolatos vizsgálatok. Foglalkozunk valószínűségi és nemvalószínűségi mintákkal, valamint kérdőíves kísérletekkel is, valamint olyan alkalmazott elemzésekkel, melyeknek módszertani relevanciája van. Adatgyűjtések tervezésével és kiértékelésével, validálásával, indikátorok fejlesztésével egyaránt foglalkozunk. Elemzéseink során adminisztratív adatokkal is dolgozunk.
