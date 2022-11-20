@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+	<div class="col-md-10 col-lg-8 pt-5">
+		{% goback "/hu/hirek/", "Hírek" %}
+		<h1 class="title">{{ title }}</h1>
+		<h6 class="subtitle">{{ date }}</h6>
+		{{ content | safe }}
+	</div>
+</div>
+</div>

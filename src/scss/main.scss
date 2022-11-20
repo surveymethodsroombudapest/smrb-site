@@ -9,7 +9,7 @@ $tatk-lila: #9063cd;
     text-decoration: none;
     
     &:hover {
-        color: gray;
+        color: #5d329a;
     }
 }
 
@@ -21,3 +21,28 @@ $tatk-lila: #9063cd;
     padding: 12rem 0;
 }
 
+.goback {
+    color: $tatk-lila;
+    text-decoration: none;
+    font-size: 1.25em;
+    &:hover {
+        color: #5d329a;
+    }
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+.subtitle {
+    padding-bottom: 2rem;
+    color: gray;
+}
+
+.kutato-link {
+    text-decoration: none;
+    color: black;
+    &:hover {
+        color: black;
+    }
+}

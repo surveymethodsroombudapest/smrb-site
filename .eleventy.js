@@ -46,6 +46,10 @@ eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
   moment.locale(locale);
   return moment(date).format(format);
 });
+
+eleventyConfig.addNunjucksShortcode("goback", (link, text) => `
+    <a href="${link}" class="goback"><i class="bi bi-caret-left"></i> ${text}</a>
+  `);
   /*
   // Minify HTML
 const isProduction = process.env.ELEVENTY_ENV === "production";

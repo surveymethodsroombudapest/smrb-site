@@ -3,18 +3,19 @@ layout: base.njk
 ---
 <div class="container-fluid">
 <div class="row justify-content-center py-5">
-    <div class="col col-md-8">
-        <a href="/hu/kutatok/" class="link-tatk fs-5"><i class="bi bi-arrow-left"></i> Vissza a többi kutatóhoz</a>
+    <div class="col col-md-10 col-lg-8">
+        {% goback "/hu/kutatok/", "Kutatók" %}
     </div>
 </div>
 <div class="row justify-content-center align-items-center">
-    <div class="col col-md-8">
+    <div class="col col-md-10 col-lg-8">
         <div class="row">
-            <div class="col-lg-4">
-                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle w-20 w-md-75 float-end">
+            <div class="col-md-4">
+                {# TODO image sizing legyen responsive #}
+                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle w-75 d-block mx-auto">
             </div>
-            <div class="col-lg-8">
-                <h1>{{name}}</h1>
+            <div class="col-md-8">
+                <h1 class="text-center text-md-start">{{name}}</h1>
                 <h6>{{pos}}</h6>
                 {{ content | safe }}
             </div>
