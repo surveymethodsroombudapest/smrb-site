@@ -12,7 +12,7 @@ layout: base.njk
     {% for year in publ %}
         <div class="row justify-content-center">
             <div class="col-md-2 text-md-end">
-                <h6 class="pt-4">{{ year.id }}</h6>
+                <h6 class="pt-4 text-muted">{{ year.id }}</h6>
             </div>
             <div class="col-md-10 col-lg-8">
                 {% for pub in collections[ year[locale] ] -%}

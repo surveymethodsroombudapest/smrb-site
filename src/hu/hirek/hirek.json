@@ -1,4 +1,3 @@
 {
-   "layout": "layouts/hir.njk",
-   "permalink": "/hu/hirek/{{ title | slugify }}/"
+   "layout": "layouts/hir.njk"
 }
