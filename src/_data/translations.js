@@ -22,5 +22,13 @@ module.exports = {
     kut: {
         'hu': "Kutatók",
         'en': "Team"
+    },
+    kutatoink: {
+        'hu': "Kutatóink",
+        'en': "Our Team"
+    },
+    moreaboutus: {
+        'hu': "Kutatócsoportunkról bővebben",
+        'en': "Read more about our team"
     }
 }

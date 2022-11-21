@@ -4,32 +4,32 @@ layout: base.njk
 
 <div class="container-fluid">
     <div class="row justify-content-center">
+        <div class="col-md-2"></div>
         <div class="col-md-10 col-lg-8">
-            <h1 class="title">Publikációk</h1>
-
-            {% for year in publ %}
-                <div class="row">
-                    <div class="col-md-2 text-end">
-                        <h6>{{ year.id }}</h6>
-                    </div>
-                    <div class="col-md-10">
-                        {% for pub in collections[ year[locale] ] -%}
-
-                            <div class="card mb-3">
-                                <div class="card-body">
-                                    <h4 class="card-title">{{ pub.data.title | safe }}</h4>
-                                    <h6 class="card-subtitle text-muted">{{ pub.data.date }}</h6>
-                                    <p class="card-text">{{pub.data.content | safe}}</p>
-                                    <a href="{{pub.url}}" class="stretched-link link-tatk">{{ 'readmore' | i18n }}</a>
-                                </div>  
-
-                            </div>
-
-                        {%- endfor %}
-                    </div>  
-                </div>
-            {% endfor %}
-
+            <h1 class="title">{{ title }}</h1>
         </div>
     </div>
+    {% for year in publ %}
+        <div class="row justify-content-center">
+            <div class="col-md-2 text-md-end">
+                <h6 class="pt-4">{{ year.id }}</h6>
+            </div>
+            <div class="col-md-10 col-lg-8">
+                {% for pub in collections[ year[locale] ] -%}
+
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h4 class="card-title">{{ pub.data.title | safe }}</h4>
+                            <h6 class="card-subtitle text-muted">{{ pub.data.date }}</h6>
+                            <p class="card-text">{{pub.data.content | safe | truncate}}</p>
+                            <a href="{{pub.url}}" class="stretched-link link-tatk">{{ 'readmore' | i18n }}</a>
+                        </div>
+
+                    </div>
+
+                {%- endfor %}
+            </div>
+        </div>
+    {% endfor %}
+
 </div>

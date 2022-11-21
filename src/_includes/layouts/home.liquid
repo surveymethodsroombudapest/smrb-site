@@ -10,7 +10,7 @@ layout: base.njk
 
       <p id="mission">{{ content }}</p>
 
-      <a href="/hu/kutatok/" class="link-tatk">Kutatócsoportunkról bővebben
+      <a href="/hu/kutatok/" class="link-tatk">{{translations.moreaboutus[locale]}}
         <i class="bi bi-arrow-right-short"></i>
       </a>
       {% # TODO legyen locale-függő link %}
@@ -18,11 +18,10 @@ layout: base.njk
   </div>
   <div class="row justify-content-center">
     <div class="col-md col-lg-10">
-      {% # FIXME i18n filter nem működik liquidben %}
-      <h3 class="pt-5 pb-4">Legfrissebb</h3>
-      <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
-        {% # TODO ez most csak magyarul működik%}
-        {% for hir in collections.hirek_hu limit:3 %}
+      <h3 class="pt-5 pb-4">{{ translations.latest[locale] }}</h3>
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+        {%- assign hir-loc = "hirek_" | append: locale -%}
+        {% for hir in collections[hir-loc] limit:3 %}
           <div class="col">
             <div class="card h-100">
               <div class="card-body">
@@ -32,7 +31,7 @@ layout: base.njk
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
                 </h6>
                 <div class="card-text">{{ hir.data.content | truncate }}</div>
-                <a href="{{hir.url}}" class="link-tatk stretched-link">Tovább...</a>
+                <a href="{{hir.url}}" class="link-tatk stretched-link">{{ translations.readmore[locale]}}</a>
               </div>
             </div>
           </div>

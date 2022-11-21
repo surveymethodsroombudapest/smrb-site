@@ -15,8 +15,6 @@
                     </li>
                 {% endfor %}
             </ul>
-        </div>
-        <div class="">
             <ul class="nav navbar-nav">
 
                 {%- for lgg in site.languages -%}
@@ -30,7 +28,7 @@
                     {% endfor -%}
 
                     <li class="nav-item">
-                        <a class="nav-link {{ 'active' if locale == lgg.code}}" href="{{ translatedUrl }}">{{ lgg.label }}</a>
+                        <a class="nav-link {{ 'active' if locale == lgg.code}}" href="{{ translatedUrl }}" rel="alternate" hreflang="{{lgg.code}}">{{ lgg.label }}</a>
                     </li>
 
                 {%- endfor -%}

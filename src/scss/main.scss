@@ -1,4 +1,5 @@
 $tatk-lila: #9063cd;
+$tatk-lila-dark: #5d329a;
 
 .lgs-active:hover {
     color: black;
@@ -9,12 +10,8 @@ $tatk-lila: #9063cd;
     text-decoration: none;
     
     &:hover {
-        color: #5d329a;
+        color: $tatk-lila-dark;
     }
-}
-
-.nav-link.active {
-    color: $tatk-lila;
 }
 
 .card:hover {
@@ -30,7 +27,7 @@ $tatk-lila: #9063cd;
     text-decoration: none;
     font-size: 1.25em;
     &:hover {
-        color: #5d329a;
+        color: $tatk-lila-dark;
     }
 }
 
@@ -53,4 +50,9 @@ $tatk-lila: #9063cd;
     &:hover {
         color: black;
     }
+}
+
+pre {
+    background-color: #fafafa;
+    padding: 1rem;
 }
