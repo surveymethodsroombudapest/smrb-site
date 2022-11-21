@@ -2,8 +2,8 @@
 layout: base.njk
 ---
 
-{% set gobackTitle = "Hírek" %}
-{% set gobackUrl = "/hu/hirek/" %}
+{% set gobackTitle = 'hirek' | i18n %}
+{% set gobackUrl = "/hu/hirek/" if locale == "hu" else "/en/news/" %}
 
 
 <div class="container-fluid">

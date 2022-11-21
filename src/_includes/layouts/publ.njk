@@ -20,7 +20,7 @@ layout: base.njk
                                     <h4 class="card-title">{{ pub.data.title | safe }}</h4>
                                     <h6 class="card-subtitle text-muted">{{ pub.data.date }}</h6>
                                     <p class="card-text">{{pub.data.content | safe}}</p>
-                                    <a href="{{pub.url}}" class="stretched-link link-tatk">Tovább...</a>
+                                    <a href="{{pub.url}}" class="stretched-link link-tatk">{{ 'readmore' | i18n }}</a>
                                 </div>  
 
                             </div>

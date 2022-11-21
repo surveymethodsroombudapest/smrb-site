@@ -2,6 +2,8 @@
 const fs = require("fs");
 const NOT_FOUND_PATH = "public/404.html";
 const moment = require("moment");
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./src/_data/translations.js')
 
 module.exports = function (eleventyConfig) {
 
@@ -14,6 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/static/");
 
   // collections
+  // TODO talán szebb lenne, ha az index.md-k helyett index.njk-k lennének külön mappában
   eleventyConfig.addCollection("hirek_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/hirek/!(index).md").reverse();
   });
@@ -39,6 +42,13 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/en/publications/!(index).md")
   });
 
+
+  eleventyConfig.addPlugin(i18n, {
+    translations,
+    fallbackLocales: {
+      'hu': 'en'
+    }
+  });
 
   // date filter (localized)
   eleventyConfig.addFilter("date", function (date, format, locale) {

@@ -5,15 +5,15 @@ layout: base.njk
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-            <h1 class="title">Hírek</h1>
-            {% for hir in collections.hirek_hu %}
+            <h1 class="title">{{ "hirek" | i18n }}</h1>
+            {% for hir in collections["hirek_" + locale] %}
 
                 <div class="card mb-3">
                     <div class="card-body">
                         <h4 class="card-title">{{hir.data.title | safe}}</h4>
                         <h6 class="card-subtitle text-muted">{{ hir.data.date | date('YYYY. MM. DD.')}}</h6>
                         <p class="card-text">{{hir.data.content | safe}}</p>
-                        <a href="{{hir.url}}" class="stretched-link link-tatk">Tovább...</a>
+                        <a href="{{hir.url}}" class="stretched-link link-tatk">{{ 'readmore' | i18n }}</a>
                     </div>
 
                 </div>
