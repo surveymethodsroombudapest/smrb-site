@@ -1,5 +1,5 @@
 ---
-title: Utazás
-date: 2021-12-01
+title: Megalakult a Survey Methods Room kutatócsoport
+date: 2021-09-08
 ---
-djf fdlkfsakjfda fdlkjfdskjfds fdslkjfdsalkjfdsafdsalk
+Az ELTE TáTK Kari Tanácsa blablabla
