@@ -3,6 +3,16 @@
     --tatk-lila-dark: #5d329a;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
 .lgs-active:hover {
     color: black;
 }
@@ -78,4 +88,8 @@ pre {
     .kutato-md {
         display: block;
     }
+}
+
+footer {
+    padding: 1rem;
 }
