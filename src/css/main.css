@@ -58,3 +58,24 @@ pre {
     background-color: #fafafa;
     padding: 1rem;
 }
+
+.kutato-md {
+    display: none;
+}
+
+.kutato-profil {
+    width: 7rem;
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .kutato-profil {
+        width: 12rem;
+    }
+    #kutato-small {
+        display: none;
+    }
+    .kutato-md {
+        display: block;
+    }
+}

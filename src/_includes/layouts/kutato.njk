@@ -10,14 +10,22 @@ layout: base.njk
 </div>
 <div class="row justify-content-center align-items-center">
     <div class="col col-md-10 col-lg-8">
+        <div class="row align-items-center pb-5" id="kutato-small">
+            <div class="col-4">
+                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil">
+            </div>
+            <div class="col-8">
+                <h1 class="text-start">{{name}}</h1>
+                <h6>{{pos}}</h6>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-md-4">
-                {# TODO image sizing legyen responsive #}
-                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle w-75 d-block mx-auto">
+            <div class="col-md-4 kutato-md">
+                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil pe-3">
             </div>
             <div class="col-md-8">
-                <h1 class="text-center text-md-start">{{name}}</h1>
-                <h6>{{pos}}</h6>
+                <h1 class="text-center text-md-start kutato-md">{{name}}</h1>
+                <h6 class="kutato-md">{{pos}}</h6>
                 {{ content | safe }}
             </div>
         </div>
