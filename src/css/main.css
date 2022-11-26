@@ -82,9 +82,11 @@ pre {
     .kutato-profil {
         width: 12rem;
     }
+
     #kutato-small {
         display: none;
     }
+
     .kutato-md {
         display: block;
     }
@@ -92,4 +94,8 @@ pre {
 
 footer {
     padding: 1rem;
+}
+
+.collapse.show {
+    margin-left: 1rem;
 }
