@@ -3,18 +3,20 @@ layout: base.njk
 ---
 
 {% set gobackTitle = 'hirek' | i18n %}
-{% set gobackUrl = "/hu/hirek/" if locale == "hu" else "/en/news/" %}
-
+{% set gobackUrl = "news" | localisedLink(locale) %}
 
 <div class="container-fluid">
-<div class="row justify-content-center">
-	<div class="col-md-10 col-lg-8 pt-5">
-		{% goback gobackUrl, gobackTitle %}
-		<h1 class="title-withback">{{ title }}</h1>
-		{% if date %}
-			<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
-		{% endif %}
-		{{ content | safe }}
+	<div class="row justify-content-center">
+		<div class="col-md-10 col-lg-8">
+			<div class="article-header">
+				{% goback gobackUrl,
+				gobackTitle %}
+				<h1>{{ title }}</h1>
+				{% if date %}
+					<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
+				{% endif %}
+			</div>
+			{{ content | safe }}
+		</div>
 	</div>
-</div>
 </div>

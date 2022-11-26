@@ -1,17 +1,19 @@
-$tatk-lila: #9063cd;
-$tatk-lila-dark: #5d329a;
+:root {
+    --tatk-lila: #9063cd;
+    --tatk-lila-dark: #5d329a;
+}
 
 .lgs-active:hover {
     color: black;
 }
 
 .link-tatk {
-    color: $tatk-lila;
+    color: var(--tatk-lila);
     text-decoration: none;
-    
-    &:hover {
-        color: $tatk-lila-dark;
-    }
+}
+
+.link-tatk:hover {
+    color: var(--tatk-lila-dark)
 }
 
 .card:hover {
@@ -23,20 +25,14 @@ $tatk-lila-dark: #5d329a;
 }
 
 .goback {
-    color: $tatk-lila;
+    color: var(--tatk-lila);
     text-decoration: none;
     font-size: 1.25em;
-    &:hover {
-        color: $tatk-lila-dark;
-    }
+    padding-bottom: 1rem;
 }
 
-.title {
-    padding-top: 5rem;
-}
-
-.title-withback {
-    padding-top: 1rem;
+.goback:hover {
+    color: var(--tatk-lila-dark);
 }
 
 .subtitle {
@@ -47,9 +43,15 @@ $tatk-lila-dark: #5d329a;
 .kutato-link {
     text-decoration: none;
     color: black;
-    &:hover {
-        color: black;
-    }
+}
+
+.kutato-link:hover {
+    color: black;
+}
+
+.article-header {
+    margin-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 pre {

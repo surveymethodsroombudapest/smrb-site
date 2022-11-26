@@ -5,7 +5,9 @@ layout: base.njk
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-10 col-lg-8">
-            <h1 class="title">{{ title }}</h1>
+            <div class="article-header">
+                <h1 class="title">{{ title }}</h1>
+            </div>
             {% for proj in collections[ "proj_" + locale] %}
 
                 <div class="card mb-3">

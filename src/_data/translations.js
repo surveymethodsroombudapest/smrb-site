@@ -30,5 +30,9 @@ module.exports = {
     moreaboutus: {
         'hu': "Kutatócsoportunkról bővebben",
         'en': "Read more about our team"
+    },
+    allnews: {
+        'hu': "Tovább a többi hírre",
+        'en': "News"
     }
 }

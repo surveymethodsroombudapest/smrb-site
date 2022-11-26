@@ -4,13 +4,13 @@ layout: base.njk
 <div class="container-fluid">
   <div class="row justify-content-center align-items-center bg-light" id="mission-row">
     <div class="col-md-4">
-      <img src="/static/img/logo.png" class="img-fluid float-end">
+      <img src="/img/logo.png" class="img-fluid float-end">
     </div>
     <div class="col-md-6">
 
       <p id="mission">{{ content }}</p>
 
-      <a href="/hu/kutatok/" class="link-tatk">{{translations.moreaboutus[locale]}}
+      <a href="{% localisedLink "team", locale%}" class="link-tatk">{{translations.moreaboutus[locale]}}
         <i class="bi bi-arrow-right-short"></i>
       </a>
       {% # TODO legyen locale-függő link %}
@@ -37,9 +37,9 @@ layout: base.njk
           </div>
         {% endfor %}
         <div class="col align-self-center text-center">
-          <a href="/hu/hirek" class="link-tatk">
+          <a href="{% localisedLink "news", locale %}" class="link-tatk">
             <i class="bi bi-arrow-right-circle fs-1"></i>
-            <p>Tovább a többi hírre</p>
+            <p>{{ translations.allnews[locale] }}</p>
           </a>
         </div>
       </div>

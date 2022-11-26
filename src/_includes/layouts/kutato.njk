@@ -1,10 +1,11 @@
 ---
 layout: base.njk
 ---
+
 <div class="container-fluid">
 <div class="row justify-content-center py-5">
     <div class="col col-md-10 col-lg-8">
-        {% goback "/hu/kutatok/" if locale == 'hu' else "/en/researchers", "kut" | i18n %}
+        {% goback "team" | localisedLink(locale), "kut" | i18n %}
     </div>
 </div>
 <div class="row justify-content-center align-items-center">

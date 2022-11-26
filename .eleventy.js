@@ -4,11 +4,13 @@ const NOT_FOUND_PATH = "public/404.html";
 const moment = require("moment");
 const i18n = require('eleventy-plugin-i18n');
 const translations = require('./src/_data/translations.js')
+const mainnav = require('./src/_data/mainnav.js')
 
 module.exports = function (eleventyConfig) {
 
   // Passthroughs
-  eleventyConfig.addPassthroughCopy({ "./src/static": "" })
+  eleventyConfig.addPassthroughCopy({ "./src/static/": "/" })
+  eleventyConfig.addPassthroughCopy("./src/css/")
 
   // Layout aliases
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
@@ -42,7 +44,6 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/en/publications/!(index).md")
   });
 
-
   eleventyConfig.addPlugin(i18n, {
     translations,
     fallbackLocales: {
@@ -56,6 +57,13 @@ module.exports = function (eleventyConfig) {
     moment.locale(locale);
     return moment(date).format(format);
   });
+
+  eleventyConfig.addFilter("localisedLink", (id, locale) => {
+    return mainnav.find(item => item.id === id)[locale].link
+  })
+  eleventyConfig.addShortcode("localisedLink", (id, locale) => {
+    return mainnav.find(item => item.id === id)[locale].link
+  })
 
   eleventyConfig.addNunjucksShortcode("goback", (link, text) => `
     <a href="${link}" class="goback"><i class="bi bi-caret-left"></i> ${text}</a>

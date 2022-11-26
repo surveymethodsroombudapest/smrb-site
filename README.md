@@ -27,5 +27,5 @@ Ide jön az oldal szövege (ami például kutatók esetén a cv/bemutatkozás)..
 
 **name:** title helyett
 **pos:** pozíció vagy bármilyen rövid leírás, ez jelenik meg a "Rólunk" fülön
-**img:** profilkép, pl. "/static/img/bartal.jpg", ebbe a mappába is kell feltölteni a képeket
+**img:** profilkép, pl. "/img/bartal.jpg", ebbe a mappába is kell feltölteni a képeket (az img mappa a static mappán belül található)
 **ref:** ld. fent
