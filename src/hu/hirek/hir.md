@@ -1,6 +1,6 @@
 ---
 title: Megalakult a Survey Methods Room Budapest kutatócsoport 
-date: 2021-09-06
+date: 2022-09-06
 ref: hir2022_01alakul
 ---
 
