@@ -4,4 +4,4 @@ ref: kontakt
 layout: layouts/contact.njk
 ---
 
-E-mail: surveymethodsroom@tatk.elte.hu
+**E-mail**: surveymethodsroom@tatk.elte.hu
