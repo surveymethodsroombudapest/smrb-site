@@ -1,7 +1,9 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b77e0d76-9524-4708-a311-9c28f86f27c7/deploy-status)](https://app.netlify.com/sites/vermillion-puppy-0acaf8/deploys)
+
 # Segítség a tartalom feltöltéséhez
 
 A /src/en/ és a /src/hu/ mappákon belül minden Markdown (.md) fájl a weboldal egy aloldalának felel meg. Az, hogy melyik almappába kerül, határozza meg, hogy milyen típusú oldal lesz belőle (pl. hír, kutató, publikáció, stb.).
-*Ezeken kívül van minden mappában egy .json fájl, ezzel nem kell foglalkoznotok, ez az oldal működéséhez kell.*
+_Ezeken kívül van minden mappában egy .json fájl, ezzel nem kell foglalkoznotok, ez az oldal működéséhez kell._
 
 A Markdown file-ok kezdetén található egy "header", ami az oldalt összeállító program számára tartalmaz információkat. Ezt felül és alul három kötőjel különíti el:
 
