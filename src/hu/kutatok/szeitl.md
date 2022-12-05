@@ -4,5 +4,5 @@ pos: "Tanársegéd, ELTE TáTK Statisztika Tanszék"
 img: "/img/person1.jfif"
 ref: "szeitl-bio"
 ---
-.
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+Szeitl Blanka 2015-ban szerzett survey statisztika mesterszakos diplomát az ELTE Társadalomtudományi Karán. 2013 és 2020 között a TÁRKI adatfelvételi kutatója, ahol konkrét tapasztatokat szerzett nagymintás survey kutatások statisztikai hátterének tervezéséről és lebonyolításáról. 2017 óta a Szegedi Tudományegyetem alkalmazott matematika szakos PhD hallgatója. Doktori kutatási témája a sztochasztikus survey mintavételi technikák fejlesztése és a kvantitatív módszertani irányok vizsgálata. Ezen kívül olyan adatfelvételi torzítások elemzésével is foglalkozik, melyek a válaszmegtagadásból és az új adatgyűjtési platformok nehézségeiből fakadhatnak. Részt vesz a Társadalomtudományi Kutatóközpont European Social Survey (ESS) hazai adatgyűjtéseihez kapcsolódó projektjeiben. 
