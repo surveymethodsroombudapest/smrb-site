@@ -1,7 +1,8 @@
 ---
 name: "Fellner Zita"
 pos: "Tanársegéd, ELTE TáTK Statisztika Tanszék"
-ref: "szeitl-bio"
+img: "/img/avatar.webp"
+ref: "fellner-bio"
 ---
 
-Ez itt Zita bemutatkozó szövege.
+Fellner Zita tanársegéd az ELTE Társadalomtudományi Kar Statisztika Tanszékén, doktorvárományos a Corvinus Egyetemen. 
