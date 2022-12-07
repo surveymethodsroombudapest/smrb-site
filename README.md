@@ -21,13 +21,30 @@ Ide jön az oldal szövege (ami például kutatók esetén a cv/bemutatkozás)..
 
 ## Alap attribútumok
 
-**ref:** ez minden dokumentumban kell, ez alapján fogja összekötni a program a magyar tartalmat az angol megfelelőjükkel. A tartalma mindegy, de betűről betűre meg kell egyeznie, úgyhogy érdemes egy egyszeru de egyedi id-t megadni (pl. tatrai-cv vagy stat-proj-1, stb)
-**title:** a dokumentum címe - ez egy címsorként automatikusan bekerül a kész weboldalra
-**date:** dátum, 2022-11-24 formátumban
+- **ref:** ez minden dokumentumban kell, ez alapján fogja összekötni a program a magyar tartalmat az angol megfelelőjükkel. A tartalma mindegy, de betűről betűre meg kell egyeznie, úgyhogy érdemes egy egyszeru de egyedi id-t megadni (pl. tatrai-cv vagy stat-proj-1, stb)
+- **title:** a dokumentum címe - ez egy címsorként automatikusan bekerül a kész weboldalra
+- **date:** dátum, 2022-11-24 formátumban
 
 ## Kutatók/researchers almappában
 
-**name:** title helyett
-**pos:** pozíció vagy bármilyen rövid leírás, ez jelenik meg a "Rólunk" fülön
-**img:** profilkép, pl. "/img/bartal.jpg", ebbe a mappába is kell feltölteni a képeket (az img mappa a static mappán belül található)
-**ref:** ld. fent
+- **name:** title helyett
+- **pos:** pozíció vagy bármilyen rövid leírás, ez jelenik meg a "Rólunk" fülön
+- **img:** profilkép, pl. "/img/bartal.jpg", ebbe a mappába is kell feltölteni a képeket (az img mappa a static mappán belül található)
+- **ref:** ld. fent
+
+## Linkek hozzáadása
+
+Az összes link a Markdown link-formátumát követi:
+
+```
+[Link megjelenő szövege](/linkhez/vezeto/ut/)
+```
+
+ez így néz ki készen: [Link megjelenő szövege](/linkhez/vezeto/ut/)
+
+## észrevételek, igények, stb
+
+Írjátok ide nyugodtan!
+
+- pl. projektek oldalairól a publikációkhoz vezet vissza a nyíl
+- ...
