@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/hu/hirek/!(index).md").reverse();
   });
   eleventyConfig.addCollection("hirek_en", (collection) => {
-    return collection.getFilteredByGlob("./src/en/news/!(index).md")
+    return collection.getFilteredByGlob("./src/en/news/!(index).md").reverse();
   });
   eleventyConfig.addCollection("kutatok_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/kutatok/!(index).md")
@@ -32,10 +32,10 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/en/researchers/!(index).md")
   });
   eleventyConfig.addCollection("proj_hu", (collection) => {
-    return collection.getFilteredByGlob("./src/hu/projektek/!(index).md")
+    return collection.getFilteredByGlob("./src/hu/projektek/!(index).md").reverse();
   });
   eleventyConfig.addCollection("proj_en", (collection) => {
-    return collection.getFilteredByGlob("./src/en/projects/!(index).md")
+    return collection.getFilteredByGlob("./src/en/projects/!(index).md").reverse();
   });
   eleventyConfig.addCollection("publ_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/publikaciok/!(index).md")

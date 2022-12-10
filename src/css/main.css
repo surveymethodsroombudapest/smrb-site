@@ -1,101 +1,124 @@
 :root {
-    --tatk-lila: #9063cd;
-    --tatk-lila-dark: #5d329a;
+  --logo-lila: hsl(274, 71%, 35%);
+  --logo-lila-dark: hsl(274, 71%, 23%);
+  --logo-lila-light: hsl(274, 50%, 90%);
+  --logo-narancs: hsl(41, 100%, 49%);
+  --logo-narancs-dark: hsl(41, 100%, 20%);
+  --pewter-blue: hsl(202, 21%, 64%);
+  --pewter-blue-light: hsl(202, 21%, 80%);
+  --steel-teal: #588b8b;
+  --bottle-green: #12664f;
+  --fire-opal: #de6449;
+  --cadet-blue: #51a3a3;
+  --british-racing-green: #254d32;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-    flex: 1;
+  flex: 1;
 }
 
 .lgs-active:hover {
-    color: black;
+  color: black;
 }
 
 .link-tatk {
-    color: var(--tatk-lila);
-    text-decoration: none;
+  color: var(--logo-lila);
+  text-decoration: none;
 }
 
 .link-tatk:hover {
-    color: var(--tatk-lila-dark)
+  color: var(--logo-lila-dark);
 }
 
 .card:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 #mission-row {
-    padding: 6rem 0;
+  padding: 6rem 0;
 }
 
 .goback {
-    color: var(--tatk-lila);
-    text-decoration: none;
-    font-size: 1.25em;
-    padding-bottom: 1rem;
+  color: var(--logo-lila);
+  text-decoration: none;
+  font-size: 1.25em;
+  padding-bottom: 1rem;
 }
 
 .goback:hover {
-    color: var(--tatk-lila-dark);
+  color: var(--logo-lila-dark);
 }
 
 .subtitle {
-    padding-bottom: 2rem;
-    color: gray;
+  padding-bottom: 2rem;
+  color: gray;
 }
 
 .kutato-link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .kutato-link:hover {
-    color: black;
+  color: black;
 }
 
 .article-header {
-    margin-top: 5rem;
-    padding-bottom: 2rem;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 pre {
-    background-color: #fafafa;
-    padding: 1rem;
+  background-color: #fafafa;
+  padding: 1rem;
 }
 
 .kutato-md {
-    display: none;
+  display: none;
 }
 
 .kutato-profil {
-    width: 7rem;
-    float: right;
+  width: 7rem;
+  float: right;
 }
 
 @media (min-width: 768px) {
-    .kutato-profil {
-        width: 12rem;
-    }
+  .kutato-profil {
+    width: 12rem;
+  }
 
-    #kutato-small {
-        display: none;
-    }
+  #kutato-small {
+    display: none;
+  }
 
-    .kutato-md {
-        display: block;
-    }
+  .kutato-md {
+    display: block;
+  }
 }
 
 footer {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .collapse.show {
-    margin-left: 1rem;
+  margin-left: 1rem;
+}
+
+.nav-item {
+  margin: 0 0.7rem;
+  font-size: 1.1em;
+}
+
+.nav-link.active {
+  color: var(--logo-lila-dark);
+}
+
+h1 {
+  color: var(--logo-lila);
 }

@@ -8,13 +8,13 @@ layout: base.njk
             <div class="article-header">
                 <h1 class="title">{{ title }}</h1>
             </div>
-            {% for proj in collections[ "proj_" + locale] %}
+            {% for proj in collections["proj_" + locale] %}
 
                 <div class="card mb-3">
                     <div class="card-body">
                         <h4 class="card-title">{{proj.data.title | safe}}</h4>
                         <h6 class="card-subtitle text-muted">{{ proj.data.date | date('YYYY. MM. DD.')}}</h6>
-                        <p class="card-text">{{proj.data.content | safe}}</p>
+                        <p class="card-text">{{proj.data.content | safe | truncate}}</p>
                         <a href="{{proj.url}}" class="stretched-link link-tatk">{{ 'readmore' | i18n }}</a>
                     </div>
 

@@ -15,8 +15,8 @@ layout: base.njk
             {% for item in collections["kutatok_" + locale] %}
                 <div class="card border-1 mb-3 p-2">
                     <div class="row align-items-center">
-                        <div class="col-3 ">
-                            <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle float-end">
+                        <div class="col-3 d-flex justify-content-end">
+                            <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle">
                         </div>
                         <div class="col-9">
                             <div class="card-body">

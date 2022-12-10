@@ -21,17 +21,7 @@ module.exports = [
             link: "/en/projects/"
         }
     },
-    {
-        id: "team",
-        hu: {
-            label: "Kutatók",
-            link: "/hu/kutatok/"
-        },
-        en: {
-            label: "Team",
-            link: "/en/researchers/"
-        }
-    },
+
     {
         id: "publ",
         hu: {
@@ -41,6 +31,17 @@ module.exports = [
         en: {
             label: "Publications",
             link: "/en/publications/"
+        }
+    },
+    {
+        id: "team",
+        hu: {
+            label: "Kutatócsoport",
+            link: "/hu/kutatok/"
+        },
+        en: {
+            label: "Team",
+            link: "/en/researchers/"
         }
     },
     {
