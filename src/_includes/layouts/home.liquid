@@ -21,7 +21,7 @@ layout: base.njk
   </div>
   <div class="row justify-content-center">
     <div class="col-md col-lg-10">
-      <h3 class="pt-5 pb-4 section-title">{{ translations.latest[locale] }}</h3>
+      <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
         {%- assign hir-loc = "hirek_" | append: locale -%}
         {% for hir in collections[hir-loc] limit: 3 %}
