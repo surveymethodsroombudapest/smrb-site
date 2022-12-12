@@ -4,33 +4,37 @@ layout: base.njk
 <div class="container-fluid">
   <div class="row justify-content-center align-items-center bg-light" id="mission-row">
     <div class="col-md-4">
-      <img src="/img/logo-noback.png" class="img-fluid float-md-end float-start" alt="logo" id="home-logo">
+      <img
+        src="/img/logo-noback.png"
+        class="img-fluid float-md-end float-start"
+        alt="logo"
+        id="home-logo">
     </div>
     <div class="col-md-6">
 
       <p id="mission">{{ content }}</p>
 
-      <a href="{% localisedLink "team", locale%}" class="link-tatk">{{translations.moreaboutus[locale]}}
+      <a href="{% localisedLink "team", locale%}" class="link-tatk">{{ translations.moreaboutus[locale] }}
         <i class="bi bi-arrow-right-short"></i>
       </a>
     </div>
   </div>
   <div class="row justify-content-center">
     <div class="col-md col-lg-10">
-      <h3 class="pt-5 pb-4">{{ translations.latest[locale] }}</h3>
+      <h3 class="pt-5 pb-4 section-title">{{ translations.latest[locale] }}</h3>
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
         {%- assign hir-loc = "hirek_" | append: locale -%}
-        {% for hir in collections[hir-loc] limit:3 %}
+        {% for hir in collections[hir-loc] limit: 3 %}
           <div class="col">
             <div class="card h-100">
               <div class="card-body">
-                <h5 class="card-title">{{hir.data.title}}</h5>
+                <h5 class="card-title">{{ hir.data.title }}</h5>
                 {% # TODO dátum sok helyen fog kelleni, legyen belőle shortcode %}
                 <h6 class="card-subtitle mb-2 text-muted">
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
                 </h6>
                 <div class="card-text">{{ hir.data.content | truncate }}</div>
-                <a href="{{hir.url}}" class="link-tatk stretched-link">{{ translations.readmore[locale]}}</a>
+                <a href="{{hir.url}}" class="link-tatk stretched-link">{{ translations.readmore[locale] }}</a>
               </div>
             </div>
           </div>

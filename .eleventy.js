@@ -61,6 +61,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("localisedLink", (id, locale) => {
     return mainnav.find(item => item.id === id)[locale].link
   })
+  eleventyConfig.addFilter("localisedLinkLabel", (id, locale) => {
+    return mainnav.find(item => item.id === id)[locale].label
+  })
   eleventyConfig.addShortcode("localisedLink", (id, locale) => {
     return mainnav.find(item => item.id === id)[locale].link
   })

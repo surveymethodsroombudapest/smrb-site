@@ -2,16 +2,16 @@
 layout: base.njk
 ---
 <div class="container-fluid">
-    <div class="row justify-content-center mt-5">
+    <div class="row justify-content-center pt-5 gx-5">
         <div class="col-md-7 col-lg-6">
-            <h1 class="">{{title}}</h1>
-            <div class="pt-3 me-4">
+            <h1 class="pt-3 pb-3">{{title}}</h1>
+            <div>
                 {{ content | safe }}
             </div>
 
         </div>
         <div class="col-md-5 col-lg-4">
-            <h1 class="pb-3">{{ "kutatoink" | i18n }}</h1>
+            <h1 class="pt-3 pb-3">{{ "kutatoink" | i18n }}</h1>
             {% for item in collections["kutatok_" + locale] %}
                 <div class="card border-1 mb-3 p-2">
                     <div class="row align-items-center">

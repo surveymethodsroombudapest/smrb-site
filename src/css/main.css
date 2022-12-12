@@ -7,9 +7,13 @@
   --pewter-blue: hsl(202, 21%, 64%);
   --pewter-blue-light: hsl(202, 21%, 80%);
   --steel-teal: #588b8b;
-  --bottle-green: #12664f;
+  --bottle-green: hsl(164, 70%, 24%);
+  --bottle-green-light: hsl(164, 20%, 95%);
+  --bottle-green-lightest: hsl(164, 40%, 95%);
+
   --fire-opal: #de6449;
-  --cadet-blue: #51a3a3;
+  --cadet-blue: hsl(180, 34%, 48%);
+  --cadet-blue-light: hsl(180, 34%, 80%);
   --british-racing-green: #254d32;
 }
 
@@ -37,7 +41,7 @@ main {
 }
 
 .card:hover {
-  background-color: lightgray;
+  background-color: var(--bottle-green-light);
 }
 
 #mission-row {
@@ -45,18 +49,17 @@ main {
 }
 
 .goback {
-  color: var(--logo-lila);
+  color: var(--steel-teal);
   text-decoration: none;
   font-size: 1.25em;
   padding-bottom: 1rem;
 }
 
 .goback:hover {
-  color: var(--logo-lila-dark);
+  color: var(--bottle-green);
 }
 
 .subtitle {
-  padding-bottom: 2rem;
   color: gray;
 }
 
@@ -70,7 +73,7 @@ main {
 }
 
 .article-header {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   padding-bottom: 2rem;
 }
 
@@ -116,9 +119,18 @@ footer {
 }
 
 .nav-link.active {
-  color: var(--logo-lila-dark);
+  color: var(--logo-lila-dark) !important;
 }
 
 h1 {
-  color: var(--logo-lila);
+  color: var(--bottle-green);
+}
+
+.subsection-title {
+  color: var(--bottle-green);
+}
+
+.section-title {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }

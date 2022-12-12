@@ -24,6 +24,7 @@ Ide jön az oldal szövege (ami például kutatók esetén a cv/bemutatkozás)..
 - **ref:** ez minden dokumentumban kell, ez alapján fogja összekötni a program a magyar tartalmat az angol megfelelőjükkel. A tartalma mindegy, de betűről betűre meg kell egyeznie, úgyhogy érdemes egy egyszeru de egyedi id-t megadni (pl. tatrai-cv vagy stat-proj-1, stb)
 - **title:** a dokumentum címe - ez egy címsorként automatikusan bekerül a kész weboldalra
 - **date:** dátum, 2022-11-24 formátumban
+- **subtitle:** alcím, cím alatt szürkén jelenik meg
 
 ## Kutatók/researchers almappában
 
