@@ -2,33 +2,36 @@
 layout: base.njk
 ---
 <div class="container-fluid">
-    <div class="row justify-content-center pt-5 gx-3">
-        <div class="col-md-7 col-lg-6">
-            <h1 class="pt-3 pb-3">{{title}}</h1>
-            <div class="pe-5">
-                {{ content | safe }}
-            </div>
-
-        </div>
-        <div class="col-md-5 col-lg-4">
-            <h1 class="pt-3 pb-3">{{ "kutatoink" | i18n }}</h1>
+    <div class="row justify-content-center align-items-center pt-5 g-3 ">
+        <div class="col-md-5 col-lg-6">
             {% for item in collections["kutatok_" + locale] %}
-                <div class="card border-1 mb-3 p-2">
-                    <div class="row align-items-center">
-                        <div class="col-3 d-flex justify-content-end">
-                            <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle">
-                        </div>
-                        <div class="col-9">
-                            <div class="card-body">
-                                <a href="{{item.url}}" class="stretched-link kutato-link">
-                                    <h4 class="card-title">{{item.data.name}}</h4>
-                                </a>
-                                <p class="card-subtitle">{{item.data.pos}}</p>
+                <div class="card card-researcher border-0 shadow mb-3">
+                    <div class="card-researcher-content p-3">
+
+                        <div class="row align-items-center">
+                            <div class="col-3 d-flex justify-content-end">
+                                <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle">
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <a href="{{item.url}}" class="stretched-link kutato-link">
+                                        <h4 class="card-title">{{item.data.name}}</h4>
+                                    </a>
+                                    <p class="card-subtitle">{{item.data.pos}}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             {% endfor %}
+        </div>
+
+        <div class="col-md-7 col-lg-4 align-items-center d-flex text-muted">
+            <div class="">
+                {{ content | safe }}
+            </div>
+
         </div>
 
     </div>

@@ -2,23 +2,25 @@
 layout: base.njk
 ---
 <div class="container-fluid">
-  <div class="row justify-content-center align-items-center bg-light" id="mission-row">
-    <div class="col-md-4">
+  <div class="row justify-content-center align-items-center flex-column" id="mission-row">
+    <div class="col-md-6 text-center">
+
+
       <img
         src="/img/logo-noback.png"
-        class="img-fluid float-md-end float-start"
+        class="img-fluid pb-3"
         alt="logo"
         id="home-logo">
-    </div>
-    <div class="col-md-6">
 
-      <p id="mission">{{ content }}</p>
+      <article id="mission" class="text-muted">{{ content }}</article>
 
       <a href="{% localisedLink "team", locale%}" class="link-tatk">{{ translations.moreaboutus[locale] }}
         <i class="bi bi-arrow-right-short"></i>
       </a>
     </div>
   </div>
+
+
   <div class="row justify-content-center">
     <div class="col-md col-lg-10">
       <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>

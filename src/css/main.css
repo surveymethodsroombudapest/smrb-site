@@ -1,20 +1,21 @@
 :root {
-  --logo-lila: hsl(274, 71%, 35%);
-  --logo-lila-dark: hsl(274, 71%, 23%);
+  --logo-lila: #5f4596;
+  --logo-lila-dark: hsl(259, 37%, 20%);
   --logo-lila-light: hsl(274, 50%, 90%);
-  --logo-narancs: hsl(41, 100%, 49%);
-  --logo-narancs-dark: hsl(41, 100%, 20%);
-  --pewter-blue: hsl(202, 21%, 64%);
-  --pewter-blue-light: hsl(202, 21%, 80%);
-  --steel-teal: #588b8b;
-  --bottle-green: hsl(164, 70%, 24%);
-  --bottle-green-light: hsl(164, 20%, 95%);
-  --bottle-green-lightest: hsl(164, 40%, 95%);
+  --russian-green: #629677;
+  --helitope-gray: #9a8c98;
+  --logo-narancs: #f8aa21;
+}
 
-  --fire-opal: #de6449;
-  --cadet-blue: hsl(180, 34%, 48%);
-  --cadet-blue-light: hsl(180, 34%, 80%);
-  --british-racing-green: #254d32;
+@font-face {
+  font-family: "wotfardregular";
+  src: url("wotfard/wotfard-regular-webfont.eot");
+  src: url("wotfard/wotfard-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("wotfard/wotfard-regular-webfont.woff2") format("woff2"),
+    url("wotfard/wotfard-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -41,35 +42,77 @@ main {
 }
 
 .card:hover {
-  background-color: var(--bottle-green-light);
+  background-color: #f0eff4;
+}
+
+.card-title {
+  color: #17301c;
+}
+
+.card-researcher {
+  background-color: var(--logo-lila);
+  color: white;
+}
+
+.card-researcher:hover {
+  background-color: var(--logo-narancs);
+}
+
+.card-researcher-content {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.card-researcher-content .card-title {
+  color: white;
+}
+
+.card-researcher-content img {
+  max-height: 10rem;
+}
+
+@media (hover: hover) and (pointer: fine) and (min-width: 992px) {
+  .card-researcher {
+    width: 90%;
+    transition: all 0.2s ease-in-out;
+    height: 10rem;
+  }
+  .card-researcher:hover {
+    width: 100%;
+  }
+  .card-researcher-content {
+    height: 100%;
+    /* width: 40rem; */
+  }
+}
+.kutato-link {
+  text-decoration: none;
+  color: white;
+}
+
+.kutato-link:hover {
+  color: white;
 }
 
 #mission-row {
-  padding: 6rem 0;
+  padding-top: 4rem;
 }
 
 .goback {
-  color: var(--steel-teal);
+  color: var(--logo-lila);
   text-decoration: none;
   font-size: 1.25em;
   padding-bottom: 1rem;
 }
 
 .goback:hover {
-  color: var(--bottle-green);
+  color: var(--logo-lila-dark);
 }
 
 .subtitle {
   color: gray;
-}
-
-.kutato-link {
-  text-decoration: none;
-  color: black;
-}
-
-.kutato-link:hover {
-  color: black;
 }
 
 .article-header {
@@ -120,14 +163,15 @@ footer {
 
 .nav-link.active {
   color: var(--logo-lila-dark) !important;
+  font-weight: 500;
 }
 
 h1 {
-  color: var(--bottle-green);
+  color: var(--logo-lila);
 }
 
 .subsection-title {
-  color: var(--bottle-green);
+  color: var(--logo-lila);
 }
 
 .section-title {
