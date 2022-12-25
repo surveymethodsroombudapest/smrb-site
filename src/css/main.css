@@ -178,3 +178,7 @@ h1 {
   padding-top: 5rem;
   padding-bottom: 2rem;
 }
+
+.article-title {
+  color: var(--logo-lila);
+}
