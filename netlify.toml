@@ -5,7 +5,7 @@
   publish = "public"
 
   # Default build command.
-  command = "npm run build"
+  command = "pnpm build"
 
 # Content negotiation for home page
 [[redirects]]
