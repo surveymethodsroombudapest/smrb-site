@@ -43,6 +43,10 @@ Az összes link a Markdown link-formátumát követi:
 
 ez így néz ki készen: [Link megjelenő szövege](/linkhez/vezeto/ut/)
 
+Ha bármelyik link a static mappán belüli dolgokra mutat, azt a static mappán belüli mappából kell indítani.
+
+Például: static/pdf/pdf-file.pdf -> /pdf/pdf-file.pdf
+
 ## észrevételek, igények, stb
 
 Írjátok ide nyugodtan!
