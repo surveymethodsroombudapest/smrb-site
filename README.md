@@ -47,6 +47,16 @@ Ha bármelyik link a static mappán belüli dolgokra mutat, azt a static mappán
 
 Például: static/pdf/pdf-file.pdf -> /pdf/pdf-file.pdf
 
+## Pdf-ek csatolása
+
+egyszerű linkként (ugyanazon az oldalon nyílik meg)
+```
+[Ez egy egyszeru link](/pdfs/SMRB_gyakornoki_kiírás_20230310.pdf)
+```
+
+html-lel (külön oldalon nyílik meg) 
+```<a href="/pdfs/SMRB_gyakornoki_kiírás_20230310.pdf" target="_blank">PDF.</a>```
+
 ## észrevételek, igények, stb
 
 Írjátok ide nyugodtan!
