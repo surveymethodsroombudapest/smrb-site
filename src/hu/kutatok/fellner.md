@@ -1,7 +1,7 @@
 ---
 name: "Fellner Zita"
 pos: "Tanársegéd, ELTE TáTK Statisztika Tanszék"
-img: ""
+img: "/img/zita_temp.jpg"
 ref: "fellner-bio"
 ---
 
