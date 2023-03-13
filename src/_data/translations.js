@@ -32,7 +32,7 @@ module.exports = {
         'en': "Read more about our team"
     },
     allnews: {
-        'hu': "Tovább a többi hírre",
+        'hu': "Korábbi hírek",
         'en': "News"
     }
 }
