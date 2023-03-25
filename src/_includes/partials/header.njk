@@ -1,38 +1,41 @@
-<nav class="container-xxl navbar sticky-top navbar-expand-md bg-white ">
-    {% if page.url !== "/hu/" and page.url !== "/en/" %}
-        <a href="/{{ locale }}/" class="navbar-brand">
-            <img src="/img/logo.png" class="ms-3" alt="Logo" height="30" >
-        </a>
-    {% endif %}
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            {% for item in mainnav %}
-                <li class="nav-item">
-                    <a class="nav-link {{'active' if (page.url == item[locale].link) or (parentId == item.id)}}" href="{{ item[locale].link }}">{{ item[locale].label }}</a>
-                </li>
-            {% endfor %}
-        </ul>
-        <ul class="nav navbar-nav">
+<div class="sticky-top bg-white shadow-sm">
 
-            {%- for lgg in site.languages -%}
+    <nav class="container-xxl navbar navbar-expand-md ">
+        {% if page.url !== "/hu/" and page.url !== "/en/" %}
+            <a href="/{{ locale }}/" class="navbar-brand">
+                <img src="/img/logo.png" class="ms-3" alt="Logo" height="30" >
+            </a>
+        {% endif %}
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% for item in mainnav %}
+                    <li class="nav-item">
+                        <a class="nav-link {{'active' if (page.url == item[locale].link) or (parentId == item.id)}}" href="{{ item[locale].link }}">{{ item[locale].label }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <ul class="nav navbar-nav">
 
-                {% set translatedUrl = "/" + lgg.code + "/" -%}
+                {%- for lgg in site.languages -%}
 
-                {% for item in collections.all -%}
-                    {% if item.data.ref == ref and item.data.locale == lgg.code -%}
-                        {% set translatedUrl = item.url -%}
-                    {% endif -%}
-                {% endfor -%}
+                    {% set translatedUrl = "/" + lgg.code + "/" -%}
 
-                <li class="nav-item">
-                    <a class="nav-link {{ 'active' if locale == lgg.code}}" href="{{ translatedUrl }}" rel="alternate" hreflang="{{lgg.code}}">{{ lgg.label }}</a>
-                </li>
+                    {% for item in collections.all -%}
+                        {% if item.data.ref == ref and item.data.locale == lgg.code -%}
+                            {% set translatedUrl = item.url -%}
+                        {% endif -%}
+                    {% endfor -%}
 
-            {%- endfor -%}
+                    <li class="nav-item">
+                        <a class="nav-link {{ 'active' if locale == lgg.code}}" href="{{ translatedUrl }}" rel="alternate" hreflang="{{lgg.code}}">{{ lgg.label }}</a>
+                    </li>
 
-        </ul>
-    </div>
-</nav>
+                {%- endfor -%}
+
+            </ul>
+        </div>
+    </nav>
+</div>
