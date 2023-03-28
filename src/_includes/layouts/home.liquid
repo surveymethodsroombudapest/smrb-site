@@ -14,7 +14,7 @@ layout: base.njk
 
       <div id="mission" class="text-muted">{{ content }}</div>
 
-      <a href="{% localisedLink "team", locale%}" class="link-tatk">{{ translations.moreaboutus[locale] }}
+      <a href="{% localisedLink "team", locale%}" class="button-readmore">{{ translations.moreaboutus[locale] }}
         <i class="bi bi-arrow-right-short"></i>
       </a>
     </div>
@@ -26,23 +26,22 @@ layout: base.njk
       <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>
       <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
         {%- assign hir-loc = "hirek_" | append: locale -%}
-        {% for hir in collections[hir-loc] limit: 3 %}
+        {%- for hir in collections[hir-loc] limit: 3 -%}
           <div class="col">
             <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title">{{ hir.data.title }}</h5>
-                {% # TODO dátum sok helyen fog kelleni, legyen belőle shortcode %}
                 <h6 class="card-subtitle mb-2 text-muted">
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
                 </h6>
                 <div class="card-text">{{ hir.data.content | truncate }}</div>
-                <a href="{{hir.url}}" class="link-tatk stretched-link">{{ translations.readmore[locale] }}</a>
+                <a href="{{hir.url}}" class="button-readmore stretched-link">{{ translations.readmore[locale] }}</a>
               </div>
             </div>
           </div>
-        {% endfor %}
+        {%- endfor -%}
         <div class="col align-self-center text-center">
-          <a href="{% localisedLink "news", locale %}" class="link-tatk">
+          <a href="{% localisedLink "news", locale %}" class="link-purple">
             <i class="bi bi-arrow-right-circle fs-1"></i>
             <p>{{ translations.allnews[locale] }}</p>
           </a>

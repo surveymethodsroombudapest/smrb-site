@@ -5,6 +5,8 @@ backend:
 media_folder: "/src/static/img"
 public_folder: "/img"
 
+site_url: "https://surveymethodsroom.hu"
+
 collections:
   - name: "hirek_hu"
     label: "Hírek"
@@ -17,7 +19,7 @@ collections:
       - { label: "Azonosító", name: "ref", widget: "string" }
       - { label: "Szöveg", name: "body", widget: "markdown" }
   - name: "proj_hu"
-    label: "Hírek"
+    label: "Projektek"
     folder: "src/hu/projektek"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -25,5 +27,11 @@ collections:
       - { label: "Cím", name: "title", widget: "string" }
       - { label: "Dátum", name: "date", widget: "datetime" }
       - { label: "Azonosító", name: "ref", widget: "string" }
-      - { label: "Alcím", name: "subtitle", widget: "string" }
+      - { label: "Alcím", name: "subtitle", widget: "string", required: false }
       - { label: "Szöveg", name: "body", widget: "markdown" }
+      - {
+          label: "További kutatók",
+          name: "kutatok",
+          widget: "list",
+          field: { label: "Kép", name: "img", widget: "image" },
+        }

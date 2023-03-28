@@ -1,5 +1,5 @@
 ---
-layout: layouts/proj.njk
+layout: layouts/collection-home.njk
 ref: proj-home
 title: Projects
 ---

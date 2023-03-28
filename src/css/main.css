@@ -5,18 +5,13 @@
   --russian-green: #629677;
   --helitope-gray: #9a8c98;
   --logo-narancs: #f8aa21;
+  --dark-purple: #604695;
+  --light-gray: #f4f4f4;
 }
 
-@font-face {
-  font-family: "wotfardregular";
-  src: url("wotfard/wotfard-regular-webfont.eot");
-  src: url("wotfard/wotfard-regular-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("wotfard/wotfard-regular-webfont.woff2") format("woff2"),
-    url("wotfard/wotfard-regular-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+/* * {
+  font-family: "Poppins", sans-serif;
+} */
 
 body {
   display: flex;
@@ -28,7 +23,7 @@ main {
   flex: 1;
 }
 
-main:has(article) {
+main:has(.page-content) {
   background-color: #d7d0e4;
 }
 
@@ -36,13 +31,32 @@ main:has(article) {
   color: black;
 }
 
-.link-tatk {
-  color: var(--logo-lila);
+.link-purple {
   text-decoration: none;
+  color: var(--logo-lila);
 }
 
-.link-tatk:hover {
+.link-purple:hover {
   color: var(--logo-lila-dark);
+}
+
+.button-readmore {
+  color: var(--logo-lila);
+  text-decoration: none;
+  background-color: white;
+  padding: 0.8rem 1.5rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.button-readmore:hover {
+  color: var(--logo-lila-dark);
+}
+
+.card {
+  background-color: var(--light-gray);
+  border: none;
 }
 
 .card:hover {
@@ -50,7 +64,7 @@ main:has(article) {
 }
 
 .card-title {
-  color: #17301c;
+  color: var(--dark-purple);
 }
 
 .card-researcher {
@@ -181,6 +195,8 @@ h1 {
 .section-title {
   padding-top: 5rem;
   padding-bottom: 2rem;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .article-title {

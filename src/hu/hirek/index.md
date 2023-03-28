@@ -1,6 +1,6 @@
 ---
-layout: "layouts/hirek.njk"
+layout: "layouts/collection-home.njk"
 ref: hirek
 title: Hírek
+colname: hirek
 ---
-
