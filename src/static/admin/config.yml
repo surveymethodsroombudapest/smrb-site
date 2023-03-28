@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "/src/static/img"
+public_folder: "/img"
+
+collections:
+  - name: "hirek_hu"
+    label: "Hírek"
+    folder: "src/hu/hirek"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Cím", name: "title", widget: "string" }
+      - { label: "Dátum", name: "date", widget: "datetime" }
+      - { label: "Azonosító", name: "ref", widget: "string" }
+      - { label: "Szöveg", name: "body", widget: "markdown" }
+  - name: "proj_hu"
+    label: "Hírek"
+    folder: "src/hu/projektek"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Cím", name: "title", widget: "string" }
+      - { label: "Dátum", name: "date", widget: "datetime" }
+      - { label: "Azonosító", name: "ref", widget: "string" }
+      - { label: "Alcím", name: "subtitle", widget: "string" }
+      - { label: "Szöveg", name: "body", widget: "markdown" }

@@ -50,12 +50,13 @@ Például: static/pdf/pdf-file.pdf -> /pdf/pdf-file.pdf
 ## Pdf-ek csatolása
 
 egyszerű linkként (ugyanazon az oldalon nyílik meg)
+
 ```
 [Ez egy egyszeru link](/pdfs/SMRB_gyakornoki_kiírás_20230310.pdf)
 ```
 
-html-lel (külön oldalon nyílik meg) 
-```<a href="/pdfs/SMRB_gyakornoki_kiírás_20230310.pdf" target="_blank">PDF.</a>```
+html-lel (külön oldalon nyílik meg)
+`<a href="/pdfs/SMRB_gyakornoki_kiírás_20230310.pdf" target="_blank">PDF.</a>`
 
 ## észrevételek, igények, stb
 
@@ -63,3 +64,11 @@ html-lel (külön oldalon nyílik meg)
 
 - pl. projektek oldalairól a publikációkhoz vezet vissza a nyíl
 - ...
+
+# TODO
+
+- kutatócsoport aloldal desktopon túl fent, mobilon furcsa az egész
+- piktogrammok kör-háttérrel vagy squircle svg-ben
+- főoldalon doboz méretét töltse ki a tartalom
+- legfrissebb: szedje be a projekteket is
+- betűtípus: raleway, poppins? eredeti: wotfard

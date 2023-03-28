@@ -4,27 +4,28 @@ layout: base.njk
 
 {% set gobackTitle = parentId | localisedLinkLabel(locale) %}
 {% set gobackUrl = parentId | localisedLink(locale) %}
+<div class="container-fluid h-100">
+	<div class="container-xxl">
+		<div class="row justify-content-center">
+			<article class="col-md-10 col-lg-7 col-xxl-6 rounded-4 p-3 p-md-5 mt-3 mt-md-5 border bg-white">
+				<div class="article-header">
+					<div class="d-flex flex-row justify-content-between align-items-baseline">
+						{% goback gobackUrl,
+						gobackTitle %}
+						{% if date %}
+							<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
+						{% endif %}
+					</div>
 
-<div class="container-xxl">
-	<div class="row justify-content-center">
-		<article class="col-md-10 col-lg-7 col-xxl-6 shadow p-3 p-md-5 mt-3 mt-md-5">
-			<div class="article-header">
-				<div class="d-flex flex-row justify-content-between align-items-baseline">
-					{% goback gobackUrl,
-					gobackTitle %}
-					{% if date %}
-						<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
+					<h2 class="article-title">{{ title }}</h2>
+					{% if subtitle %}
+						<h6 class="subtitle">{{subtitle}}</h6>
 					{% endif %}
 				</div>
-
-				<h2 class="article-title">{{ title }}</h2>
-				{% if subtitle %}
-					<h6 class="subtitle">{{subtitle}}</h6>
-				{% endif %}
-			</div>
-			<div class="me-3">
-				{{content | safe}}
-			</div>
-		</article>
+				<div class="me-3">
+					{{content | safe}}
+				</div>
+			</article>
+		</div>
 	</div>
 </div>

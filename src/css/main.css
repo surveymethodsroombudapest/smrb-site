@@ -28,6 +28,10 @@ main {
   flex: 1;
 }
 
+main:has(article) {
+  background-color: #d7d0e4;
+}
+
 .lgs-active:hover {
   color: black;
 }
