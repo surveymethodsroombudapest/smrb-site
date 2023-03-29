@@ -7,6 +7,7 @@
   --logo-narancs: #f8aa21;
   --dark-purple: #604695;
   --light-gray: #f4f4f4;
+  --light-purple: #f0eff4;
 }
 
 /* * {
@@ -45,7 +46,6 @@ main:has(.page-content) {
   text-decoration: none;
   background-color: white;
   padding: 0.8rem 1.5rem;
-  margin-top: 3rem;
   border-radius: 1rem;
   font-weight: bold;
 }
@@ -201,4 +201,34 @@ h1 {
 
 .article-title {
   color: var(--logo-lila);
+}
+
+.card-latest {
+  background-color: var(--light-gray);
+  /* max-width: 20rem; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex: 1;
+  position: relative;
+}
+
+.card-latest:hover {
+  background-color: var(--light-purple);
+}
+
+.card-latest-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-latest .card-text {
+  flex: 1;
+}
+
+.all-news-arrow {
+  flex: 1;
 }

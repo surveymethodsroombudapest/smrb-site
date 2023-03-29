@@ -24,23 +24,19 @@ layout: base.njk
   <div class="row justify-content-center">
     <div class="col-md-8 col-lg-10">
       <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>
-      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+      <div class="card-latest-wrapper">
         {%- assign hir-loc = "hirek_" | append: locale -%}
         {%- for hir in collections[hir-loc] limit: 3 -%}
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-body">
+            <div class="card-latest">
                 <h5 class="card-title">{{ hir.data.title }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
                 </h6>
                 <div class="card-text">{{ hir.data.content | truncate }}</div>
                 <a href="{{hir.url}}" class="button-readmore stretched-link">{{ translations.readmore[locale] }}</a>
-              </div>
             </div>
-          </div>
         {%- endfor -%}
-        <div class="col align-self-center text-center">
+        <div class="all-news-arrow align-self-center text-center">
           <a href="{% localisedLink "news", locale %}" class="link-purple">
             <i class="bi bi-arrow-right-circle fs-1"></i>
             <p>{{ translations.allnews[locale] }}</p>
