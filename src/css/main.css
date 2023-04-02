@@ -232,3 +232,11 @@ h1 {
 .all-news-arrow {
   flex: 1;
 }
+
+.card-collection-item:hover {
+  border-left-color: var(--dark-purple);
+}
+.card-collection-item {
+  border-left: solid var(--light-gray) 0.7rem;
+  border-radius: 0.7rem;
+}
