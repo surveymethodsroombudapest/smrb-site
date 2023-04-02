@@ -69,6 +69,7 @@ html-lel (külön oldalon nyílik meg)
 
 - kutatócsoport aloldal desktopon túl fent, mobilon furcsa az egész
 - piktogrammok kör-háttérrel vagy squircle svg-ben
-- főoldalon doboz méretét töltse ki a tartalom
-- legfrissebb: szedje be a projekteket is
+- főoldalon doboz méretét töltse ki a tartalom ??
+- legfrissebb: szedje be a projekteket is - nem működik
 - betűtípus: raleway, poppins? eredeti: wotfard
+- angol aloldallal mi legyen? nincsen rajta tartalom de oda irányít
