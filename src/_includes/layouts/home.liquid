@@ -25,8 +25,8 @@ layout: base.njk
     <div class="col-md-8 col-lg-10">
       <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>
       <div class="card-latest-wrapper">
-        {%- assign hir-loc = "hirek_" | append: locale -%}
-        {%- for hir in collections[hir-loc] limit: 3 -%}
+        {%- assign allPosts = collections.all | reverse -%}
+        {%- for hir in allPosts limit: 3 -%}
             <div class="card-latest">
                 <h5 class="card-title">{{ hir.data.title }}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">
