@@ -240,3 +240,7 @@ h1 {
   border-left: solid var(--light-gray) 0.7rem;
   border-radius: 0.7rem;
 }
+
+.text-purple {
+  color: var(--logo-lila);
+}
