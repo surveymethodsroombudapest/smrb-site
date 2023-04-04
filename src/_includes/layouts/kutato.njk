@@ -3,33 +3,41 @@ layout: base.njk
 ---
 
 <div class="container-fluid">
-<div class="row justify-content-center py-5">
-    <div class="col col-md-10 col-lg-8">
-        {% goback "team" | localisedLink(locale), "kut" | i18n %}
-    </div>
-</div>
-<div class="row justify-content-center align-items-center">
-    <div class="col col-md-10 col-lg-8">
-        <div class="row align-items-center pb-5" id="kutato-small">
-            <div class="col-4">
-                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil">
-            </div>
-            <div class="col-8">
-                <h1 class="text-start">{{name}}</h1>
-                <h6>{{pos}}</h6>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 kutato-md">
-                <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil pe-3">
-            </div>
-            <div class="col-md-8">
-                <h1 class="text-center text-md-start kutato-md">{{name}}</h1>
-                <h6 class="kutato-md">{{pos}}</h6>
-                {{ content | safe }}
-            </div>
+    <div class="row justify-content-center py-5">
+        <div class="col col-md-10 col-lg-8">
+            {% goback "team" | localisedLink(locale),
+            "kut" | i18n %}
         </div>
     </div>
-</div>
-</div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col col-md-10 col-lg-8">
+            <div class="row align-items-center pb-5" id="kutato-small">
+                <div class="col-4">
+                    <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil">
+                </div>
+                <div class="col-8">
+                    <h1 class="text-start">{{name}}</h1>
+                    <h6>{{pos}}</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 kutato-md">
+                    <img src="{{ img }}" alt="{{ name }}" class="img-fluid rounded-circle d-block mx-auto kutato-profil pe-3">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="text-center text-md-start kutato-md">{{name}}</h1>
+                    <h6 class="kutato-md">{{pos}}</h6>
+                    {{ content | safe }}
+                    {% if pikto %}
 
+                        <div class="d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
+                            {% for item in pikto %}
+                                <img src="/img/pikto/{{item}}.svg" style="height: 5rem" class="align-self-center">
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
