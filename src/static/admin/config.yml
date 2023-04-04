@@ -33,5 +33,19 @@ collections:
           label: "További kutatók",
           name: "kutatok",
           widget: "list",
-          field: { label: "Kép", name: "img", widget: "image" },
+          required: false,
+          fields:
+            - { label: "Kép", name: "img", widget: "image" }
+            - { label: "Név", name: "kutatoNev", widget: "string" }
+            - { label: "Rövid leírás", name: "kutatoBemut", widget: "string" }
         }
+  - name: "kutatok_hu"
+    label: "Kutatók"
+    folder: "src/hu/kutatok"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - { label: "Pozíció", name: "pos", widget: "string", hint: "Rövid leírás, alcímként jelenik meg a kutatócsoport-oldalon" }
+      - { label: "Azonosító", name: "ref", widget: "string", hint: "Angol-magyar verzió váltáshoz" }
+      - { label: "Bemutatkozás", name: "body", widget: "markdown" }
