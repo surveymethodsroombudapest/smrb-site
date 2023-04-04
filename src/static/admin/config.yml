@@ -46,10 +46,10 @@ collections:
         required: false
         fields:
           - { label: "Kép", name: "img", widget: "image", required: false }
-          - { label: "Név", name: "kutatoNev", widget: "string" }
+          - { label: "Név", name: "nev", widget: "string" }
           - {
               label: "Rövid leírás",
-              name: "kutatoBemut",
+              name: "leiras",
               widget: "string",
               required: false,
             }
