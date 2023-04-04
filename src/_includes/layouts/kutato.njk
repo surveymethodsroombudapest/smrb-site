@@ -29,10 +29,9 @@ layout: base.njk
                     <h6 class="kutato-md">{{pos}}</h6>
                     {{ content | safe }}
                     {% if pikto %}
-
-                        <div class="d-flex gap-2 justify-content-center justify-content-md-start flex-wrap">
+                        <div class="d-flex gap-2 justify-content-center justify-content-md-start flex-wrap pt-4">
                             {% for item in pikto %}
-                                <img src="/img/pikto/{{item}}.svg" style="height: 5rem" class="align-self-center">
+                                <img src="/img/pikto/{{item}}.svg" style="height: 6rem">
                             {% endfor %}
                         </div>
                     {% endif %}
