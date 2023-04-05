@@ -8,11 +8,11 @@
   command = "pnpm build"
 
 # Content negotiation for home page
-[[redirects]]
-  from = "/"
-  to = "/en/"
-  status = 200
-  conditions = {Language = ["en"]}
+#[[redirects]]
+#  from = "/"
+#  to = "/en/"
+#  status = 200
+#  conditions = {Language = ["en"]}
 
 # Content negotiation for home page
 [[redirects]]
@@ -21,11 +21,11 @@
   status = 200
 
 # Redirect for end-user’s browser preference override
-[[redirects]]
-  from = "/*"
-  to = "/en/:splat"
-  status = 302
-  conditions = {Language = ["en"]}
+#[[redirects]]
+#  from = "/*"
+#  to = "/en/:splat"
+#  status = 302
+#  conditions = {Language = ["en"]}
 
 # Default
 [[redirects]]
