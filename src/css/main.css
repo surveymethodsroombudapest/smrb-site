@@ -59,7 +59,7 @@ main:has(.page-content) {
   border: none;
 }
 
-.card:hover {
+.card-hover:hover {
   background-color: #f0eff4;
 }
 

@@ -1,13 +1,19 @@
 ---
 layout: base.njk
 ---
-<div class="container-fluid">
-    <div class="row justify-content-center align-items-center" id="mission-row">
-        <div class="col-md-4">
-            <img src="/img/logo.png" class="img-fluid float-end" alt="logo">
-        </div>
-        <div class="col-md-6">
-            {{ content | safe }}
+<div class="container-lg">
+    <div class="row justify-content-center">
+        <div class="">
+
+            <div class="card mt-5 p-5">
+                <h1 class="mb-3">{{title}}</h1>
+                <div>
+                    <a href="mailto:{{email}}" class="link-purple ms-2">
+                        <i class="bi bi-envelope-at me-2"></i>
+                        <span>{{email}}</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

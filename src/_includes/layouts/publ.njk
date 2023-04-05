@@ -17,7 +17,7 @@ layout: base.njk
             <div class="col-md-10 col-lg-8">
                 {% for pub in collections[ year[locale] ] -%}
 
-                    <div class="card mb-3">
+                    <div class="card card-hover mb-3">
                         <div class="card-body">
                             <h4 class="card-title">{{ pub.data.title | safe }}</h4>
                             <h6 class="card-subtitle text-muted">{{ pub.data.date }}</h6>

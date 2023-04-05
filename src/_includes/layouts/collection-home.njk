@@ -9,7 +9,7 @@ layout: base.njk
 
       {%- for hir in collections[colname + "_" + locale] -%}
 
-        <div class="card p-2 card-collection-item">
+        <div class="card card-hover p-2 card-collection-item">
           <div class="card-body">
             <h4 class="card-title fw-bold mb-3">{{hir.data.title | safe}}</h4>
             <h6 class="card-subtitle text-muted">{{ hir.data.date | date('YYYY. MM. DD.')}}</h6>
