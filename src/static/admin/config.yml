@@ -74,3 +74,69 @@ collections:
         }
       - { label: "Bemutatkozás", name: "body", widget: "markdown" }
       - { label: "Kép", name: "img", widget: "image" }
+  - name: "hirek_en"
+    label: "Hírek (angol)"
+    folder: "src/en/news"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Cím", name: "title", widget: "string" }
+      - { label: "Dátum", name: "date", widget: "datetime" }
+      - { label: "Azonosító", name: "ref", widget: "string" }
+      - { label: "Szöveg", name: "body", widget: "markdown" }
+  - name: "proj_hu"
+    label: "Projektek"
+    folder: "src/en/projects"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Cím"
+        name: "title"
+        widget: "string"
+      - label: "Dátum"
+        name: "date"
+        widget: "datetime"
+      - label: "Azonosító"
+        name: "ref"
+        widget: "string"
+      - label: "Alcím"
+        name: "subtitle"
+        widget: "string"
+        required: false
+      - label: "Szöveg"
+        name: "body"
+        widget: "markdown"
+      - label: "További kutatók"
+        name: "kutatok"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
+          - { label: "Név", name: "nev", widget: "string" }
+          - {
+              label: "Rövid leírás",
+              name: "leiras",
+              widget: "string",
+              required: false,
+            }
+  - name: "kutatok_en"
+    label: "Kutatók (angol)"
+    folder: "src/en/researchers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Pozíció",
+          name: "pos",
+          widget: "string",
+          hint: "Rövid leírás, alcímként jelenik meg a kutatócsoport-oldalon",
+        }
+      - {
+          label: "Azonosító",
+          name: "ref",
+          widget: "string",
+          hint: "Angol-magyar verzió váltáshoz",
+        }
+      - { label: "Bemutatkozás", name: "body", widget: "markdown" }
+      - { label: "Kép", name: "img", widget: "image" }
