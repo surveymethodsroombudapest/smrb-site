@@ -114,10 +114,6 @@ main:has(.page-content) {
   color: white;
 }
 
-#mission-row {
-  padding-top: 4rem;
-}
-
 .goback {
   color: var(--logo-lila);
   text-decoration: none;

@@ -1,19 +1,15 @@
 ---
 layout: base.njk
 ---
-<div class="container-xxl mt-lg-5">
-  <div class="row justify-content-center align-items-center flex-column" id="mission-row">
-    <div class="col-md-8 col-lg-10 text-center">
-
-
+<div class="container-xxl">
+  <div class="row justify-content-center align-items-center flex-column mt-5">
+    <div class="col-lg-10 text-center">
       <img
         src="/img/logo-noback.png"
         class="img-fluid pb-3"
         alt="logo"
         id="home-logo">
-
       <div id="mission" class="text-muted">{{ content }}</div>
-
       <a href="{% localisedLink "team", locale%}" class="button-readmore">{{ translations.moreaboutus[locale] }}
         <i class="bi bi-arrow-right-short"></i>
       </a>
@@ -22,7 +18,7 @@ layout: base.njk
 
 
   <div class="row justify-content-center">
-    <div class="col-md-8 col-lg-10">
+    <div class="col-lg-10">
       <h3 class="pt-5 pb-4 subsection-title">{{ translations.latest[locale] }}</h3>
       <div class="card-latest-wrapper">
         {%- assign hirLoc = "hirek_" | append: locale -%}
