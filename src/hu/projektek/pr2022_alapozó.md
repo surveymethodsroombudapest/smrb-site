@@ -10,4 +10,4 @@ Kutatócsoportunk több olyan kisebb témában is indít önálló projektet, me
 3. A lemorzsolódás és a panelkopás hazai sajátosságainak vizsgálata 
 4. Az uzsorahitelezés survey típusú mérhetősége
 
-   ![](/img/tinlab szinatmenetes logo.jpg)
+   ![alt](/img/tinlab szinatmenetes logo.jpg)
