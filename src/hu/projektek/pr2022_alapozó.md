@@ -9,5 +9,3 @@ Kutatócsoportunk több olyan kisebb témában is indít önálló projektet, me
 2. Statistical disclosure control (SDC)
 3. A lemorzsolódás és a panelkopás hazai sajátosságainak vizsgálata 
 4. Az uzsorahitelezés survey típusú mérhetősége
-
-   ![alt](/img/tinlab szinatmenetes logo.jpg)
