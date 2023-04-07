@@ -84,8 +84,8 @@ collections:
       - { label: "Dátum", name: "date", widget: "datetime" }
       - { label: "Azonosító", name: "ref", widget: "string" }
       - { label: "Szöveg", name: "body", widget: "markdown" }
-  - name: "proj_hu"
-    label: "Projektek"
+  - name: "proj_en"
+    label: "Projektek (angol)"
     folder: "src/en/projects"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
