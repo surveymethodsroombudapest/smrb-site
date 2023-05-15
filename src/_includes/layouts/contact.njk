@@ -7,11 +7,19 @@ layout: base.njk
 
             <div class="card mt-5 p-5">
                 <h1 class="mb-3">{{title}}</h1>
-                <div>
+                <div class="d-flex gap-1 flex-column">
                     <a href="mailto:{{email}}" class="link-purple ms-2">
                         <i class="bi bi-envelope-at me-2"></i>
                         <span>{{email}}</span>
                     </a>
+                    <div class="d-flex flex-row ms-2">
+                        <i class="bi bi-house me-2 text-muted"></i>
+                        <div class="d-flex flex-column">
+                            <div>{{address1}}</div>
+                            <div>{{address2}}</div>
+                            <div>{{address3}}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

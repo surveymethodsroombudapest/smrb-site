@@ -3,6 +3,7 @@ title: Kapcsolat
 ref: kontakt
 layout: layouts/contact.njk
 email: surveymethodsroom@tatk.elte.hu
+address1: Eötvös Loránd Tudományegyetem
+address2: Társadalomtudományi Kar, Statisztika Tanszék
+address3: 1117 Budapest Pázmány Péter sétány 1/A
 ---
-
-<i class="bi bi-envelope-at me-2"></i>[surveymethodsroom@tatk.elte.hu](mailto:surveymethodsroom@tatk.elte.hu) {# TODO legyen ez egy mailto link #}
