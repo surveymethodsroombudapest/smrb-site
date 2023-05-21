@@ -54,15 +54,6 @@ main:has(.page-content) {
   color: var(--logo-lila-dark);
 }
 
-.card {
-  background-color: var(--light-gray);
-  border: none;
-}
-
-.card-hover:hover {
-  background-color: #f0eff4;
-}
-
 .card-title {
   color: var(--dark-purple);
 }
@@ -131,7 +122,7 @@ main:has(.page-content) {
 
 .article-header {
   /* margin-top: 5rem; */
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 pre {
@@ -190,13 +181,14 @@ h1 {
 
 .section-title {
   padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   font-weight: bolder;
   text-align: center;
 }
 
 .article-title {
   color: var(--logo-lila);
+  font-weight: bold;
 }
 
 .card-latest {
@@ -230,13 +222,64 @@ h1 {
 }
 
 .card-collection-item:hover {
-  border-left-color: var(--dark-purple);
+  /* border-left-color: var(--dark-purple); */
+  background-color: var(--logo-narancs);
 }
+
+.card-collection-item:hover .button-readmore {
+  color: var(--logo-narancs);
+}
+
 .card-collection-item {
-  border-left: solid var(--light-gray) 0.7rem;
+  /* border-left: solid var(--light-gray) 0.7rem; */
   border-radius: 0.7rem;
+  border: none;
+  color: white !important;
+  background-color: var(--logo-lila);
+  padding: 0.7rem;
 }
 
 .text-purple {
   color: var(--logo-lila);
+}
+
+@media screen and (max-width: 768px) {
+  .collection-wrapper > :nth-child(odd) {
+    margin-left: 3rem;
+    background-color: var(--logo-narancs);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .collection-wrapper > :nth-child(odd) .button-readmore {
+    color: var(--logo-narancs);
+  }
+  .collection-wrapper > :nth-child(even) {
+    background-color: var(--logo-lila);
+    margin-right: 3rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .section-title {
+    padding-bottom: 3rem;
+  }
+
+  #kutatok-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card-latest-wrapper {
+    flex-direction: column;
+  }
+}
+
+.container-fix-sm {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+#kutatok-title {
+  color: var(--logo-lila);
+  margin-bottom: 2rem;
 }

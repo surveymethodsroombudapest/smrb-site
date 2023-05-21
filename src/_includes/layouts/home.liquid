@@ -28,7 +28,7 @@ layout: base.njk
                 <h6 class="card-subtitle mb-2 text-muted">
                   {{ hir.data.date | date: 'YYYY. MM. DD.', locale }}
                 </h6>
-                <div class="card-text">{{ hir.data.content | truncate }}</div>
+                <div class="card-text">{{ hir.data.content | truncate: 70 }}</div>
                 <a href="{{hir.url}}" class="button-readmore stretched-link">{{ translations.readmore[locale] }}</a>
             </div>
         {%- endfor -%}

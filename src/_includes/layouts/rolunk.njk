@@ -4,6 +4,7 @@ layout: base.njk
 <div class="container-xxl">
     <div class="row justify-content-center align-items-center pt-5 g-3 ">
         <div class="col-md-5 col-lg-6">
+            <h3 id="kutatok-title">{{translations.kut[locale]}}</h3>
             {% for item in collections["kutatok_" + locale] %}
                 <div class="card card-researcher border-0 mb-3">
                     <div class="card-researcher-content p-3">
@@ -31,7 +32,6 @@ layout: base.njk
             <div class="">
                 {{ content | safe }}
             </div>
-
         </div>
 
     </div>
