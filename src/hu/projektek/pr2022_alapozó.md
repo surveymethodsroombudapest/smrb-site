@@ -2,6 +2,9 @@
 title: Saját alapozó kutatásaink
 date: 2023-02-15
 ref: pr202rds
+kutatok:
+  - img: /img/avatar.webp
+    nev: Próba Janka
 ---
 Kutatócsoportunk több olyan kisebb témában is indít önálló projektet, melyeket később nagyobb kutatássá tervezünk fejleszteni. 2023-ban a következő témákkal foglalkozunk:
 
@@ -9,3 +12,7 @@ Kutatócsoportunk több olyan kisebb témában is indít önálló projektet, me
 2. Statistical disclosure control (SDC)
 3. A lemorzsolódás és a panelkopás hazai sajátosságainak vizsgálata 
 4. Az uzsorahitelezés survey típusú mérhetősége
+
+### E﻿redmények
+
+![]()
