@@ -3,14 +3,12 @@ layout: base.njk
 ---
 
 <div class="container-fix-sm">
-  {# <div class="row justify-content-center"> #}
-    {# <div class="col-md-10 col-lg-8 gap-4 mb-5"> #}
       <h1 class="section-title">{{ title }}</h1>
-      <div class="collection-wrapper d-flex flex-column gap-4">
+      <div class="collection-wrapper d-flex flex-column gap-4 mb-5">
 
       {%- for hir in collections[colname + "_" + locale] -%}
 
-        <div class="card card-hover card-collection-item">
+        <div class="card card-hover card-collection-item grow">
           <div class="card-body">
             <h4 class=" fw-bold mb-3">{{hir.data.title | safe}}</h4>
             <h6 class="card-subtitle">{{ hir.data.date | date('YYYY. MM. DD.')}}</h6>
@@ -21,6 +19,4 @@ layout: base.njk
 
       {%- endfor -%}
   </div>
-    {# </div> #}
-  {# </div> #}
 </div>
