@@ -17,7 +17,7 @@ module.exports = {
   },
   proj: {
     hu: "Projektek",
-    en: "Projects", // TODO ??
+    en: "Projects",
   },
   kut: {
     hu: "Kutatók",
@@ -34,5 +34,9 @@ module.exports = {
   allnews: {
     hu: "Korábbi hírek",
     en: "News",
+  },
+  other_researchers: {
+    hu: "További kutatók",
+    en: "Contributors",
   },
 };

@@ -292,3 +292,18 @@ h1 {
   color: var(--logo-lila);
   margin-bottom: 2rem;
 }
+
+.other-researchers-column {
+  height: fit-content;
+}
+
+.cella-kep {
+  height: 5rem;
+}
+
+.cella-kep_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}

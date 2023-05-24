@@ -53,6 +53,12 @@ collections:
               widget: "string",
               required: false,
             }
+      - label: "Lábjegyzetbe képek (cellák)"
+        name: "cellak"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "kutatok_hu"
     label: "Kutatók"
     folder: "src/hu/kutatok"
@@ -119,6 +125,12 @@ collections:
               widget: "string",
               required: false,
             }
+      - label: "Lábjegyzetbe képek (cellák)"
+        name: "cellak"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "kutatok_en"
     label: "Kutatók (angol)"
     folder: "src/en/researchers"
