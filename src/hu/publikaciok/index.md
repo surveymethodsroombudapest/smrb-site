@@ -1,6 +1,6 @@
 ---
-ref: publ-home
 layout: collection
-title: Publications
+ref: publ-home
+title: Publikációk
 colname: publ
 ---
