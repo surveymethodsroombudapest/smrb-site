@@ -21,6 +21,17 @@ module.exports = [
             link: "/en/projects/"
         }
     },
+    // {
+    //     id: "publ",
+    //     hu: {
+    //         label: "Publikációk",
+    //         link: "/hu/publikaciok/"
+    //     },
+    //     en: {
+    //         label: "Publications",
+    //         link: "/en/publications/"
+    //     }
+    // },
     {
         id: "team",
         hu: {

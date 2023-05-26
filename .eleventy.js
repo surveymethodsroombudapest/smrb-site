@@ -12,6 +12,8 @@ module.exports = function (eleventyConfig) {
 
   // Layout aliases
   eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("collection", "layouts/collection-master.njk");
+  eleventyConfig.addLayoutAlias("page", "layouts/page-master.njk");
 
   eleventyConfig.addWatchTarget("./src/static/");
 
