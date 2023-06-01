@@ -5,10 +5,12 @@ layout: base.njk
   <div class="row justify-content-center align-items-center flex-column mt-5">
     <div class="col-lg-10 text-center">
       <img
-        src="/img/logo-noback.png"
+        src="/img/smrb_logo.svg"
         class="img-fluid pb-3"
         alt="logo"
-        id="home-logo">
+        id="home-logo"
+        width="310"
+        height="150">
       <div id="mission" class="text-muted">{{ content }}</div>
       <a href="{% localisedLink "team", locale%}" class="button-readmore">{{ translations.moreaboutus[locale] }}
         <i class="bi bi-arrow-right-short"></i>
