@@ -238,6 +238,7 @@ h1 {
   color: white !important;
   background-color: var(--logo-lila);
   padding: 0.7rem;
+  /* width: 25rem; */
 }
 
 .grow {
@@ -277,6 +278,12 @@ h1 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .card-collection-item {
+    width: 25rem;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .card-latest-wrapper {
     flex-direction: column;
@@ -284,7 +291,7 @@ h1 {
 }
 
 .container-fix-sm {
-  max-width: 768px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 

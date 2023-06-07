@@ -4,8 +4,7 @@ layout: base.njk
 
 <div class="container-fix-sm">
       <h1 class="section-title">{{ title }}</h1>
-      <div class="collection-wrapper d-flex flex-column gap-4 mb-5">
-
+      <div class="collection-wrapper masonry-grid d-flex flex-column gap-2">
       {%- for hir in collections[colname + "_" + locale] -%}
         <div class="card card-hover card-collection-item grow">
           <div class="card-body">
@@ -15,7 +14,6 @@ layout: base.njk
             <a href="{{hir.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
           </div>
         </div>
-      {%- endfor -%}
-      
+      {%- endfor -%}      
   </div>
 </div>
