@@ -2,7 +2,7 @@
 name: Szeitl Blanka
 pos: Tanársegéd, ELTE TáTK Statisztika Tanszék
 ref: szeitl-bio
-img: /img/elte_tátk_szeitl_blanka_2023.jpg
+img: /img/kep_szeitl2.png
 pikto:
   - "07"
   - "08"
