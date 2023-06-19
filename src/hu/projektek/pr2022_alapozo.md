@@ -2,6 +2,11 @@
 title: Saját alapozó kutatásaink
 date: 2023-02-15
 ref: pr202rds
+kutatok:
+  - nev: ef4w
+    leiras: evvr4gv
+cellak:
+  - {}
 ---
 
 Kutatócsoportunk több olyan kisebb témában is indít önálló projektet, melyeket később nagyobb kutatássá tervezünk fejleszteni. 2023-ban a következő témákkal foglalkozunk:
