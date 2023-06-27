@@ -40,7 +40,7 @@ module.exports = {
     en: "Contributors",
   },
   interns: {
-    hu: "Gyakornokok",
+    hu: "Szakmai gyakornokok",
     en: "Trainees",
   },
 };
