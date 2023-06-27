@@ -152,3 +152,29 @@ collections:
         }
       - { label: "Bemutatkozás", name: "body", widget: "markdown" }
       - { label: "Kép", name: "img", widget: "image" }
+  - name: "intern_hu"
+    label: "Gyakornokok (magyar)"
+    folder: "src/hu/gyakornokok"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+  - name: "intern_en"
+    label: "Gyakornokok (angol)"
+    folder: "src/en/intern"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+        }
+      - { label: "Kép", name: "img", widget: "image" }

@@ -39,4 +39,8 @@ module.exports = {
     hu: "További kutatók",
     en: "Contributors",
   },
+  interns: {
+    hu: "Gyakornokok",
+    en: "Trainees",
+  },
 };

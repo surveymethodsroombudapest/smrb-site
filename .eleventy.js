@@ -47,6 +47,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("publ_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/publications/!(index).md");
   });
+  eleventyConfig.addCollection("intern_hu", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/gyakornokok/!(index).md");
+  });
+  eleventyConfig.addCollection("intern_en", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/trainees/!(index).md");
+  });
 
   eleventyConfig.addPlugin(i18n, {
     translations,
