@@ -178,3 +178,15 @@ collections:
           widget: "string",
         }
       - { label: "Kép", name: "img", widget: "image" }
+  - name: "home_hu"
+    label: "Kezdőoldal (magyar)"
+    folder: "src/hu"
+    create: true
+    fields:
+      - { label: Leírás, name: body, widget: markdown }
+  - name: "home_en"
+    label: "Kezdőoldal (magyar)"
+    folder: "src/en"
+    create: true
+    fields:
+      - { label: Leírás, name: body, widget: markdown }
