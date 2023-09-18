@@ -2,7 +2,7 @@
 name: Fellner Zita
 pos: Tanársegéd, ELTE TáTK Statisztika Tanszék
 ref: fellner-bio
-img: /img/fellner_zita_resized.jpg.png
+img: /img/fellner_zita_resized2.jpg.png
 pikto:
   - "04"
   - "05"
