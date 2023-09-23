@@ -2,7 +2,7 @@
 title: We will also be there at the 2023 European Survey Research Association
   (ESRA) conference
 date: 2023-02-20T23:00:35.634Z
-ref: hir2022_02_angol
+ref: hir2022_02_en
 ---
 "Survey research in times of crisis: Challenges, opportunities, and new directions" is the theme of the 2023 conference of the European Survey Research Association (ESRA), in which we will participate. Our presentation is entitled "From minor data gaps to major errors - Simulation study to demonstrate potential bias of online surveys". 
 
