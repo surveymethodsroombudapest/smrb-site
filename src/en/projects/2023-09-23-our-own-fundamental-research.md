@@ -1,7 +1,7 @@
 ---
 title: "Our own fundamental research "
 date: 2023-02-15T23:00:54.938Z
-ref: pr202rds_angol
+ref: pr202rds_en
 ---
 
 
