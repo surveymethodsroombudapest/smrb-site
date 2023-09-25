@@ -1,5 +1,7 @@
 ---
 name: Lajos Hanka
-description: aknfwufhc
+description: "Szociológia és matematika alapszakot végzett. Jelenleg az ELTE
+  Társadalomtudományi Karán survey statisztika és adatanalitika mesterszakon
+  tanul. "
 img: /img/zita_temp.JPG
 ---
