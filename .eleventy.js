@@ -26,10 +26,14 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/en/news/!(index).md").reverse();
   });
   eleventyConfig.addCollection("kutatok_hu", (collection) => {
-    return collection.getFilteredByGlob("./src/hu/kutatok/!(index).md");
+    return collection
+      .getFilteredByGlob("./src/hu/kutatok/!(index).md")
+      .sort((a, b) => a.order - b.order);
   });
   eleventyConfig.addCollection("kutatok_en", (collection) => {
-    return collection.getFilteredByGlob("./src/en/researchers/!(index).md");
+    return collection
+      .getFilteredByGlob("./src/en/researchers/!(index).md")
+      .sort((a, b) => a.order - b.order);
   });
   eleventyConfig.addCollection("proj_hu", (collection) => {
     return collection
