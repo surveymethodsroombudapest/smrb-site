@@ -63,7 +63,7 @@ collections:
     label: "Kutatók"
     folder: "src/hu/kutatok"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string", required: false }
       - {
@@ -148,7 +148,7 @@ collections:
     label: "Kutatók (angol)"
     folder: "src/en/researchers"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string", required: false }
       - {
@@ -182,7 +182,7 @@ collections:
     label: "Gyakornokok (magyar)"
     folder: "src/hu/gyakornokok"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string" }
       - {
@@ -202,7 +202,47 @@ collections:
     label: "Gyakornokok (angol)"
     folder: "src/en/intern"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "junior_hu"
+    label: "Junior kutatók (magyar)"
+    folder: "src/hu/junior"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "junior_en"
+    label: "Junior kutatók (angol)"
+    folder: "src/en/junior"
+    create: true
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string" }
       - {

@@ -55,7 +55,13 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/hu/gyakornokok/!(index).md");
   });
   eleventyConfig.addCollection("intern_en", (collection) => {
-    return collection.getFilteredByGlob("./src/hu/trainees/!(index).md");
+    return collection.getFilteredByGlob("./src/en/intern/!(index).md");
+  });
+  eleventyConfig.addCollection("juniors_hu", (collection) => {
+    return collection.getFilteredByGlob("./src/hu/junior/!(index).md");
+  });
+  eleventyConfig.addCollection("juniors_en", (collection) => {
+    return collection.getFilteredByGlob("./src/en/junior/!(index).md");
   });
 
   eleventyConfig.addPlugin(i18n, {

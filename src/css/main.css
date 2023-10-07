@@ -322,19 +322,20 @@ h1 {
   background-color: var(--logo-lila-lighter);
   color: whitesmoke;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 .intern-grid {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 0.5rem;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .intern-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.5rem;
-    margin-bottom: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   }
 }
