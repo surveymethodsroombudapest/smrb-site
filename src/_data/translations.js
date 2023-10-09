@@ -21,7 +21,7 @@ module.exports = {
   },
   kut: {
     hu: "Kutatók",
-    en: "Team",
+    en: "Researchers",
   },
   kutatoink: {
     hu: "Kutatóink",
@@ -36,11 +36,15 @@ module.exports = {
     en: "News",
   },
   other_researchers: {
-    hu: "További kutatók",
+    hu: "Résztvevő kutatók",
     en: "Contributors",
   },
   interns: {
     hu: "Szakmai gyakornokok",
-    en: "Trainees",
+    en: "Interns",
+  },
+  juniors: {
+    hu: "Junior kutatók",
+    en: "Junior researchers",
   },
 };

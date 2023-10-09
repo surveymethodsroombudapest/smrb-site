@@ -63,14 +63,15 @@ collections:
     label: "Kutatók"
     folder: "src/hu/kutatok"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
-      - { label: "Név", name: "name", widget: "string" }
+      - { label: "Név", name: "name", widget: "string", required: false }
       - {
           label: "Pozíció",
           name: "pos",
           widget: "string",
           hint: "Rövid leírás, alcímként jelenik meg a kutatócsoport-oldalon",
+          required: false,
         }
       - {
           label: "Azonosító",
@@ -78,8 +79,20 @@ collections:
           widget: "string",
           hint: "Angol-magyar verzió váltáshoz",
         }
-      - { label: "Bemutatkozás", name: "body", widget: "markdown" }
-      - { label: "Kép", name: "img", widget: "image" }
+      - {
+          label: "Bemutatkozás",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image", required: false }
+      - { label: "Sorrend", name: "order", widget: "number", required: false }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "hirek_en"
     label: "Hírek (angol)"
     folder: "src/en/news"
@@ -135,14 +148,15 @@ collections:
     label: "Kutatók (angol)"
     folder: "src/en/researchers"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
-      - { label: "Név", name: "name", widget: "string" }
+      - { label: "Név", name: "name", widget: "string", required: false }
       - {
           label: "Pozíció",
           name: "pos",
           widget: "string",
           hint: "Rövid leírás, alcímként jelenik meg a kutatócsoport-oldalon",
+          required: false,
         }
       - {
           label: "Azonosító",
@@ -150,34 +164,100 @@ collections:
           widget: "string",
           hint: "Angol-magyar verzió váltáshoz",
         }
-      - { label: "Bemutatkozás", name: "body", widget: "markdown" }
-      - { label: "Kép", name: "img", widget: "image" }
+      - {
+          label: "Bemutatkozás",
+          name: "body",
+          widget: "markdown",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image", required: false }
+      - { label: "Sorrend", name: "order", widget: "number", required: false }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "intern_hu"
     label: "Gyakornokok (magyar)"
     folder: "src/hu/gyakornokok"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string" }
       - {
           label: "Rövid leírás / pozíció",
           name: "description",
           widget: "string",
+          required: false,
         }
       - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "intern_en"
     label: "Gyakornokok (angol)"
     folder: "src/en/intern"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - { label: "Név", name: "name", widget: "string" }
       - {
           label: "Rövid leírás / pozíció",
           name: "description",
           widget: "string",
+          required: false,
         }
       - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "junior_hu"
+    label: "Junior kutatók (magyar)"
+    folder: "src/hu/junior"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "junior_en"
+    label: "Junior kutatók (angol)"
+    folder: "src/en/junior"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "cellak"
+        widget: "pikto"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "home_hu"
     label: "Kezdőoldal (magyar)"
     folder: "src/hu"
@@ -185,7 +265,7 @@ collections:
     fields:
       - { label: Leírás, name: body, widget: markdown }
   - name: "home_en"
-    label: "Kezdőoldal (magyar)"
+    label: "Kezdőoldal (angol)"
     folder: "src/en"
     create: true
     fields:
