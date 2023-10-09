@@ -339,3 +339,9 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   }
 }
+
+.about-us-content img {
+  max-width: 100%;
+  height: 4rem;
+  display: inline;
+}

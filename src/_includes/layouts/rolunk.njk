@@ -1,76 +1,78 @@
 ---
 layout: base.njk
 ---
+
 <div class="container-xl">
     <div class="row justify-content-center pt-5 g-3 ">
         <div class="col-md-8">
-            <h3 id="kutatok-title">{{translations.kut[locale]}}</h3>
+            <h3 id="kutatok-title">{{ translations.kut[locale] }}</h3>
             {% for item in collections["kutatok_" + locale] %}
                 <div class="card card-researcher border-0 mb-3">
                     <div class="card-researcher-content p-3">
-
                         <div class="row align-items-center">
                             <div class="col-3 d-flex justify-content-end">
-                                <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="col-9">
-                                <div class="card-body">
-                                    <a href="{{item.url}}" class="stretched-link kutato-link">
-                                        <h4 class="card-title">{{item.data.name}}</h4>
-                                    </a>
-                                    <p class="card-subtitle">{{item.data.pos}}</p>
+                                <img src="{{ item.data.img }}" alt="{{ item.data.name }}" class="img-fluid rounded-circle"></div>
+                                <div class="col-9">
+                                    <div class="card-body">
+                                        <a href="{{ item.url }}" class="stretched-link kutato-link">
+                                            <h4 class="card-title">{{ item.data.name }}</h4>
+                                        </a>
+                                        <p class="card-subtitle">{{ item.data.pos }}</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                </div>
-            {% endfor %}
-            
-        </div>
-
-        <div class="col-md-4 d-flex text-muted">
+                {% endfor %}
+            </div>
+            <div class="col-md-4 d-flex text-muted about-us-content flex-column">
                 {{ content | safe }}
+            </div>
         </div>
-
-    </div>
-    {%if collections["juniors_" + locale].length %}
-                <h3 id="kutatok-title" class="mt-5">{{translations.juniors[locale]}}</h3>
+        {% if collections["juniors_" + locale].length %}
+            <h3 id="kutatok-title" class="mt-5">{{ translations.juniors[locale] }}</h3>
             <div class="intern-grid">
                 {%- for item in collections["juniors_" + locale] -%}
                     <div class="intern-card">
-                            <div class="d-flex flex-row gap-3 align-items-center">
-                                <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle" width="60" height="60">
-                                <h4>{{item.data.name}}</h4>
+                        <div class="d-flex flex-row gap-3 align-items-center">
+                            <img src="{{ item.data.img }}" alt="{{ item.data.name }}" class="img-fluid rounded-circle" width="60" height="60">
+                                <h4>{{ item.data.name }}</h4>
                             </div>
                             <div class="card-content">
-                                <p class="intern-description">{{item.data.description}}</p>
-                            </div>
-                    </div>
-                {%- endfor -%}
-            </div>
-        {% endif %}
-    {%if collections["intern_" + locale].length %}
-                <h3 id="kutatok-title" class="mt-5">{{translations.interns[locale]}}</h3>
-                <div class="intern-grid">
-                {%- for item in collections["intern_" + locale] -%}
-                    <div class="intern-card">
-                            <div class="d-flex flex-row gap-3 align-items-center">
-                                <img src="{{item.data.img}}" alt="{{item.data.name}}" class="img-fluid rounded-circle" width="60" height="60">
-                                <h4>{{item.data.name}}</h4>
-                            </div>
-                            <div class="card-content">
-                                <p class="intern-description">{{item.data.description}}</p>
+                                <p class="intern-description">{{ item.data.description }}</p>
                             </div>
                             {% if item.data.pikto.length %}
-                            <div class="d-flex gap-2 flex-wrap">
-                                {% for image in item.data.pikto %}
-                                    <img src="{{image.img}}" width="50" height="50">
-                                {% endfor %}
-                                </div>
-                            {% endif %}
+                                <div class="d-flex gap-2 flex-wrap">
+                                    {% for image in item.data.pikto %}
+                                        <img src="{{ image.img }}" width="50" height="50">
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {%- endfor -%}
                     </div>
-                {%- endfor -%}
-                </div>
-            {% endif %}
-</div>
+                {% endif %}
+                {% if collections["intern_" + locale].length %}
+                    <h3 id="kutatok-title" class="mt-5">{{ translations.interns[locale] }}</h3>
+                    <div class="intern-grid">
+                        {%- for item in collections["intern_" + locale] -%}
+                            <div class="intern-card">
+                                <div class="d-flex flex-row gap-3 align-items-center">
+                                    <img src="{{ item.data.img }}" alt="{{ item.data.name }}" class="img-fluid rounded-circle" width="60" height="60">
+                                        <h4>{{ item.data.name }}</h4>
+                                    </div>
+                                    <div class="card-content">
+                                        <p class="intern-description">{{ item.data.description }}</p>
+                                    </div>
+                                    {% if item.data.pikto.length %}
+                                        <div class="d-flex gap-2 flex-wrap">
+                                            {% for image in item.data.pikto %}
+                                                <img src="{{ image.img }}" width="50" height="50">
+                                                {% endfor %}
+                                            </div>
+                                        {% endif %}
+                                    </div>
+                                {%- endfor -%}
+                            </div>
+                        {% endif %}
+                    </div>
