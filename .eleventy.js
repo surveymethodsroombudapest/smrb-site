@@ -28,12 +28,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("kutatok_hu", (collection) => {
     return collection
       .getFilteredByGlob("./src/hu/kutatok/!(index).md")
-      .sort((a, b) => a.order - b.order);
+      .sort((a, b) => a.data.order - b.data.order);
   });
   eleventyConfig.addCollection("kutatok_en", (collection) => {
     return collection
       .getFilteredByGlob("./src/en/researchers/!(index).md")
-      .sort((a, b) => a.order - b.order);
+      .sort((a, b) => a.data.order - b.data.order);
   });
   eleventyConfig.addCollection("proj_hu", (collection) => {
     return collection
