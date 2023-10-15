@@ -88,7 +88,7 @@ collections:
       - { label: "Kép", name: "img", widget: "image", required: false }
       - { label: "Sorrend", name: "order", widget: "number", required: false }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
@@ -173,7 +173,7 @@ collections:
       - { label: "Kép", name: "img", widget: "image", required: false }
       - { label: "Sorrend", name: "order", widget: "number", required: false }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
@@ -193,7 +193,7 @@ collections:
         }
       - { label: "Kép", name: "img", widget: "image" }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
@@ -213,7 +213,7 @@ collections:
         }
       - { label: "Kép", name: "img", widget: "image" }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
@@ -233,7 +233,7 @@ collections:
         }
       - { label: "Kép", name: "img", widget: "image" }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
@@ -253,7 +253,7 @@ collections:
         }
       - { label: "Kép", name: "img", widget: "image" }
       - label: "Piktogrammok"
-        name: "cellak"
+        name: "pikto"
         widget: "list"
         required: false
         fields:
