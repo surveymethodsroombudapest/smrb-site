@@ -93,6 +93,12 @@ collections:
         required: false
         fields:
           - { label: "Kép", name: "img", widget: "image", required: false }
+      - label: "Logók kezdőoldalra"
+        name: "logos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Kép", name: "img", widget: "image", required: false }
   - name: "hirek_en"
     label: "Hírek (angol)"
     folder: "src/en/news"
