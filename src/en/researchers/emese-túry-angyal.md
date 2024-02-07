@@ -1,6 +1,6 @@
 ---
 name: Emese Túry-Angyal
-ref: tury-angyal-bio-en
+ref: tury-angyal-bio_en
 img: /img/tury-angyal_emese_resized.png
 order: 4
 ---
