@@ -1,5 +1,6 @@
 ---
 name: Túry-Angyal Emese
+pos: Tanársegéd, ELTE TáTK Statisztika Tanszék
 ref: tury-angyal-bio
 img: /img/tury-angyal_emese_resized.png
 order: 4
