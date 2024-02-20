@@ -7,7 +7,7 @@ Kutatócsoportunk elnyerte az Egyetemi Kiválósági Alap (EKA) támogatását a
 
 A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk (1. ábra).
 
-![](/img/abra_resized.webp)
+![](/img/abra_resized2.webp)
 
 Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a választásokban való részvétellel kapcsolatos attitűdök becslésekor, amikor nem kizárólag a demográfiai jellemzők alapján, hanem az elérhetőségi csoportok mentén is korrigáljuk a kapott válaszokat.  
 
