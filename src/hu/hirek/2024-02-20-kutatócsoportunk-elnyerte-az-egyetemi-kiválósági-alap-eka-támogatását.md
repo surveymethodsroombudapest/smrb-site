@@ -15,6 +15,6 @@ A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkorm
 
 A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet. 
 
-A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Nagy Bernadett és Kovács Anna vesz részt. 
+A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Nagy Bernadett és Kovács Anna vesz részt.
 
 A projekt elméleti részéhez olvasószemináriumot szervezünk, mely során közösen dolgozzuk fel a releváns szakirodalmi hátteret, és a projekt tágabb témaköréhez tartozó nemzetközi kutatási eredményeket. Az olvasószemináriumon a kutatásban résztvevőkön kívül az SMRB kutatócsoport többi tagja is részt vesz. Korlátozott mértékben fogadjuk további hallgatók érdeklődését is és részvételi lehetőséget biztosítunk. Az érdeklődők jelentkezését a [surveymethodsroom@tatk.elte.hu](mailto:surveymethodsroom@tatk.elte.hu) címre várjuk!
