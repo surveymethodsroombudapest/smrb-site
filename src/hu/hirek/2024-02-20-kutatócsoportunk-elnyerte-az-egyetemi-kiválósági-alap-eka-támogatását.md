@@ -3,18 +3,12 @@ title: Kutatócsoportunk elnyerte az Egyetemi Kiválósági Alap (EKA) támogat�
 date: 2024-02-20T20:07:03.743Z
 ref: hir2024_02
 ---
-Kutatócsoportunk elnyerte az Egyetemi Kiválósági Alap (EKA) támogatását az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektre.
+Örömmel jelentjük be, hogy kutatócsoportunk elnyerte az Egyetemi Kiválósági Alap (EKA) pályázatát. A projekt címe: "*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*".  
 
-A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk (1. ábra).
+A kutatás egy éven keresztül tart, melynek során azt vizsgáljuk, hogy mennyiben javítható a survey adatokból készült politikai előrejelzések pontossága egy új utólagos rétegzési (adatkorrekciós) eljárással. A módszer az alapján osztja különböző csoportokra a kérdőívre válaszolókat, hogy mennyire számítanak nehezen elérhetőnek, ezáltal pedig különösen "értékesnek". Emellett a projekt során speciális survey adatgyűjtéseket és előrejelzéseket is végeznek a kutatócsoport tagjai. 
 
-![](/img/abra_resized.webp)
-
-Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a választásokban való részvétellel kapcsolatos attitűdök becslésekor, amikor nem kizárólag a demográfiai jellemzők alapján, hanem az elérhetőségi csoportok mentén is korrigáljuk a kapott válaszokat.  
-
-A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. 
-
-A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet. 
-
-A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Nagy Bernadett és Kovács Anna vesz részt.
+Különösen izgalmas, valamint aktuális kutatási témának ígérkezik az európai parlamenti, valamint az önkormányzati választások évében! 
 
 A projekt elméleti részéhez olvasószemináriumot szervezünk, mely során közösen dolgozzuk fel a releváns szakirodalmi hátteret, és a projekt tágabb témaköréhez tartozó nemzetközi kutatási eredményeket. Az olvasószemináriumon a kutatásban résztvevőkön kívül az SMRB kutatócsoport többi tagja is részt vesz. Korlátozott mértékben fogadjuk további hallgatók érdeklődését is és részvételi lehetőséget biztosítunk. Az érdeklődők jelentkezését a [surveymethodsroom@tatk.elte.hu](mailto:surveymethodsroom@tatk.elte.hu) címre várjuk!
+
+A projektről részletesebben [itt](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/) írtunk.
