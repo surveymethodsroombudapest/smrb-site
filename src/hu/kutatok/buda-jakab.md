@@ -1,6 +1,6 @@
 ---
 name: Buda Jakab
-pos: Tanársegéd, ELTE TáTK Statisztika Tanszék
+pos: Tanársegéd, ELTE TáTK Statisztika Tanszék1
 ref: buda-bio
 img: /img/screenshot-2023-09-27-211629.png
 order: 5
