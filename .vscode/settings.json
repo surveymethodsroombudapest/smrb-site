@@ -1,3 +1,6 @@
 {
-    "liquid.format.enable": true
+  "liquid.format.enable": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/netlify.json": "file:///c%3A/Users/barta/Coding/smrb-site/src/static/admin/config.yml"
+  }
 }
