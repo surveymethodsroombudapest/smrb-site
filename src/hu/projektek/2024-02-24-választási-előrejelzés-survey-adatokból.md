@@ -6,7 +6,7 @@ subtitle: "Projekt időtartama: 2024. február - 2025. február"
 ---
 Kutatócsoportunk elnyerte az **Egyetemi Kiválósági Alap** (EKA) támogatását az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektre.
 
-A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk (1. ábra).
+A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk.
 
 ![](/img/abra_resized.webp)
 
@@ -16,4 +16,4 @@ A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkorm
 
 A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet. 
 
-A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Nagy Bernadett és Kovács Anna vesz részt.
+A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Katona Eszter Rita, Nagy Bernadett és Faragó Sára vesz részt.
