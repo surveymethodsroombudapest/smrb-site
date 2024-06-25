@@ -3,6 +3,19 @@ title: Election forecast from survey data
 date: 2024-02-24T17:32:30.312Z
 ref: eka1descr_en
 subtitle: "Project duration: February 2024 - February 2025"
+kutatok:
+  - nev: Tamás Rudas
+    img: /img/rudas_tamas.jpg
+  - img: /img/kep_szeitl2.png
+    nev: Blanka Szeitl
+  - nev: Emese Túry-Angyal
+    img: /img/tury-angyal_emese_resized.png
+  - img: /img/katona_eszter_resized.png
+    nev: Eszter Rita Katona
+  - nev: Bernadett Nagy
+    img: /img/nagy_bernadett_resized.png
+  - nev: Sára Faragó
+    img: /img/zita_temp.JPG
 ---
 Our research group has been awarded a grant from the **University Excellence Fund** (Egyetemi Kiválósági Alap, EKA) for the project "*A new method to improve the accuracy of estimates in empirical social research: accessibility-based post-stratification*".
 
