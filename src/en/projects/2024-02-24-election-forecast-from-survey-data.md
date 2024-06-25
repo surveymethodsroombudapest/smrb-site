@@ -6,6 +6,7 @@ subtitle: "Project duration: February 2024 - February 2025"
 kutatok:
   - nev: Tamás Rudas
     img: /img/rudas_tamas.jpg
+    leiras: Professor Emeritus, ELTE TáTK Statisztika Tanszék
   - img: /img/kep_szeitl2.png
     nev: Blanka Szeitl
   - nev: Emese Túry-Angyal
