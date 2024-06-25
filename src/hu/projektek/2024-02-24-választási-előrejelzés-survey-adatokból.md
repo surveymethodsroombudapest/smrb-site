@@ -28,6 +28,4 @@ Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a válasz
 
 A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. 
 
-A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet. 
-
-A kutatásban Rudas Tamás, Szeitl Blanka, Túry-Angyal Emese, Katona Eszter Rita, Nagy Bernadett és Faragó Sára vesz részt.
+A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet.
