@@ -6,7 +6,7 @@ subtitle: "Projekt időtartama: 2024. február - 2025. február"
 kutatok:
   - nev: Rudas Tamás
     leiras: ""
-    img: /img/zita_temp.JPG
+    img: /img/rudas_tamas.jpg
   - nev: Szeitl Blanka
     img: /img/kep_szeitl2.png
   - nev: Túry-Angyal Emese
