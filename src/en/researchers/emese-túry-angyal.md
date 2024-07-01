@@ -1,7 +1,7 @@
 ---
 name: Emese Túry-Angyal
 pos: "Assistant Lecturer, Department of Statistics, Faculty of Social Sciences,
-  University of Eötvös Loránd, Hungary "
+  Eötvös Loránd University, Hungary "
 ref: tury-angyal-bio_en
 img: /img/tury-angyal_emese_resized.png
 order: 4
