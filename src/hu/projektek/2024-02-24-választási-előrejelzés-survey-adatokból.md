@@ -5,18 +5,23 @@ ref: eka1descr
 subtitle: "Projekt időtartama: 2024. február - 2025. február"
 kutatok:
   - nev: Rudas Tamás
-    leiras: ""
+    leiras: Professor Emeritus, ELTE TáTK Statisztika Tanszék
     img: /img/rudas_tamas.jpg
   - nev: Szeitl Blanka
     img: /img/kep_szeitl2.png
+    leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
   - nev: Túry-Angyal Emese
     img: /img/tury-angyal_emese_resized.png
+    leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
   - nev: Katona Eszter Rita
     img: /img/katona_eszter_resized.png
+    leiras: Adjunktus, Társadalomkutatások Módszertana Tanszék
   - nev: Nagy Bernadett
     img: /img/nagy_bernadett_resized.png
+    leiras: Hallgató, ELTE Survey statisztika és adatanalitika MSc
   - nev: Faragó Sára
     img: /img/zita_temp.JPG
+    leiras: Hallgató, ELTE Szociológia BA
 ---
 Kutatócsoportunk elnyerte az **Egyetemi Kiválósági Alap** (EKA) támogatását az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektre.
 
