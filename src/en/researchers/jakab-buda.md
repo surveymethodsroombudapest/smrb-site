@@ -1,7 +1,7 @@
 ---
 name: "Jakab Buda "
 pos: "Assistant Lecturer, Department of Statistics, Faculty of Social Sciences,
-  University of Eötvös Loránd, Hungary "
+  Eötvös Loránd University, Hungary "
 ref: buda-bio_en
 img: /img/screenshot-2023-09-27-211629.png
 order: 5
