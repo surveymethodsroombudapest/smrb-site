@@ -25,6 +25,7 @@ kutatok:
     leiras: Student, Sociology BA, ELTE
   - leiras: Student, Sociology BA, ELTE
     nev: Nguyen Thi Phuong Nhi
+    img: /img/nhi_resized.png
   - img: /img/toth_rebeka_resized.png
     nev: Rebeka Tóth
     leiras: Student, Sociology BA, ELTE
