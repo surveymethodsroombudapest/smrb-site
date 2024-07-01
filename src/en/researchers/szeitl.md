@@ -1,7 +1,7 @@
 ---
 name: Blanka Szeitl
 pos: "Assistant Lecturer, Department of Statistics, Faculty of Social Sciences,
-  University of Eötvös Loránd, Hungary "
+  Eötvös Loránd University, Hungary "
 ref: szeitl-bio_en
 img: /img/kep_szeitl2.png
 order: 1
