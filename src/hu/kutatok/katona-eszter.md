@@ -1,5 +1,5 @@
 ---
-name: Katona Eszter
+name: Katona Eszter Rita
 pos: Adjunktus, ELTE TáTK Társadalomkutatások Módszertana Tanszék
 ref: katona-bio
 img: /img/katona_eszter_resized.png
