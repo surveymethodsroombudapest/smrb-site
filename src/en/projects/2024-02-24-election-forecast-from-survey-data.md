@@ -6,17 +6,22 @@ subtitle: "Project duration: February 2024 - February 2025"
 kutatok:
   - nev: Tamás Rudas
     img: /img/rudas_tamas.jpg
-    leiras: Professor Emeritus, ELTE TáTK Statisztika Tanszék
+    leiras: Professor Emeritus, Department of Statistics, ELTE
   - img: /img/kep_szeitl2.png
     nev: Blanka Szeitl
+    leiras: Assistant Lecturer, Department of Statistics, ELTE
   - nev: Emese Túry-Angyal
     img: /img/tury-angyal_emese_resized.png
+    leiras: Assistant Lecturer, Department of Statistics, ELTE
   - img: /img/katona_eszter_resized.png
     nev: Eszter Rita Katona
+    leiras: Assistant Professor, Department of Social Research Methodology, ELTE
   - nev: Bernadett Nagy
     img: /img/nagy_bernadett_resized.png
+    leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
   - nev: Sára Faragó
     img: /img/zita_temp.JPG
+    leiras: Student, Sociology BA, ELTE
 ---
 Our research group has been awarded a grant from the **University Excellence Fund** (Egyetemi Kiválósági Alap, EKA) for the project "*A new method to improve the accuracy of estimates in empirical social research: accessibility-based post-stratification*".
 
