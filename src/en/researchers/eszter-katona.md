@@ -1,6 +1,7 @@
 ---
 name: Eszter Katona
-pos: Assistant Professor, Department of Social Research Methodology
+pos: Assistant Professor, Department of Social Research Methodology, Faculty of
+  Social Sciences, Eötvös Loránd University, Hungary
 ref: katona-bio_en
 img: /img/katona_eszter_resized.png
 order: 3
