@@ -4,98 +4,139 @@ const i18n = require("eleventy-plugin-i18n");
 const moment = require("moment");
 const translations = require("./src/_data/translations.js");
 const mainnav = require("./src/_data/mainnav.js");
+// const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+// const Image = require("@11ty/eleventy-img");
+const { JSDOM } = require("jsdom");
 
-module.exports = function (eleventyConfig) {
+/** @param {import("@11ty/eleventy").UserConfig} config */
+module.exports = function (config) {
   // Passthroughs
-  eleventyConfig.addPassthroughCopy({ "./src/static/": "/" });
-  eleventyConfig.addPassthroughCopy("./src/css/");
+  config.addPassthroughCopy({ "./src/static/": "/" });
+  config.addPassthroughCopy("./src/css/");
 
   // Layout aliases
-  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
-  eleventyConfig.addLayoutAlias("collection", "layouts/collection-master.njk");
-  eleventyConfig.addLayoutAlias("page", "layouts/page-master.njk");
+  config.addLayoutAlias("base", "layouts/base.njk");
+  config.addLayoutAlias("collection", "layouts/collection-master.njk");
+  config.addLayoutAlias("page", "layouts/page-master.njk");
 
-  eleventyConfig.addWatchTarget("./src/static/");
+  config.addWatchTarget("./src/static/");
 
   // collections
   // TODO talán szebb lenne, ha az index.md-k helyett index.njk-k lennének külön mappában
-  eleventyConfig.addCollection("hirek_hu", (collection) => {
+  config.addCollection("hirek_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/hirek/!(index).md").reverse();
   });
-  eleventyConfig.addCollection("hirek_en", (collection) => {
+  config.addCollection("hirek_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/news/!(index).md").reverse();
   });
-  eleventyConfig.addCollection("kutatok_hu", (collection) => {
+  config.addCollection("kutatok_hu", (collection) => {
     return collection
       .getFilteredByGlob("./src/hu/kutatok/!(index).md")
       .sort((a, b) => a.data.order - b.data.order);
   });
-  eleventyConfig.addCollection("kutatok_en", (collection) => {
+  config.addCollection("kutatok_en", (collection) => {
     return collection
       .getFilteredByGlob("./src/en/researchers/!(index).md")
       .sort((a, b) => a.data.order - b.data.order);
   });
-  eleventyConfig.addCollection("proj_hu", (collection) => {
+  config.addCollection("proj_hu", (collection) => {
     return collection
       .getFilteredByGlob("./src/hu/projektek/!(index).md")
       .reverse();
   });
-  eleventyConfig.addCollection("proj_en", (collection) => {
+  config.addCollection("proj_en", (collection) => {
     return collection
       .getFilteredByGlob("./src/en/projects/!(index).md")
       .reverse();
   });
-  eleventyConfig.addCollection("publ_hu", (collection) => {
+  config.addCollection("publ_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/publikaciok/!(index).md");
   });
-  eleventyConfig.addCollection("publ_en", (collection) => {
+  config.addCollection("publ_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/publications/!(index).md");
   });
-  eleventyConfig.addCollection("intern_hu", (collection) => {
+  config.addCollection("intern_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/gyakornokok/!(index).md");
   });
-  eleventyConfig.addCollection("intern_en", (collection) => {
+  config.addCollection("intern_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/intern/!(index).md");
   });
-  eleventyConfig.addCollection("juniors_hu", (collection) => {
+  config.addCollection("juniors_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/junior/!(index).md");
   });
-  eleventyConfig.addCollection("juniors_en", (collection) => {
+  config.addCollection("juniors_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/junior/!(index).md");
   });
 
-  eleventyConfig.addPlugin(i18n, {
+  config.addPlugin(i18n, {
     translations,
     fallbackLocales: {
       hu: "en",
     },
   });
 
+  // config.addPlugin(eleventyImageTransformPlugin, {
+  //   // which file extensions to process
+  //   extensions: "html",
+
+  //   // Add any other Image utility options here:
+
+  //   // optional, output image formats
+  //   formats: ["webp", "jpeg"],
+  //   // formats: ["auto"],
+
+  //   // optional, output image widths
+  //   // widths: ["auto"],
+
+  //   // optional, attributes assigned on <img> override these values.
+  //   defaultAttributes: {
+  //     loading: "lazy",
+  //     decoding: "async",
+  //   },
+  // });
+
   // date filter (localized)
-  eleventyConfig.addFilter("date", function (date, format, locale) {
+  config.addFilter("date", function (date, format, locale) {
     locale = locale ? locale : "hu";
     moment.locale(locale);
     return moment(date).format(format);
   });
 
-  eleventyConfig.addFilter("localisedLink", (id, locale) => {
+  config.addFilter("localisedLink", (id, locale) => {
     return mainnav.find((item) => item.id === id)[locale].link;
   });
-  eleventyConfig.addFilter("localisedLinkLabel", (id, locale) => {
+  config.addFilter("localisedLinkLabel", (id, locale) => {
     return mainnav.find((item) => item.id === id)[locale].label;
   });
-  eleventyConfig.addShortcode("localisedLink", (id, locale) => {
+  config.addShortcode("localisedLink", (id, locale) => {
     return mainnav.find((item) => item.id === id)[locale].link;
   });
 
-  eleventyConfig.addNunjucksShortcode(
+  // config.addShortcode("image", async function (src, alt, sizes) {
+  //   let metadata = await Image(src, {
+  //     widths: [300, 600],
+  //     formats: ["avif", "jpeg"],
+  //   });
+
+  //   let imageAttributes = {
+  //     alt,
+  //     sizes,
+  //     loading: "lazy",
+  //     decoding: "async",
+  //   };
+
+  //   // You bet we throw an error on a missing alt (alt="" works okay)
+  //   return Image.generateHTML(metadata, imageAttributes);
+  // });
+
+  config.addNunjucksShortcode(
     "goback",
     (link, text) => `
     <a href="${link}" class="goback"><i class="bi bi-caret-left"></i> ${text}</a>
   `
   );
 
-  eleventyConfig.setBrowserSyncConfig({
+  config.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, bs) {
         bs.addMiddleware("*", (req, res) => {
@@ -114,6 +155,16 @@ module.exports = function (eleventyConfig) {
         });
       },
     },
+  });
+
+  config.addFilter("stripHtml", function (content) {
+    // Use JSDOM to parse the HTML and extract text content
+    const dom = new JSDOM(content);
+    return dom.window.document.body.textContent || "";
+  });
+
+  config.addFilter("getYear", function (date) {
+    return new Date(date).getFullYear();
   });
 
   return {

@@ -5,15 +5,20 @@ layout: base.njk
 <div class="container-fix-sm">
       <h1 class="section-title">{{ title }}</h1>
       <div class="collection-wrapper masonry-grid d-flex flex-column gap-2">
-      {%- for hir in collections[colname + "_" + locale] -%}
-        <div class="card card-hover card-collection-item grow">
-          <div class="card-body">
-            <h4 class=" fw-bold mb-3">{{hir.data.title | safe}}</h4>
-            <h6 class="card-subtitle">{{ hir.data.date | date('YYYY. MM. DD.')}}</h6>
-            <div class="card-text mt-3 mb-4">{{hir.data.content | safe | truncate }}</div>
-            <a href="{{hir.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
+      {% for year, group in collections[colname + "_" + locale] | groupby("data.date") %}
+      <p>{{ year }}</p>
+        {%- for hir in collections[colname + "_" + locale] -%}
+          <div class="card card-hover card-collection-item grow">
+            <div class="card-body">
+              <h4 class=" fw-bold mb-3">{{hir.data.title | safe}}</h4>
+              {% if colname == 'hirek' %}
+                <h6 class="card-subtitle">{{ hir.data.date | date('YYYY. MM. DD.') }}</h6>
+              {% endif %}
+              <div class="card-text mt-3 mb-4">{{hir.data.content | stripHtml | truncate }}</div>
+              <a href="{{hir.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
+            </div>
           </div>
-        </div>
-      {%- endfor -%}      
+        {%- endfor -%}      
+      {% endfor %}  
   </div>
 </div>
