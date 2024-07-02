@@ -19,6 +19,9 @@ kutatok:
   - nev: Bernadett Nagy
     img: /img/nagy_bernadett_resized.png
     leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
+  - nev: Benedek Sarnyai
+    img: /img/sarnyai_benedek_resized.png
+    leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
   - nev: Sára Faragó
     img: /img/zita_temp.JPG
     leiras: Student, Sociology BA, ELTE
