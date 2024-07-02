@@ -19,6 +19,9 @@ kutatok:
   - nev: Nagy Bernadett
     img: /img/nagy_bernadett_resized.png
     leiras: Hallgató, ELTE Survey statisztika és adatanalitika MSc
+  - nev: Sarnyai Benedek
+    img: /img/sarnyai_benedek_resized.png
+    leiras: Hallgató, ELTE Survey statisztika és adatanalitika MSc
   - nev: Faragó Sára
     img: /img/zita_temp.JPG
     leiras: Hallgató, ELTE Szociológia BA
@@ -35,9 +38,9 @@ Az európai parlamenti választásokat megelőzően két adatgyűjtést végezt�
 
 ![](/img/eka_adatfelvetel_abra.png)
 
-A projekt jelenlegi fázisában a két lekérdezés által létrejött adatokkal dolgozunk: többek között más közvéleménykutatások előrejelzéseivel vetjük össze az általunk mért eredményeket, a két adatfelvétel közti esetleges (időbeli) eltéréseket igyekszünk felfedni, valamint a becslések javítását célzó súlyozást, korrekciót végzünk az adatokon. Ezen felül különböző elérhetőségi csoportokba rendezzük a válaszadókat az alapján, hogy mennyire könnyen sikerült az operátoroknak felvenni velük a kapcsolatot. Ezt több eltérő módszer mentén megtehetjük, jelenleg ennek a kidolgozása is zajlik. Az így létrejött, eléréssel kapcsolatos változókból klaszterelemzéssel is tervezzük megragadni az egyes csoportok közti különbségeket.
+A projekt jelenlegi fázisában a két lekérdezés által létrejött adatokkal dolgozunk: többek között más közvéleménykutatások előrejelzéseivel vetjük össze az általunk mért eredményeket, a két adatfelvétel közti időbeli eltéréseket vizsgáljuk, valamint a becslések javítását célzó súlyozást, korrekciót végzünk az adatokon. Ezen felül különböző elérhetőségi csoportokba rendezzük a válaszadókat az alapján, hogy mennyire könnyen sikerült az operátoroknak felvenni velük a kapcsolatot. Ezt több eltérő módszer mentén megtesszük, jelenleg ennek a kidolgozása zajlik. Az így létrejött, eléréssel kapcsolatos változókból klaszterelemzéssel is megvizsgáljuk az egyes csoportok közti különbségeket. Az elérhetőségi csoportosítás egy lehetséges változatát szemléltetjük az alábbi ábrán.
 
-![](/img/eka_elerhetoseg_donut.png)
+![](/img/eka_elerhetoseg_donut_cut.png)
 
 A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. 
 
