@@ -42,6 +42,8 @@ A projekt jelenlegi fázisában a két lekérdezés által létrejött adatokkal
 
 ![](/img/eka_elerhetoseg_donut_cut.png)
 
+A projekt jelenlegi szakaszához kötődő tapasztalatokról, eredményekről a kutatócsoport Facebook oldalán is hírt adtunk, mely [itt olvasható](https://www.facebook.com/surveymethodsroom/posts/pfbid08AAUB5VUVQa9TwTnumbX4nAXL1h2XL2CVHzSTvjzd4J6HYq7PjkGN7ZvVWDQ2Desl).
+
 A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. 
 
 A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet.
