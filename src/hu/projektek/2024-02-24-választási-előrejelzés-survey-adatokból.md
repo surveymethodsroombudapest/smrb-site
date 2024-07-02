@@ -29,6 +29,8 @@ A kutatás során kérdőíves adatokból egy új módszer segítségével vála
 
 ![](/img/abra_resized.webp)
 
+
+
 Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a választásokban való részvétellel kapcsolatos attitűdök becslésekor, amikor nem kizárólag a demográfiai jellemzők alapján, hanem az elérhetőségi csoportok mentén is korrigáljuk a kapott válaszokat.  
 
 Az európai parlamenti választásokat megelőzően két adatgyűjtést végeztünk. Ennek elvégzésére kilenc kutatócéggel is felvettük a kapcsolatot, végül az Ipsos piac- és közvéleménykutató vállalattal együttműködve zajlottak a lekérdezések. Az első adatfelvételre május 14-18. között került sor, míg a második lekérdezést a választásokhoz közelebbi időpontra időzítettük, május 29. és június 4. közé. Ezen két adatfelvételi hullám időbeli megoszlását az alábbi ábrán szemléltetjük.
