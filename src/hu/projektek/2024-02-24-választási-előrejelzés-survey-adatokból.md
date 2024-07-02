@@ -27,9 +27,7 @@ Kutatócsoportunk elnyerte az **Egyetemi Kiválósági Alap** (EKA) támogatás�
 
 A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk.
 
-![](/img/abra_resized.webp)
-
-
+![](/img/eka_savdiagram_abra.png)
 
 Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a választásokban való részvétellel kapcsolatos attitűdök becslésekor, amikor nem kizárólag a demográfiai jellemzők alapján, hanem az elérhetőségi csoportok mentén is korrigáljuk a kapott válaszokat.  
 
@@ -37,13 +35,9 @@ Az európai parlamenti választásokat megelőzően két adatgyűjtést végezt�
 
 ![](/img/eka_adatfelvetel_abra.png)
 
-
-
 A projekt jelenlegi fázisában a két lekérdezés által létrejött adatokkal dolgozunk: többek között más közvéleménykutatások előrejelzéseivel vetjük össze az általunk mért eredményeket, a két adatfelvétel közti esetleges (időbeli) eltéréseket igyekszünk felfedni, valamint a becslések javítását célzó súlyozást, korrekciót végzünk az adatokon. Ezen felül különböző elérhetőségi csoportokba rendezzük a válaszadókat az alapján, hogy mennyire könnyen sikerült az operátoroknak felvenni velük a kapcsolatot. Ezt több eltérő módszer mentén megtehetjük, jelenleg ennek a kidolgozása is zajlik. Az így létrejött, eléréssel kapcsolatos változókból klaszterelemzéssel is tervezzük megragadni az egyes csoportok közti különbségeket.
 
 ![](/img/eka_elerhetoseg_donut.png)
-
-
 
 A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. 
 
