@@ -23,7 +23,7 @@ kutatok:
     img: /img/sarnyai_benedek_resized.png
     leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
   - nev: Sára Faragó
-    img: /img/zita_temp.JPG
+    img: /img/farago_sara_resized.png
     leiras: Student, Sociology BA, ELTE
   - nev: Benedek Kovács
     leiras: Student, Mathematics BSc, SZTE
