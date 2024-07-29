@@ -25,6 +25,9 @@ kutatok:
   - nev: Faragó Sára
     img: /img/zita_temp.JPG
     leiras: Hallgató, ELTE Szociológia BA
+  - nev: Kovács Benedek
+    img: /img/kovacs_benedek_resized.png
+    leiras: Hallgató, SZTE Matemtika BSc
 ---
 Kutatócsoportunk elnyerte az **Egyetemi Kiválósági Alap** (EKA) támogatását az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektre.
 
