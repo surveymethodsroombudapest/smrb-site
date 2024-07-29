@@ -25,6 +25,9 @@ kutatok:
   - nev: Sára Faragó
     img: /img/zita_temp.JPG
     leiras: Student, Sociology BA, ELTE
+  - nev: Benedek Kovács
+    leiras: Student, Mathematics BSc, SZTE
+    img: /img/kovacs_benedek_resized.png
 ---
 Our research group has been awarded a grant from the **University Excellence Fund** (Egyetemi Kiválósági Alap, EKA) for the project "*A new method to improve the accuracy of estimates in empirical social research: accessibility-based post-stratification*".
 
