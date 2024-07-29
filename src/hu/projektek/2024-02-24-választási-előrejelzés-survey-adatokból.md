@@ -23,7 +23,7 @@ kutatok:
     img: /img/sarnyai_benedek_resized.png
     leiras: Hallgató, ELTE Survey statisztika és adatanalitika MSc
   - nev: Faragó Sára
-    img: /img/zita_temp.JPG
+    img: /img/farago_sara_resized.png
     leiras: Hallgató, ELTE Szociológia BA
   - nev: Kovács Benedek
     img: /img/kovacs_benedek_resized.png
