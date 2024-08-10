@@ -53,7 +53,7 @@ module.exports = function (config) {
     const posts = collection
       .getFilteredByGlob("./src/hu/projektek/!(index).md")
       .reverse();
-    const years = posts.map((post) => post.date.getFullYear());
+    const years = posts.map((post) => new Date(post.date).getFullYear());
     const uniqueYears = [...new Set(years)];
 
     const postsByYear = uniqueYears.reduce((prev, year) => {
@@ -195,10 +195,6 @@ module.exports = function (config) {
     // Use JSDOM to parse the HTML and extract text content
     const dom = new JSDOM(content);
     return dom.window.document.body.textContent || "";
-  });
-
-  config.addFilter("getYear", function (date) {
-    return new Date(date).getFullYear();
   });
 
   return {

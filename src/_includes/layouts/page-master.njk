@@ -9,53 +9,53 @@ layout: base.njk
 		<div class="row justify-content-center mt-3 mt-md-5 gap-3">
 			<div class="col-md-10 col-lg-7 col-xxl-6 d-flex flex-column gap-4">
 
-			<article class="rounded-4 p-3 p-md-5 border bg-white page-content">
+				<article class="rounded-4 p-3 p-md-5 border bg-white page-content">
 
-				<div class="article-header">
-					<div class="d-flex flex-row justify-content-between align-items-baseline">
-						{% goback gobackUrl,
-						gobackTitle %}
-						{% if date %}
-							<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
+					<div class="article-header">
+						<div class="d-flex flex-row justify-content-between align-items-baseline">
+							{% goback gobackUrl,
+							gobackTitle %}
+							{% if date and parentId != 'proj' %}
+								<h6 class="subtitle">{{ date | date('YYYY. MM. DD.')}}</h6>
+							{% endif %}
+						</div>
+
+						<h2 class="article-title">{{ title }}</h2>
+						{% if subtitle %}
+							<h6 class="subtitle">{{subtitle}}</h6>
 						{% endif %}
 					</div>
 
-					<h2 class="article-title">{{ title }}</h2>
-					{% if subtitle %}
-						<h6 class="subtitle">{{subtitle}}</h6>
+					<div class="me-3">
+						{{content | safe}}
+					</div>
+
+				</article>
+				{%if cella_kepek %}
+					<div class="bg-white p-3 rounded-4 cella-kep_wrapper">
+						{%-for item in cella_kepek -%}
+							<img src="{{item.img}}" alt="{{item.alt}}" class="cella-kep">
+							{%-endfor-%}
+						</div>
+						{%endif%}
+					</div>
+					{% if kutatok %}
+
+						<div class="col-md-4 rounded-4 bg-white p-4 other-researchers-column">
+							<h3 class="mb-4 text-purple">{{translations.other_researchers[locale]}}</h3>
+							<div class="d-flex gap-2 flex-column">
+								{% for item in kutatok %}
+									<section class="d-flex flex-row rounded bg-light p-2 gap-2">
+										<img src="{{item.img}}" class="img-fluid rounded-circle" style="height: 5rem">
+										<div class="flex-column align-self-center">
+											<h5 class="card-title">{{item.nev}}</h5>
+											<p class="card-body text-secondary">{{item.leiras}}</p>
+										</div>
+									</section>
+								{% endfor %}
+							</div>
+						</div>
 					{% endif %}
 				</div>
-
-				<div class="me-3">
-					{{content | safe}}
-				</div>
-
-			</article>
-			{%if cella_kepek %}
-				<div class="bg-white p-3 rounded-4 cella-kep_wrapper">
-					{%-for item in cella_kepek -%}
-						<img src="{{item.img}}" alt="{{item.alt}}" class="cella-kep">
-					{%-endfor-%}
-				</div>
-			{%endif%}
 			</div>
-			{% if kutatok %}
-
-				<div class="col-md-4 rounded-4 bg-white p-4 other-researchers-column">
-					<h3 class="mb-4 text-purple">{{translations.other_researchers[locale]}}</h3>
-					<div class="d-flex gap-2 flex-column">
-						{% for item in kutatok %}
-							<section class="d-flex flex-row rounded bg-light p-2 gap-2">
-								<img src="{{item.img}}" class="img-fluid rounded-circle" style="height: 5rem">
-								<div class="flex-column align-self-center">
-									<h5 class="card-title">{{item.nev}}</h5>
-									<p class="card-body text-secondary">{{item.leiras}}</p>
-								</div>
-							</section>
-						{% endfor %}
-					</div>
-				</div>
-			{% endif %}
 		</div>
-	</div>
-</div>

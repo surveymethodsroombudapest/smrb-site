@@ -182,8 +182,7 @@ collections:
         name: "pikto"
         widget: "list"
         required: false
-        fields:
-          - { label: "Kép", name: "img", widget: "image", required: false }
+        field: { label: "Kép", name: "img", widget: "image", required: false }
   - name: "intern_hu"
     label: "Gyakornokok (magyar)"
     folder: "src/hu/gyakornokok"
@@ -202,8 +201,7 @@ collections:
         name: "pikto"
         widget: "list"
         required: false
-        fields:
-          - { label: "Kép", name: "img", widget: "image", required: false }
+        field: { label: "Kép", name: "img", widget: "image", required: false }
   - name: "intern_en"
     label: "Gyakornokok (angol)"
     folder: "src/en/intern"
@@ -222,8 +220,7 @@ collections:
         name: "pikto"
         widget: "list"
         required: false
-        fields:
-          - { label: "Kép", name: "img", widget: "image", required: false }
+        field: { label: "Kép", name: "img", widget: "image", required: false }
   - name: "junior_hu"
     label: "Junior kutatók (magyar)"
     folder: "src/hu/junior"
@@ -242,8 +239,7 @@ collections:
         name: "pikto"
         widget: "list"
         required: false
-        fields:
-          - { label: "Kép", name: "img", widget: "image", required: false }
+        field: { label: "Kép", name: "img", widget: "image", required: false }
   - name: "junior_en"
     label: "Junior kutatók (angol)"
     folder: "src/en/junior"
@@ -262,8 +258,45 @@ collections:
         name: "pikto"
         widget: "list"
         required: false
-        fields:
-          - { label: "Kép", name: "img", widget: "image", required: false }
+        field: { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "earlier_contributors_hu"
+    label: "Korábbi résztvevő kutatók (magyar)"
+    folder: "src/hu/earlier_contributors"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "pikto"
+        widget: "list"
+        required: false
+        field: { label: "Kép", name: "img", widget: "image", required: false }
+  - name: "earlier_contributors_en"
+    label: "Korábbi résztvevő kutatók (angol)"
+    folder: "src/en/earlier_contributors"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Név", name: "name", widget: "string" }
+      - {
+          label: "Rövid leírás / pozíció",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Kép", name: "img", widget: "image" }
+      - label: "Piktogrammok"
+        name: "pikto"
+        widget: "list"
+        required: false
+        field: { label: "Kép", name: "img", widget: "image", required: false }
   - name: "home_hu"
     label: "Kezdőoldal (magyar)"
     folder: "src/hu"
