@@ -325,19 +325,21 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: 0;
-  max-width: 20rem;
 }
 
 .intern-grid {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px) {
   .intern-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    flex-direction: row;
+  }
+  .intern-card {
+    max-width: 20rem;
   }
 }
 
