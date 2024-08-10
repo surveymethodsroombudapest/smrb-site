@@ -95,10 +95,10 @@ layout: base.njk
       {%- endfor -%}
     </div>
   {% endif %}
-  {% if collections["recent_contributors_" + locale].length %}
-    <h3 id="kutatok-title" class="mt-5">{{ translations.interns[locale] }}</h3>
+  {% if collections["earlier_contributors_" + locale].length %}
+    <h3 id="kutatok-title" class="mt-5">{{ translations.earlier_contributors[locale] }}</h3>
     <div class="intern-grid">
-      {%- for item in collections["recent_contributors_" + locale] -%}
+      {%- for item in collections["earlier_contributors_" + locale] -%}
         <div class="intern-card">
           <div class="d-flex flex-row gap-3 align-items-center">
             <img

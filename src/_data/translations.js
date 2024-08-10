@@ -47,4 +47,8 @@ module.exports = {
     hu: "Junior kutatók",
     en: "Junior researchers",
   },
+  earlier_contributors: {
+    hu: "Korábbi résztvevő kutatók",
+    en: "Earlier contributors",
+  },
 };

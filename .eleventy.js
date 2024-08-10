@@ -101,6 +101,16 @@ module.exports = function (config) {
   config.addCollection("juniors_en", (collection) => {
     return collection.getFilteredByGlob("./src/en/junior/!(index).md");
   });
+  config.addCollection("earlier_contributors_hu", (collection) => {
+    return collection.getFilteredByGlob(
+      "./src/hu/earlier_contributors/!(index).md"
+    );
+  });
+  config.addCollection("earlier_contributors_en", (collection) => {
+    return collection.getFilteredByGlob(
+      "./src/en/earlier_contributors/!(index).md"
+    );
+  });
 
   config.addPlugin(i18n, {
     translations,
