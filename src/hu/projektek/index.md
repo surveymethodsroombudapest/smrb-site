@@ -1,6 +1,6 @@
 ---
-layout: layouts/collection-master.njk
+layout: layouts/projects.njk
 ref: proj-home
 title: Projektek
-colname: proj
+colname: proj_by
 ---

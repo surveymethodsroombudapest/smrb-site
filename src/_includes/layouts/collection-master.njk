@@ -4,23 +4,21 @@ layout: base.njk
 
 <div class="container-fix-sm">
 
-      <h1 class="section-title">{{ title }}</h1>
+  <h1 class="section-title">{{ title }}</h1>
 
-        {% for year, group in collections[colname + "_" + locale] | groupby('data.year') %}
-        <p>{{year}}</p>
-      <div class="collection-wrapper masonry-grid d-flex flex-column gap-2">
-        {%- for hir in group -%}
-          <div class="card card-hover card-collection-item grow">
-            <div class="card-body">
-              <h4 class=" fw-bold mb-3">{{hir.data.title | safe}}</h4>
-              {% if colname == 'hirek' %}
-                <h6 class="card-subtitle">{{ hir.data.date | date('YYYY. MM. DD.') }}</h6>
-              {% endif %}
-              <div class="card-text mt-3 mb-4">{{hir.data.content | stripHtml | truncate }}</div>
-              <a href="{{hir.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
-            </div>
-          </div>
-        {%- endfor -%}      
+  <div class="collection-wrapper masonry-grid d-flex flex-column gap-2">
+    {%- for item in collections[colname + "_" + locale] -%}
+      <div class="card card-hover card-collection-item grow">
+        <div class="card-body">
+          <h4 class=" fw-bold mb-3">{{item.data.title | safe}}</h4>
+          {% if colname == 'hirek' %}
+            <h6 class="card-subtitle">{{ item.data.date | date('YYYY. MM. DD.') }}</h6>
+          {% endif %}
+          <p class="card-text mt-3 mb-4">{{item.data.content | stripHtml | truncate }}</p>
+          <a href="{{item.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
+        </div>
+      </div>
+    {%- endfor -%}
   </div>
-        {% endfor %}
+
 </div>

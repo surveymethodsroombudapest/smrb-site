@@ -42,12 +42,46 @@ module.exports = function (config) {
   config.addCollection("proj_hu", (collection) => {
     return collection
       .getFilteredByGlob("./src/hu/projektek/!(index).md")
-      .reverse();
+      .sort((a, b) => new Date(b.data.year) - new Date(a.data.date));
   });
   config.addCollection("proj_en", (collection) => {
     return collection
       .getFilteredByGlob("./src/en/projects/!(index).md")
       .reverse();
+  });
+  config.addCollection("proj_by_hu", (collection) => {
+    const posts = collection
+      .getFilteredByGlob("./src/hu/projektek/!(index).md")
+      .reverse();
+    const years = posts.map((post) => post.date.getFullYear());
+    const uniqueYears = [...new Set(years)];
+
+    const postsByYear = uniqueYears.reduce((prev, year) => {
+      const filteredPosts = posts.filter(
+        (post) => post.date.getFullYear() === year
+      );
+
+      return [...prev, [year, filteredPosts]];
+    }, []);
+
+    return postsByYear;
+  });
+  config.addCollection("proj_by_en", (collection) => {
+    const posts = collection
+      .getFilteredByGlob("./src/en/projects/!(index).md")
+      .reverse();
+    const years = posts.map((post) => post.date.getFullYear());
+    const uniqueYears = [...new Set(years)];
+
+    const postsByYear = uniqueYears.reduce((prev, year) => {
+      const filteredPosts = posts.filter(
+        (post) => post.date.getFullYear() === year
+      );
+
+      return [...prev, [year, filteredPosts]];
+    }, []);
+
+    return postsByYear;
   });
   config.addCollection("publ_hu", (collection) => {
     return collection.getFilteredByGlob("./src/hu/publikaciok/!(index).md");

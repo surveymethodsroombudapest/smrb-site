@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+<div class="container-fix-sm">
+
+  <h1 class="section-title">{{ title }}</h1>
+
+  {% for year, group in collections[colname + "_" + locale] %}
+    <h2 class='mb-2 mt-4 text-secondary fs-4 fw-bold'>{{year}}</h2>
+
+    <div class=" d-flex flex-column flex-md-row gap-2 flex-wrap">
+      {%- for item in group -%}
+        <div class="card card-hover card-collection-item">
+          <div class="card-body">
+            <h4 class="fw-bold mb-3">{{item.data.title | safe}}</h4>
+            <p class="card-text mt-3 mb-4">{{item.data.content | stripHtml | truncate }}</p>
+            <a href="{{item.url}}" class="stretched-link button-readmore">{{ 'readmore' | i18n }}</a>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  {% endfor %}
+
+</div>
