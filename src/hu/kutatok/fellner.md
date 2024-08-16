@@ -1,6 +1,6 @@
 ---
 name: Fellner Zita
-pos: Tanársegéd, ELTE TáTK Statisztika Tanszék
+pos: Adjunktus, ELTE TáTK Statisztika Tanszék
 ref: fellner-bio
 img: /img/fellner_zita_resized2.jpg.png
 order: 4
