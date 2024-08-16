@@ -1,6 +1,6 @@
 ---
 name: Zita Fellner
-pos: "Assistant Lecturer, Department of Statistics, Faculty of Social Sciences,
+pos: "Assistant Professor, Department of Statistics, Faculty of Social Sciences,
   Eötvös Loránd University, Hungary "
 ref: fellner-bio_en
 img: /img/fellner_zita_resized2.jpg.png
