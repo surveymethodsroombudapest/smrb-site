@@ -1,6 +1,6 @@
 ---
 title: Közvéleménykutatási módszerek új technológiai és társadalmi környezetben II.
-date: 2022-12-15
+date: 2023-12-15T00:00:00.000Z
 ref: tinlab2descr
 subtitle: "ELTE TINLAB projekt második szakasz: 2023. január - 2024. január"
 kutatok:
