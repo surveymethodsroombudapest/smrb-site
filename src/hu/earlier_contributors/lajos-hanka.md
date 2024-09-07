@@ -1,9 +1,12 @@
 ---
 name: Lajos Hanka
-description: Hanka fő kutatási területe a Respondent Driven Sampling
-  (válaszadó-vezérelt mintavétel) felhasználása volt, társadalomtudományi
-  kutatásokra fókuszálva. Szociológia és matematika alapszakot végzett, jelenleg
-  az ELTE Társadalomtudományi Karán survey statisztika és adatanalitika
-  mesterszakon tanul.
+description: Hanka 2023 tavaszától decemberig vett részt a kutatócsoportban.
+  Elsősorban a válaszadó-vezérelt mintavétel (respondent-driven sampling)
+  módszerével és becslési eljárásaival foglalkozott. Egy kísérleti kutatás
+  adatain vizsgálta a módszer működését, a válaszadókból képzett láncok
+  strukturáját, a becslési módokat és a megfelelő becslésekhez teljesítendő
+  feltételeket. Szociológia és matematika alapszakot végzett, a kutatócsoportban
+  a survey statisztika és adatanalitika mesterszakos tanulmányai mellett vett
+  részt.
 img: /img/lajos_hanka.jpg
 ---
