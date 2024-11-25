@@ -33,4 +33,6 @@ Ez a projekt a *Közvéleménykutatási módszerek új technológiai és társad
 
 A projektet 2024 első negyedévében sikeresen lezártuk, az eredményeinket egy komplex dashboard formájában összegeztük. Ezen interaktív módon szemléltetjük a fent részletezett adatokat, eredményeket, melyet elérhetővé tettünk a tudományos és a civil szféra számára egyaránt. A dashboard elérhető a kutatócsoport [Tableau Public profilján](https://public.tableau.com/app/profile/smrb.research/viz/tinlab_smrb_17322005595920/Story1).
 
+Mindemellett az alábbi, angolnyelvű poszteren azt mutatjuk be, hogy  az online felméréseken alapuló becsléseknek milyen torzító hatása lehet, illetve azt is láttatjuk, hogy az online és offline felmérési módok együttes alkalmazása hogyan javíthatja az eredményeket.
+
 ![](/img/tinlab_poszter.png)
