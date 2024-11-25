@@ -32,7 +32,3 @@ kutatok:
 Ez a projekt a *Közvéleménykutatási módszerek új technológiai és társadalmi környezetben I.* című kutatás folytatása. Kutatásunkban a magyar lakossági paraméterek (területi internetpenetrációs adatok, összetett válaszadói attitűd-, és szociodemográfiai összetételbecslések alapján) alapján átültettük azokat a nemzetközi irányelveket, melyek az online kérdőíves adatgyűjtéssel dolgozó kutatások korrekt és megbízható lebonyolításához és az adatok értelmezéséhez szükségesek. Szimulációs vizsgálatokat végeztünk annak érdekében, hogy képet kapjunk arról, hogy milyen kutatási kérdések esetében használhatóak az online gyűjtött kutatási adatok és melyek azok a témák, melyek esetében ez félrevezető lehet. Személyes survey adatok segítségével definiáltuk a populáció offline és az online módon elérhető elméleti almintáit, valamint az ezekből származó becsléseket egyaránt kiértékeltük. 
 
 A projektet 2024 első negyedévében sikeresen lezártuk, az eredményeinket egy komplex dashboard formájában összegeztük. Ezen interaktív módon szemléltetjük a fent részletezett adatokat, eredményeket, melyet elérhetővé tettünk a tudományos és a civil szféra számára egyaránt. A dashboard elérhető a kutatócsoport [Tableau Public profilján](https://public.tableau.com/app/profile/smrb.research/viz/tinlab_smrb_17322005595920/Story1).
-
-
-
-<a href="tinlab_poszter.pdf" target="_blank">Nyisd meg a PDF-et itt!</a>
