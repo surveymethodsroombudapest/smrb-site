@@ -30,6 +30,17 @@ main:has(.page-content) {
   background: linear-gradient();
 }
 
+.page-content:has(.tableauPlaceholder) {
+  width: 100%;
+  height: fit-content;
+  overflow: auto;
+}
+
+.page-column:has(.tableauPlaceholder) {
+  width: fit-content;
+  height: max-content;
+}
+
 .lgs-active:hover {
   color: black;
 }
