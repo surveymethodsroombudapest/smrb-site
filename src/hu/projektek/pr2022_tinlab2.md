@@ -35,4 +35,4 @@ A projektet 2024 első negyedévében sikeresen lezártuk, az eredményeinket eg
 
 Mindemellett az alábbi, angolnyelvű poszteren azt mutatjuk be, hogy  az online felméréseken alapuló becsléseknek milyen torzító hatása lehet, illetve azt is láttatjuk, hogy az online és offline felmérési módok együttes alkalmazása hogyan javíthatja az eredményeket.
 
-![](/img/tinlab_poszter.png)
+![](/img/tinlab_poszter2.jpg)
