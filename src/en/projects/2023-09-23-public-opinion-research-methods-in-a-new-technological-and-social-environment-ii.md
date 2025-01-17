@@ -36,4 +36,4 @@ The project was successfully completed in the first quarter of 2024, with the re
 
 In addition, the poster below shows how estimates based on online surveys can be biased, and how the combined use of online and offline survey methods can improve results.
 
-![](/img/tinlab_poszter.png)
+![](/img/tinlab_poszter2.jpg)
