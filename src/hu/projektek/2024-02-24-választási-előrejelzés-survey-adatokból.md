@@ -1,6 +1,6 @@
 ---
 title: Választási előrejelzés survey adatokból
-date: 2024-02-24T17:18:29.497Z
+date: 2025-06-04T15:28:00.000Z
 ref: eka1descr
 subtitle: "Projekt időtartama: 2024. február - 2025. február"
 kutatok:
