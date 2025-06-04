@@ -31,7 +31,7 @@ kutatok:
 ---
 Kutatócsoportunk az **Egyetemi Kiválósági Alap** (EKA) támogatásával valósította meg 2024. február és 2025. február között az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projeket. A projekt célja az volt, hogy egy új, elérhetőségi jellemzőkön alapuló utólagos súlyozási módszertant fejlesszünk ki a survey-alapú társadalomkutatás pontosságának növelése érdekében.
 
-### A kutatás célja és háttere
+#### A kutatás célja és háttere
 
 A projekt központi kérdése az volt, hogy miként lehet pontosabb választási előrejelzéseket készíteni survey adatokból, ha nem kizárólag a hagyományos demográfiai jellemzők (pl. nem, életkor, iskolai végzettség) mentén súlyozzuk az adatokat, hanem olyan jellemzőket is bevonunk, amelyek az egyének elérhetőségére, válaszadási hajlandóságára és témával kapcsolatos érdeklődésére utalnak.
 
@@ -39,7 +39,7 @@ A 2024-es európai parlamenti és önkormányzati választásokat megelőzően *
 
 A kérdőívben – a választásokhoz kötődő kérdéseken túl – **speciális proxy kérdéseket** is alkalmaztunk, melyekkel olyan rejtettebb jellemzőket mértünk, mint például a válaszadó témával kapcsolatos érdeklődése, közösségi médiahasználata, elérhetősége vagy az interjú időpontja.
 
-### Eredmények és elemzések
+#### Eredmények és elemzések
 
 A kutatás során többek között:
 
@@ -53,6 +53,6 @@ A kutatás során többek között:
 
 A projekt hozzájárult ahhoz, hogy árnyaltabban lássuk a survey-alapú becslések megbízhatóságát, különösen a választási előrejelzések esetén, ahol a valós választási eredmény egy viszonyítási pontként szolgálhat.
 
-### Projektbemutató záróesemény
+#### Projektbemutató záróesemény
 
 A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok, prezentációk, valamint az esemény plakátja is elérhető.[](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/)
