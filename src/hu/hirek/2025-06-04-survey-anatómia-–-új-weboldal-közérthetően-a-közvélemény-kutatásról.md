@@ -9,10 +9,8 @@ Ezekre a kérdésekre keresi a választ a **Survey Anatómia**, kutatócsoportun
 
 Az oldal nemcsak azoknak szól, akik kutatással foglalkoznak, hanem minden érdeklődőnek, aki szeretne jobban eligazodni abban, mit is jelent pontosan, ha egy párt „vezet a mérésekben”, vagy miért lehet eltérés két felmérés eredménye között.
 
-A projekt a 2024-25-ös EKA-kutatásunk eredményeire épül, és célja a társadalomtudományos módszerek közérthető bemutatása.
+A projekt a [2024-25-ös EKA-kutatásunk](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/) eredményeire épül, és célja a társadalomtudományos módszerek közérthető bemutatása.
 
 A honlap elérhető ezen a linken: [surveyanatomia.web.app](https://surveyanatomia.web.app/)[](https://surveyanatomia.web.app/)
-
-
 
 ![](/img/eka_survey_anatomia.jpg)
