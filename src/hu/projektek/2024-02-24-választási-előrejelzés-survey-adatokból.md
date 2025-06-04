@@ -29,22 +29,30 @@ kutatok:
     img: /img/kovacs_benedek_resized.png
     leiras: Hallgató, SZTE Matematika BSc
 ---
-Kutatócsoportunk elnyerte az **Egyetemi Kiválósági Alap** (EKA) támogatását az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektre.
+Kutatócsoportunk az **Egyetemi Kiválósági Alap** (EKA) támogatásával valósította meg 2024. február és 2025. február között az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projeket. A projekt célja az volt, hogy egy új, elérhetőségi jellemzőkön alapuló utólagos súlyozási módszertant fejlesszünk ki a survey-alapú társadalomkutatás pontosságának növelése érdekében.
 
-A kutatás során kérdőíves adatokból egy új módszer segítségével választási előrejelzést készítünk, melyben speciális, proxy kérdéseket alkalmazunk, majd ezek alapján utólagos rétegzést végzünk. A speciális kérdések alapján a felkeresett mintát a következő csoportokra osztjuk.
+### A kutatás célja és háttere
 
-![](/img/eka_savdiagram_abra.png)
+A projekt központi kérdése az volt, hogy miként lehet pontosabb választási előrejelzéseket készíteni survey adatokból, ha nem kizárólag a hagyományos demográfiai jellemzők (pl. nem, életkor, iskolai végzettség) mentén súlyozzuk az adatokat, hanem olyan jellemzőket is bevonunk, amelyek az egyének elérhetőségére, válaszadási hajlandóságára és témával kapcsolatos érdeklődésére utalnak.
 
-Fő kérdésünk az, hogy mennyiben kapunk így eltérő eredményeket a választásokban való részvétellel kapcsolatos attitűdök becslésekor, amikor nem kizárólag a demográfiai jellemzők alapján, hanem az elérhetőségi csoportok mentén is korrigáljuk a kapott válaszokat.  
+A 2024-es európai parlamenti és önkormányzati választásokat megelőzően **két hullámban végeztünk telefonos adatgyűjtést**, az Ipsos kutatócég közreműködésével: az első lekérdezés 2024. május 14-18. között, míg a második hullám a választásokhoz közelebb eső időpontban, 2024. május 29. és június 4. között valósult meg.
 
-Az európai parlamenti választásokat megelőzően két adatgyűjtést végeztünk. Ennek elvégzésére kilenc kutatócéggel is felvettük a kapcsolatot, végül az **Ipsos** piac- és közvéleménykutató vállalattal együttműködve zajlottak a lekérdezések. Az első adatfelvételre **május 14-18.** között került sor, míg a második lekérdezést a választásokhoz közelebbi időpontra időzítettük, **május 29. és június 4.** közé. Ezen két adatfelvételi hullám időbeli megoszlását az alábbi ábrán szemléltetjük.
+A kérdőívben – a választásokhoz kötődő kérdéseken túl – **speciális proxy kérdéseket** is alkalmaztunk, melyekkel olyan rejtettebb jellemzőket mértünk, mint például a válaszadó témával kapcsolatos érdeklődése, közösségi médiahasználata, elérhetősége vagy az interjú időpontja.
 
-![](/img/eka_adatfelvetel_abra.png)
+### Eredmények és elemzések
 
-A projekt jelenlegi fázisában a két lekérdezés által létrejött adatokkal dolgozunk: többek között más közvéleménykutatások előrejelzéseivel vetjük össze az általunk mért eredményeket, a két adatfelvétel közti időbeli eltéréseket vizsgáljuk, valamint a becslések javítását célzó súlyozást, korrekciót végzünk az adatokon. Ezen felül különböző elérhetőségi csoportokba rendezzük a válaszadókat az alapján, hogy mennyire könnyen sikerült az operátoroknak felvenni velük a kapcsolatot. Ezt több eltérő módszer mentén megtesszük, jelenleg ennek a kidolgozása zajlik. Az így létrejött, eléréssel kapcsolatos változókból klaszterelemzéssel is megvizsgáljuk az egyes csoportok közti különbségeket. Az elérhetőségi csoportosítás egy lehetséges változatát szemléltetjük az alábbi ábrán.
+A kutatás során többek között:
 
-![](/img/eka_elerhetoseg_donut_cut.png)
+* **csoportosítottuk a válaszadókat** elérhetőség és válaszadási jellemzők szerint;
+* **alternatív súlyozási eljárásokat dolgoztunk ki**, amelyek figyelembe veszik az elérhetőségi tényezőket, illetve a politikai érdeklődést;
+* összevetettük az így készült előrejelzéseket más közvélemény-kutatások eredményeivel;
+* természetesnyelv feldolgozással (NLP) **azonosítottuk a fontosabb kampánytémákat**, közösségi média adatok bevonásával;
+* kísérletet tettünk a Facebookról származó és a survey **adatok kombinálására**;
+* vizsgáltuk a telefonos panelhatásokat, valamint a válaszhiány (nonresponse) struktúráját;
+* teszteltük, hogy **milyen mértékben javíthatja a becslések pontosságát** az új megközelítés.
 
-A projekt jelenlegi szakaszához kötődő tapasztalatokról, eredményekről a kutatócsoport Facebook oldalán is hírt adtunk, mely [itt olvasható](https://www.facebook.com/surveymethodsroom/posts/pfbid08AAUB5VUVQa9TwTnumbX4nAXL1h2XL2CVHzSTvjzd4J6HYq7PjkGN7ZvVWDQ2Desl).
+A projekt hozzájárult ahhoz, hogy árnyaltabban lássuk a survey-alapú becslések megbízhatóságát, különösen a választási előrejelzések esetén, ahol a valós választási eredmény egy viszonyítási pontként szolgálhat.
 
-A projekt 2025 februárig tart, mely az európai parlamenti, valamint az önkormányzati választások évében különösen aktuális kutatási témának tekinthető. A módszer több nemzetközi és hazai kutatásra épül és a társadalomtudományok számára is használható eljárást eredményezhet.
+### Projektbemutató záróesemény
+
+A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok, prezentációk, valamint az esemény plakátja is elérhető.
