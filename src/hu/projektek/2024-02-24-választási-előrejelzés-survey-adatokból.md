@@ -55,4 +55,4 @@ A projekt hozzájárult ahhoz, hogy árnyaltabban lássuk a survey-alapú becsl�
 
 ### Projektbemutató záróesemény
 
-A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok, prezentációk, valamint az esemény plakátja is elérhető.
+A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok, prezentációk, valamint az esemény plakátja is elérhető.[](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/)
