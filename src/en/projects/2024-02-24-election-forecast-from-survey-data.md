@@ -29,29 +29,29 @@ kutatok:
     leiras: Student, Mathematics BSc, SZTE
     img: /img/kovacs_benedek_resized.png
 ---
-Our research group, with the support of the **University Excellence Fund** (EKA), carried out the project „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” between February 2024 and February 2025. The aim of the project was to develop a new post-weighting methodology based on availability characteristics in order to increase the accuracy of survey-based social research.
+Our research group, with the support of the **University Excellence Fund** (Egyetemi Kiválósági Alap, EKA), carried out the project „*A new method to improve the accuracy of estimates in empirical social research: accessibility-based post-stratification*” between February 2024 and February 2025. The aim of the project was to develop a new post-weighting methodology based on availability characteristics in order to increase the accuracy of survey-based social research.
 
-##### A kutatás célja és háttere
+##### Aim and background of the research
 
-A projekt központi kérdése az volt, hogy miként lehet pontosabb választási előrejelzéseket készíteni survey adatokból, ha nem kizárólag a hagyományos demográfiai jellemzők (pl. nem, életkor, iskolai végzettség) mentén súlyozzuk az adatokat, hanem olyan jellemzőket is bevonunk, amelyek az egyének elérhetőségére, válaszadási hajlandóságára és témával kapcsolatos érdeklődésére utalnak.
+The central question of the project was how to make more accurate election predictions from survey data by not only weighting the data along traditional demographic characteristics (e.g. gender, age, education), but also including characteristics that indicate individuals' availability, willingness to respond, and interest in the topic.
 
-A 2024-es európai parlamenti és önkormányzati választásokat megelőzően **két hullámban végeztünk telefonos adatgyűjtést**, az Ipsos kutatócég közreműködésével: az első lekérdezés 2024. május 14-18. között, míg a második hullám a választásokhoz közelebb eső időpontban, 2024. május 29. és június 4. között valósult meg.
+Prior to the 2024 European Parliament and local elections, **two waves of telephone data collection** were carried out with the assistance of Ipsos research company: the first survey was conducted between 14-18 May 2024, while the second wave was conducted closer to the elections, between 29 May 29 and 4 June 2024.
 
-A kérdőívben – a választásokhoz kötődő kérdéseken túl – **speciális proxy kérdéseket** is alkalmaztunk, melyekkel olyan rejtettebb jellemzőket mértünk, mint például a válaszadó témával kapcsolatos érdeklődése, közösségi médiahasználata, elérhetősége vagy az interjú időpontja.
+In addition to election-related questions, the questionnaire also used **specific proxy questions** to measure more hidden characteristics such as the respondent's interest in the topic, social media use, availability or time of interview.
 
-##### Eredmények és elemzések
+##### Results and analysis
 
-A kutatás során többek között:
+The research included:
 
-* **csoportosítottuk a válaszadókat** elérhetőség és válaszadási jellemzők szerint;
-* **alternatív súlyozási eljárásokat dolgoztunk ki**, amelyek figyelembe veszik az elérhetőségi tényezőket, illetve a politikai érdeklődést;
-* összevetettük az így készült előrejelzéseket más közvélemény-kutatások eredményeivel;
-* természetesnyelv feldolgozással (NLP) **azonosítottuk a fontosabb kampánytémákat**, közösségi média adatok bevonásával;
-* kísérletet tettünk a Facebookról származó és a survey **adatok kombinálására**;
-* vizsgáltuk a telefonos panelhatásokat, valamint a válaszhiány (nonresponse) struktúráját;
-* teszteltük, hogy **milyen mértékben javíthatja a becslések pontosságát** az új megközelítés.
+* **grouping respondents** according to availability and response characteristics;
+* **developing alternative weighting methods** that take into account accessibility factors and political interest;
+* comparing the resulting predictions with the results of other public opinion polls;
+* using natural language processing (NLP) to **identify major campaign themes** using social media data;
+* attempting to **combine Facebook and survey data**;
+* examining telephone panel effects and the structure of nonresponse;
+* testing to **what extent the new approach could improve the accuracy of estimates**.
 
-A projekt hozzájárult ahhoz, hogy árnyaltabban lássuk a survey-alapú becslések megbízhatóságát, különösen a választási előrejelzések esetén, ahol a valós választási eredmény egy viszonyítási pontként szolgálhat.
+The project has contributed to a more nuanced view of the reliability of survey-based estimates, especially in the case of election forecasts, where the actual election result can serve as a benchmark.
 
 ##### Projektbemutató záróesemény
 
