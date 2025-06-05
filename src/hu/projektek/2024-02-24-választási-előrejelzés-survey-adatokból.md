@@ -61,7 +61,7 @@ A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen
 
 Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
 
-<a href="EKA_TIPOLOGIA_absztrakt.pdf" target="_blank">Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai</a>
+<a href="src/static/img/eka_tipologia_absztrakt.pdf" target="_blank">Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai</a>
 
 Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
 
@@ -70,11 +70,8 @@ Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontoss
 ***Prezentációk:***
 
 1. előadás: Választási előrejelzés survey becslésekkel – bevezetés
-
 2. előadás: Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
-
 3. előadás: Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
-
 4. előadás: Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
 
 ***Plakát*** (PDF)
