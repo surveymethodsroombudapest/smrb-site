@@ -29,7 +29,7 @@ kutatok:
     img: /img/kovacs_benedek_resized.png
     leiras: Hallgató, SZTE Matematika BSc
 ---
-Kutatócsoportunk az **Egyetemi Kiválósági Alap** (EKA) támogatásával valósította meg 2024. február és 2025. február között az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projeket. A projekt célja az volt, hogy egy új, elérhetőségi jellemzőkön alapuló utólagos súlyozási módszertant fejlesszünk ki a survey-alapú társadalomkutatás pontosságának növelése érdekében.
+Kutatócsoportunk az **Egyetemi Kiválósági Alap** (EKA) támogatásával valósította meg 2024. február és 2025. február között az „*Új módszer a becslések pontosságának növelésére az empirikus társadalomkutatásban: elérhetőség-alapú utólagos rétegzés*” című projektet. A projekt célja az volt, hogy egy új, elérhetőségi jellemzőkön alapuló utólagos súlyozási módszertant fejlesszünk ki a survey-alapú társadalomkutatás pontosságának növelése érdekében.
 
 ##### A kutatás célja és háttere
 
