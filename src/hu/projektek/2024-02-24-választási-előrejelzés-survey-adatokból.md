@@ -57,6 +57,26 @@ A projekt hozzájárult ahhoz, hogy árnyaltabban lássuk a survey-alapú becsl�
 
 A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok, prezentációk, valamint az esemény plakátja is elérhető.
 
+***Absztraktok:***
+
+Alulmondók, perzisztensek, felülmondók – pártválasztók ás pártot nem választók típusai
+
+Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
+
+Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+
+***Prezentációk:***
+
+1. előadás: Választási előrejelzés survey becslésekkel – bevezetés
+
+2. előadás: Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
+
+3. előadás: Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
+
+4. előadás: Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+
+Plakát (PDF)
+
 ![](/img/flyer_image.png)
 
 [](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/)
