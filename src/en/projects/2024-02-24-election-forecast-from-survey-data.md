@@ -53,13 +53,11 @@ The research included:
 
 The project has contributed to a more nuanced view of the reliability of survey-based estimates, especially in the case of election forecasts, where the actual election result can serve as a benchmark.
 
-##### Projektbemutató záróesemény
+##### Project presentation: final event 
 
-A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen, amelyet élénk érdeklődés kísért. A bemutatón a kutatócsoport tagjai ismertették a módszertani újításokat, az adatfelvétel részleteit, a folyamatban lévő kutatásokat, valamint az eredmények legfontosabb tanulságait. A program során elhangzott előadásokhoz tartozó rövid absztraktok elérhetőek:
+The results of the project were presented at a public event on 27 May 2025, which was met with great interest. The members of the research team presented methodological innovations, details of the data collection, ongoing research, and the most important lessons learned from the results. Short abstracts of the presentations given during the program are available:
 
 Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
-
-<a href="EKA_TIPOLOGIA_absztrakt.pdf" target="_blank">Alulmondók, perzisztensek, felülmondók – pártválasztók ás pártot nem választók típusai</a>
 
 Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
 
