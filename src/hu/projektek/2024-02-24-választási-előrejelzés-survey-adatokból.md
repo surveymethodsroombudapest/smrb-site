@@ -63,6 +63,8 @@ Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem v
 
 <a href="EKA_TIPOLOGIA_absztrakt.pdf" target="_blank">Alulmondók, perzisztensek, felülmondók – pártválasztók ás pártot nem választók típusai</a>
 
+<iframe src="https://eltehu-my.sharepoint.com/personal/tatrai_annamaria_tatk_elte_hu/_layouts/15/embed.aspx?UniqueId=dac3665a-21d5-46c8-8992-9192a9c52b55" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="EKA_TIPOLOGIA_absztrakt">Alulmondók, perzisztensek, felülmondók – pártválasztók ás pártot nem választók típusai</iframe>
+
 Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
 
 Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
