@@ -61,18 +61,18 @@ A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen
 
 [Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai](https://drive.google.com/file/d/1X2-kp3-ZKzjcejLt0Vi6rBUUqsNWG1gD/view?usp=sharing)
 
-Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
+[Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?](https://drive.google.com/drive/u/1/folders/15u5LTgxNDq4UdLj9PUNGEHvwCu9maUYn)
 
-Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+[Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján](https://drive.google.com/drive/u/1/folders/15u5LTgxNDq4UdLj9PUNGEHvwCu9maUYn)
 
 ***Prezentációk:***
 
-1. előadás: Választási előrejelzés survey becslésekkel – bevezetés
-2. előadás: Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
-3. előadás: Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
-4. előadás: Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+1. előadás: [Választási előrejelzés survey becslésekkel – bevezetés](https://drive.google.com/file/d/1V4Uy47b_OgbzHhZhx9fVrDMI9qCFYA0q/view?usp=sharing)
+2. előadás: [Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai](https://drive.google.com/file/d/18m-sw3kvkSt2FxHDmCyB4p5o4O4jGhGt/view?usp=sharing)
+3. előadás: [Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?](https://drive.google.com/file/d/1tigkAnzzS5ylaxHc1qWeKlbbsBX93nJf/view?usp=sharing)
+4. előadás: [Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján](https://drive.google.com/file/d/1NdlgdVI_BrwYwoUJVVjQhel4UX9L-UAy/view?usp=sharing)
 
-***Plakát*** (PDF)
+[***Plakát*** (PDF)](https://drive.google.com/file/d/1D2yoniHmslBu7rVPXHhf-gT5FjTTG7-d/view?usp=sharing)
 
 ![](/img/flyer_image.png)
 
