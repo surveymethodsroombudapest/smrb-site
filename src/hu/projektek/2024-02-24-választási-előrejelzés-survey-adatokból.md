@@ -59,7 +59,7 @@ A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen
 
 ***Absztraktok:***
 
-Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
+[Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai](https://drive.google.com/file/d/1X2-kp3-ZKzjcejLt0Vi6rBUUqsNWG1gD/view?usp=sharing)
 
 <iframe src="https://drive.google.com/file/d/1X2-kp3-ZKzjcejLt0Vi6rBUUqsNWG1gD/view?usp=drive_link" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="EKA_TIPOLOGIA_absztrakt">Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai</iframe>
 
