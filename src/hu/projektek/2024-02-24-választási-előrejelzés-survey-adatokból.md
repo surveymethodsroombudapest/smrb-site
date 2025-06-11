@@ -61,9 +61,9 @@ A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen
 
 [Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai](https://drive.google.com/file/d/1X2-kp3-ZKzjcejLt0Vi6rBUUqsNWG1gD/view?usp=sharing)
 
-[Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?](https://drive.google.com/drive/u/1/folders/15u5LTgxNDq4UdLj9PUNGEHvwCu9maUYn)
+[Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?](https://drive.google.com/file/d/1zskcQpbn2V0sDn7vQHs7zQRsTT3XrTQG/view?usp=sharing)
 
-[Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján](https://drive.google.com/drive/u/1/folders/15u5LTgxNDq4UdLj9PUNGEHvwCu9maUYn)
+Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
 
 ***Prezentációk:***
 
