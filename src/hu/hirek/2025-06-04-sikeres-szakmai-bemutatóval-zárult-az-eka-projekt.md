@@ -9,10 +9,10 @@ A projekt lezárásához kapcsolódóan 2025. május 27-én szakmai projektbemut
 
 A bemutatón elhangzott előadások témái többek között:
 
-* a kutatás fő motivációi és háttere;
-* a válaszhiány vizsgálata;
-* különböző súlyozási stratégiák;
-* alternatív adatgyűjtési és becslési eljárások értékelése.
+* [a kutatás fő motivációi és háttere](https://drive.google.com/file/d/1V4Uy47b_OgbzHhZhx9fVrDMI9qCFYA0q/view?usp=sharing);
+* [a válaszhiány vizsgálata](https://drive.google.com/file/d/18m-sw3kvkSt2FxHDmCyB4p5o4O4jGhGt/view?usp=sharing);
+* [különböző súlyozási stratégiák](https://drive.google.com/file/d/1NdlgdVI_BrwYwoUJVVjQhel4UX9L-UAy/view?usp=sharing);
+* [alternatív adatgyűjtési és becslési eljárások értékelése](https://drive.google.com/file/d/1tigkAnzzS5ylaxHc1qWeKlbbsBX93nJf/view?usp=sharing).
 
 ![](/img/eka_projektbemutato1.jpeg)
 
