@@ -63,7 +63,7 @@ A projekt eredményeit 2025. május 27-én mutattuk be egy nyilvános eseményen
 
 [Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?](https://drive.google.com/file/d/1zskcQpbn2V0sDn7vQHs7zQRsTT3XrTQG/view?usp=sharing)
 
-Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+[Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján](https://drive.google.com/file/d/1moFvQR1Mhz85-l_uugzJyERkR54c-2b0/view?usp=sharing)
 
 ***Prezentációk:***
 
