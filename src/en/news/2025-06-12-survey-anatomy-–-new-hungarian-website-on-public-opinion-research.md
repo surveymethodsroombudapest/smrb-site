@@ -1,5 +1,5 @@
 ---
-title: Survey Anatomy – new Hungarian website on public opinion research
+title: Survey Anatomy – a new Hungarian website on public opinion research
 date: 2025-06-04T09:34:00.000Z
 ref: hir2025_02_en
 ---
