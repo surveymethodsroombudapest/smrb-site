@@ -53,12 +53,12 @@ The research included:
 
 The project has contributed to a more nuanced view of the reliability of survey-based estimates, especially in the case of election forecasts, where the actual election result can serve as a benchmark.
 
-##### Project presentation: final event 
+##### Project presentation: final event
 
 The results of the project were presented at a public event on 27 May 2025, which was met with great interest. The members of the research team presented methodological innovations, details of the data collection, ongoing research, and the most important lessons learned from the results. Short abstracts of the presentations given during the program are available:
 
-Alulmondók, perzisztensek, felülmondók – pártválasztók és pártot nem választók típusai
+[Underreporters, overreporters, persistents – types of party and non-party voters](https://drive.google.com/file/d/1WukuHTtWVmP7_RRnjfptL3cbJrK5Z6OW/view?usp=sharing)
 
-Kampánytémák online és offline: Hogyan vizsgáljuk a kampánytémák fontosságát facebookon és surveyben?
+[Campaign themes online and offline: how to assess the relevance of campaign themes on Facebook and in surveys?](https://drive.google.com/file/d/1b1DMxbnwvMp6nLZMismaIbu4X8mMqxa7/view?usp=sharing)
 
-Új adatkorrekciós megközelítések – súlyozás politikai érdeklődés és elérhetőség alapján
+[New data correction approaches – weighting by political interest and availability](https://drive.google.com/file/d/1t6vAutnp5kkBgoaWT5jK2B3UKvCCAC3i/view?usp=sharing)
