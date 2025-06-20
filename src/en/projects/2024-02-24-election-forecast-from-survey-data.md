@@ -9,10 +9,10 @@ kutatok:
     leiras: Professor Emeritus, Department of Statistics, ELTE
   - img: /img/kep_szeitl2.png
     nev: Blanka Szeitl
-    leiras: Assistant Lecturer, Department of Statistics, ELTE
+    leiras: Assistant Professor, Department of Statistics, ELTE
   - nev: Emese Túry-Angyal
     img: /img/tury-angyal_emese_resized.png
-    leiras: Assistant Lecturer, Department of Statistics, ELTE
+    leiras: Assistant Professor, Department of Statistics, ELTE
   - img: /img/katona_eszter_resized.png
     nev: Eszter Rita Katona
     leiras: Assistant Professor, Department of Social Research Methodology, ELTE
