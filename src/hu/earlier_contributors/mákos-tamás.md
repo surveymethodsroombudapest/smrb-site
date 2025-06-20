@@ -4,8 +4,7 @@ description: Tamás elsősorban gráfbeágyazási technikák segítségével a s
   nonresponse (válaszmegtagadó) eseteket vizsgálta, kapcsolt környezeti
   információk alapján (adatbányászat). Kereskedelem és marketing alapszakon
   végzett, ezután 8 évet töltött a szakmában, főleg marketing technológiai és
-  adatelemzési feladatkörökben. Jelenleg az ELTE survey statisztika és
-  adatanalatika mesterszakán tanul. Különösen érdekli a programozás és a
-  hálózattudomány.
+  adatelemzési feladatkörökben. Az ELTE survey statisztika és adatanalatika
+  mesterszakán tanult. Különösen érdekli a programozás és a hálózattudomány.
 img: /img/makos_tamas.jpg
 ---
