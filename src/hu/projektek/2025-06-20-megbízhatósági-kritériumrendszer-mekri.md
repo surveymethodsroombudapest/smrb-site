@@ -1,5 +1,5 @@
 ---
-title: Megbízhatósági Kritériumrendszer (MekRi)
+title: ELTE Megbízhatósági Kritériumrendszer (MeKri)
 date: 2025-06-20T12:28:00.000Z
 ref: mekri1descr
 subtitle: "Projekt időtartama: 2025. január - 2025. október"
