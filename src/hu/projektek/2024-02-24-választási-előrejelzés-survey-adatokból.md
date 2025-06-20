@@ -12,7 +12,7 @@ kutatok:
     leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Túry-Angyal Emese
     img: /img/tury-angyal_emese_resized.png
-    leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Katona Eszter Rita
     img: /img/katona_eszter_resized.png
     leiras: Adjunktus, ELTE TáTK Társadalomkutatások Módszertana Tanszék
