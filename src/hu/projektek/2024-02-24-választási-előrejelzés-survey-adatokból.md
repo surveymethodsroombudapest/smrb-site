@@ -9,7 +9,7 @@ kutatok:
     img: /img/rudas_tamas.jpg
   - nev: Szeitl Blanka
     img: /img/kep_szeitl2.png
-    leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Túry-Angyal Emese
     img: /img/tury-angyal_emese_resized.png
     leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
