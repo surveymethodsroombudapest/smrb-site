@@ -1,5 +1,5 @@
 ---
-title: Validációs együttműködés – mérési hiba projekt
+title: Validációs együttműködés – Mérési hiba projekt
 date: 2025-06-26T10:57:00.000Z
 ref: validaco1descr
 subtitle: "Projekt időtartama: 2025. szeptember - 2026. augusztus"
