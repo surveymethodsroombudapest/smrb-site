@@ -1,0 +1,8 @@
+---
+title: Why do the numbers say otherwise? – Validation collaboration project
+date: 2025-06-30T14:12:00.000Z
+ref: hir2025_03_en
+---
+Commercial data compiled by the [World Population Review](https://worldpopulationreview.com/country-rankings/alcoholism-by-country?fbclid=IwAR0y8Iqk2esc_gr-OLGigAbFfn6VWQ9Kwbu8uI1GcijM-U4Tl1_esS02Fjw#title) ranks Hungary among the world’s highest alcohol-consuming countries[](https://worldpopulationreview.com/country-rankings/alcoholism-by-country?fbclid=IwAR0y8Iqk2esc_gr-OLGigAbFfn6VWQ9Kwbu8uI1GcijM-U4Tl1_esS02Fjw#title). In contrast, according to international surveys (such as the [ESS 11th wave](https://ess.sikt.no/en/datafile/242aaa39-3bbb-40f5-98bf-bfb1ce53d8ef?tab=1&elems=fa56e8a2-47b4-4a39-ad97-c3f4626e4da0)), a significant proportion of Hungarian respondents claim to never or very rarely drink alcohol. This stark discrepancy highlights one of the main challenges of self-reported data: in sensitive topics, responses can significantly diverge from reality due to social desirability bias or memory-related distortions.
+
+Our [Validation collaboration](https://surveymethodsroom.hu/en/projects/2025-06-30-validation-collaboration-%E2%80%93-measurement-error-project/) project aims to address these biases methodologically. Our research group, in collaboration with Panelstory, is working on data correction solutions that improve the accuracy of survey estimates by including attitude variables, such as interest in a given topic. The research focuses on four sensitive areas: alcohol consumption, fast food consumption, tooth brushing habits, and gasoline consumption.
