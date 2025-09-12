@@ -11,7 +11,7 @@ Throughout the evening, participants can expect exciting questions and surprisin
 
 **Venue**: ELTE Faculty of Social Sciences (1117 Budapest, Pázmány Péter sétány 1/a, Room 0.100B)
 
-More information (in Hungarian): [Kutatók Éjszakája – Társadalomtudományi kocsmakvíz](https://app.kutatokejszakaja.hu/esemenyek/elte-tarsadalomtudomanyi-kar/tarsadalomtudomanyi-kocsmakviz-becsles-vagy-becstelenseg-a-politikai-kozvelemeny-merese)\
+More information (in Hungarian): [Kutatók Éjszakája – Társadalomtudományi kocsmakvíz](https://app.kutatokejszakaja.hu/esemenyek/elte-tarsadalomtudomanyi-kar/tarsadalomtudomanyi-kocsmakviz-becsles-vagy-becstelenseg-a-politikai-kozvelemeny-merese)
 
 *Please note: the event will be held in Hungarian.*
 
