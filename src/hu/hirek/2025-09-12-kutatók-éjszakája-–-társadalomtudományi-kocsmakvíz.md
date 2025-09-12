@@ -5,7 +5,7 @@ ref: hir2025_04
 ---
 Szeptember 26-án kutatócsoportunk is részt vesz a **Kutatók Éjszakája programsorozatban**! Ezúttal egy különleges társadalomtudományi kocsmakvízre invitáljuk az érdeklődőket, ahol játékos formában lehet elmélyülni a politikai közvélemény-kutatások világában.
 
-Az este során izgalmas kérdésekre és meglepő statisztikai érdekességekre számíthattok – kiderül, hogy mennyire ismeritek a közvélemény alakulását, és hogy a becslés néha mennyire lehet „becstelenség”.
+Az este során izgalmas kérdésekre és meglepő statisztikai érdekességekre számíthatnak a résztvevők – kiderül, hogy mennyire ismerik a közvélemény alakulását, és hogy a becslés néha mennyire lehet „becstelenség”.
 
 Részletek és jelentkezés: [Kutatók Éjszakája – Társadalomtudományi kocsmakvíz](https://app.kutatokejszakaja.hu/esemenyek/elte-tarsadalomtudomanyi-kar/tarsadalomtudomanyi-kocsmakviz-becsles-vagy-becstelenseg-a-politikai-kozvelemeny-merese)
 
