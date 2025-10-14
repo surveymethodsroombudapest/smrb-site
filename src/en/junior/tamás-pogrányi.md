@@ -1,6 +1,6 @@
 ---
 name: Tamás Pogrányi
-description: "He completed his undergraduate studies in sociology at ELTE. He
+description: "He completed his undergraduate studies in Sociology at ELTE. He
   then chose to pursue a master's degree in Survey Statistics and Data Analysis
   at ELTE, which he completed in 2025. He wrote his thesis on \"Estimating
   alcohol consumption using survey tools: examining measurement error\". In
