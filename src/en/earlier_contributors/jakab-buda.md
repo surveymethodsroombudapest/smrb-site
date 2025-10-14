@@ -1,14 +1,12 @@
 ---
 name: Jakab Buda
-description: Jakab Buda graduated in 2020 from the ELTE Faculty of Social
-  Sciences with a master’s degree in Survey Statistics. Since 2022 he is a PhD
-  student at the ELTE Faculty of Social Sciences, Doctoral School of Sociology,
-  Interdisciplinary Social Research. His PhD research topic is the
-  explainability of machine learning-based language models and the applicability
-  of explainable language models in the social sciences. He is also involved in
-  other research in natural language processing and text analysis as well as
-  other areas of machine learning in the social sciences. Since 2022, he has
-  also been working in the Department of Artificial Intelligence at the Rényi
-  Alfréd Institute for Mathematical Research.
+description: Jakab Buda obtained his master's degree in Survey Statistics from
+  the Faculty of Social Sciences of ELTE in 2020, and has been a student at the
+  Doctoral School of Sociology of ELTE since 2022. His doctoral research
+  examines the explainability and applicability of machine learning-based
+  language models in social sciences. He also conducts research in natural
+  language processing and text analysis, and works at the Department of
+  Artificial Intelligence at the Alfréd Rényi Institute for Mathematical
+  Research.
 img: /img/screenshot-2023-09-27-211629.png
 ---
