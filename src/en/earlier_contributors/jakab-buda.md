@@ -1,7 +1,7 @@
 ---
 name: Jakab Buda
-description: Jakab Buda obtained his master's degree in Survey Statistics from
-  the Faculty of Social Sciences of ELTE in 2020, and has been a student at the
+description: Jakab obtained his master's degree in Survey Statistics from the
+  Faculty of Social Sciences of ELTE in 2020, and has been a student at the
   Doctoral School of Sociology of ELTE since 2022. His doctoral research
   examines the explainability and applicability of machine learning-based
   language models in social sciences. He also conducts research in natural
