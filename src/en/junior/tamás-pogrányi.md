@@ -7,5 +7,5 @@ description: "He completed his undergraduate studies in Sociology at ELTE. He
   addition to survey methodology, his interests focus on machine learning and
   deep learning, especially their applications in social sciences and data
   analysis."
-img: /img/zita_temp.JPG
+img: /img/pogranyi_tamas_resized.png
 ---
