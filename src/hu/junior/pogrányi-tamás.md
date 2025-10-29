@@ -6,5 +6,5 @@ description: "Az ELTE-n szerezte meg szociológia alapszakos diplomáját. Ezt
   eszközökkel: a mérési hiba vizsgálata” címen írta. A survey módszertan mellett
   érdeklődése középpontjában a gépi tanulás és a mélytanulás áll, különösen ezek
   társadalomtudományi és adatelemzési alkalmazásai."
-img: /img/zita_temp.JPG
+img: /img/pogranyi_tamas_resized.png
 ---
