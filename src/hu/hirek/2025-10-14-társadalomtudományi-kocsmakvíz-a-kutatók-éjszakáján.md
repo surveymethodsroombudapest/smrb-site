@@ -10,3 +10,7 @@ A kvízen három csapat mérte össze tudását a közvélemény-kutatás világ
 A hangulat remek volt, a kérdések jól működtek, és a résztvevők izgalmas beszélgetésekben is elmélyülhettek a statisztika, a becslések és a politikai kutatások témáiban.
 
 Köszönjük mindenkinek, aki részt vett az eseményen!
+
+![](/img/kocsmakviz_1.jpg)
+
+![](/img/kocsmakviz_2.jpg)
