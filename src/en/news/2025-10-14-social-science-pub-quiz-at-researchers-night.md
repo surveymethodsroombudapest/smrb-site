@@ -10,3 +10,7 @@ Three teams compared their knowledge of the world of public opinion research at 
 The atmosphere was great, the questions worked well, and the participants were able to engage in exciting discussions on the topics of statistics, estimates, and political research.
 
 Thank you to everyone who participated in the event!
+
+![](/img/kocsmakviz_1.jpg)
+
+![](/img/kocsmakviz_2.jpg)
