@@ -30,4 +30,12 @@ kutatok:
     nev: Kertész Zalán
     img: /img/kertesz_zalan_resized.png
 ---
-\-
+A projekt célja a **2026-os magyarországi országgyűlési választások statisztikailag megalapozott előrejelzése**, valamint a survey-alapú becslések pontosságát növelő **módszertani innovációk továbbfejlesztése és validálása** valós környezetben. A kutatás a kutatócsoport korábbi eredményeire épít, amelyek egy új, politikai érdeklődésen alapuló utólagos rétegzési eljárást dolgoztak ki a torzítások csökkentésére. A kapcsolódó, korábbi EKA-projekt részletes bemutatása [itt érhető el](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/).
+
+A projekt során nagymintás adatfelvétel valósul meg kutatóintézeti együttműködésben, amelyet statisztikai modellezés, valamint a különböző közvélemény-kutatások eredményeit összesítő **„poll of polls” módszer** alkalmazása egészít ki. Ez lehetővé teszi, hogy a választási előrejelzések stabilabbak és megbízhatóbbak legyenek, mint egyetlen felmérés alapján tett következtetések.
+
+A módszertani fejlesztés mellett a projekt célja a **választói magatartás strukturális változásainak jobb megértése**, valamint a **hazai választáskutatás szakmai párbeszédének erősítése**. Ennek részeként a kutatócsoportunk egy országos tudományos workshopot is szervez az ELTE-n a 2026-os választások előtt, ahol bemutatjuk az előrejelzéseinket és az alkalmazott módszertant.
+
+A projekt eredményeként egy ellenőrzött és továbbfejlesztett becslési modell jön létre, tudományos publikációk készülnek, emellett a kutatás hozzájárul a magyarországi választási előrejelzések módszertani megújításához.
+
+A projekt az ELTE Egyetemi Kiválósági Alap (EKA) támogatásával valósul meg.
