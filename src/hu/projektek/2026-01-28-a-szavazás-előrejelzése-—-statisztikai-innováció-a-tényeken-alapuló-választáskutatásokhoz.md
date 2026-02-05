@@ -1,5 +1,5 @@
 ---
-title: A szavazás előrejelzése – statisztikai innováció a tényeken alapuló
+title: A választás előrejelzése – új statisztikai módszerek a tényeken alapuló
   választáskutatásokhoz
 date: 2026-01-28T15:59:00.000+01:00
 ref: eka2descr
