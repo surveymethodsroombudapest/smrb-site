@@ -30,6 +30,9 @@ kutatok:
   - img: /img/kertesz_zalan_resized.png
     nev: "Zalán Kertész "
     leiras: Student, Sociology BA, ELTE
+  - nev: Ajsa Fehér
+    img: /img/zita_temp.JPG
+    leiras: Student, ELTE
 ---
 The project aims to **provide a statistically sound forecast of the 2026 Hungarian parliamentary elections** and to **further develop and validate methodological innovations** that improve the accuracy of survey-based estimates in real-world settings. The research builds on the research group’s previous results, which introduced a novel post-stratification procedure based on political interest to reduce bias in survey estimates. A detailed description of the related, earlier EKA-funded project is [available here](https://surveymethodsroom.hu/en/projects/2024-02-24-election-forecast-from-survey-data/).
 
