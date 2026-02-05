@@ -11,7 +11,7 @@ kutatok:
   - img: /img/rudas_tamas.jpg
     nev: Tamás Rudas
     leiras: Professor Emeritus, Department of Statistics, ELTE
-  - img: /img/zita_temp.JPG
+  - img: /img/szabo_andrea.jpg
     nev: Andrea Szabó
     leiras: Habil. Associate Professor, Institute of Political Sciences, Faculty of
       Law, ELTE
