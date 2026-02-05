@@ -29,6 +29,9 @@ kutatok:
   - leiras: Hallgató, ELTE Szociológia BA
     nev: Kertész Zalán
     img: /img/kertesz_zalan_resized.png
+  - nev: Fehér Ajsa
+    img: /img/zita_temp.JPG
+    leiras: Hallgató, ELTE
 ---
 A projekt célja a **2026-os magyarországi országgyűlési választások statisztikailag megalapozott előrejelzése**, valamint a survey-alapú becslések pontosságát növelő **módszertani innovációk továbbfejlesztése és validálása** valós környezetben. A kutatás a kutatócsoport korábbi eredményeire épít, amelyek egy új, politikai érdeklődésen alapuló utólagos rétegzési eljárást dolgoztak ki a torzítások csökkentésére. A kapcsolódó, korábbi EKA-projekt részletes bemutatása [itt érhető el](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/).
 
