@@ -12,7 +12,7 @@ kutatok:
     nev: Rudas Tamás
     leiras: Professor Emeritus, ELTE TáTK Statisztika Tanszék
   - nev: Szabó Andrea
-    img: /img/zita_temp.JPG
+    img: /img/szabo_andrea.jpg
     leiras: Habilitált egyetemi docens, ELTE ÁJK Politikatudományi Intézet
   - nev: Biszák Otília
     img: /img/biszak_otilia_resized.png
