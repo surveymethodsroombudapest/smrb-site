@@ -16,7 +16,7 @@ kutatok:
   - img: /img/katona_eszter_resized.png
     nev: Eszter Rita Katona
     leiras: Assistant Professor, Department of Social Research Methodology, ELTE
-  - nev: Bernadett Nagy
+  - nev: Bernadett Kajos-Nagy
     img: /img/nagy_bernadett_resized.png
     leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
   - nev: Benedek Sarnyai
