@@ -1,5 +1,5 @@
 ---
-name: Nagy Bernadett
+name: Kajos-Nagy Bernadett
 description: Szociológia BA tanulmányait követően jelenleg az ELTE survey
   statisztika és adatanalitika mesterképzésének végzős hallgatója. Az adatok
   világán belül különösen érdekli a biostatisztika, valamint a survey
