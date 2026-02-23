@@ -1,5 +1,5 @@
 ---
-name: Bernadett Nagy
+name: Bernadett Kajos-Nagy
 description: "After completing her BA in Sociology, she is currently a graduate
   student of the master's program in Survey Statistics and Data Analysis at
   ELTE. Within the world of data, she is particularly interested in
