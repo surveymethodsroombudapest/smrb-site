@@ -16,7 +16,7 @@ kutatok:
   - nev: Katona Eszter Rita
     img: /img/katona_eszter_resized.png
     leiras: Adjunktus, ELTE TáTK Társadalomkutatások Módszertana Tanszék
-  - nev: Nagy Bernadett
+  - nev: Kajos-Nagy Bernadett
     img: /img/nagy_bernadett_resized.png
     leiras: Hallgató, ELTE Survey statisztika és adatanalitika MSc
   - nev: Sarnyai Benedek
