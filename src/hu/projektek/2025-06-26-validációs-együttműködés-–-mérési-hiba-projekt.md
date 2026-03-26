@@ -13,6 +13,8 @@ kutatok:
   - nev: Tóth Rebeka
     leiras: Hallgató, ELTE Szociológia BA
     img: /img/toth_rebeka_2_resized.png
+  - nev: Barta Péter
+    img: /img/zita_temp.JPG
 ---
 Kutatásunk fő célja, hogy hozzájáruljon az online kérdőíves adatfelvételek eredményeinek megbízhatóságához azáltal, hogy a klasszikus demográfiai súlyozás lehetőségeit új, tematikusan releváns attitűdváltozók bevonásával vizsgáljuk. A projekt közvetlen előzménye a [Választási előrejelzés survey adatokból](https://surveymethodsroom.hu/hu/projektek/2024-02-24-v%C3%A1laszt%C3%A1si-el%C5%91rejelz%C3%A9s-survey-adatokb%C3%B3l/) c. kutatás, amely során kidolgoztunk egy olyan megközelítést, amely a válaszadó elérhetőségét és politikai érdeklődését is figyelembe vette a súlyozás során. Jelen projektünk ezt a megközelítést teszteli tovább más, érzékenyebb tématerületeken.
 
