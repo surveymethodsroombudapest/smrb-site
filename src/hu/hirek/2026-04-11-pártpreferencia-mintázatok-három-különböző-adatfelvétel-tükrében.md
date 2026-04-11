@@ -17,10 +17,10 @@ Ez a parlamenti képviselők funkciójának kiüresítésének, a rendeleti korm
 
 ![](/img/felsofok.png)
 
-![](/img/telepulestipus.png)
+![](/img/teltip.png)
 
-![](/img/szubjektiv_jovedelem.png)
+![](/img/jovedelem.png)
 
 ![](/img/kor.png)
 
-![](/img/partok.png)
+![](/img/part.png)
