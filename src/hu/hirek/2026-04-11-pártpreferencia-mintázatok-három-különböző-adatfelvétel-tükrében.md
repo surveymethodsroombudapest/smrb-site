@@ -7,9 +7,7 @@ Az ELTE Survey Methods Room Budapest kutatócsoport a különböző adatgyűjté
 
 A pártpreferenciákat illetően a szavazók rendkívül erősen megosztottak életkörülményeik szerint. A falusi, kisvárosi lakóhely, az alacsony iskolai végzettség, a szubjektív jövedelmi elégedetlenség mind erősen együtt jár a Fideszre való szavazási hajlandósággal. Fordítva, a városi vagy nagyvárosi élet, magasabb iskolai végzettség, a jobb szubjektív jövedelmi helyzet a Tiszára való szavazással jár együtt. A fentiek mellett egy éles generációs törésvonalat is érdemes megemlíteni: 55 év alatt a Tisza a legtámogatottabb politikai párt, 55 év fölött azonban határozott a Fidesz előnye. 
 
-Az egyéni jelöltekre vonatkozó szavazási preferenciák szinte teljesen egybeesnek a pártok listás támogatottságával. Egy ilyen helyzet kedvez a szélsőséges parlamenti összetétel (például kétharmad) kialakulásának. A parlament valószínűleg hárompárti lesz. Nagyon kicsi az esélye egy Fidesz - Mi Hazánk többségnek, a legvalószínűbb kimenetel a Tisza többsége, de egy kétharmados győzelem is lehetséges.
-
-Ez a parlamenti képviselők funkciójának kiüresítésének, a rendeleti kormányzásnak és a parlamenti "pártfegyelemnek" a következménye. A rendelkezésünkre álló adatok alapján mindez azt jelenti, hogy a Fidesz egy kétharmados vereséget csak nagyon sikeres mozgósítással tudna elkerülni. 
+Az egyéni jelöltekre vonatkozó szavazási preferenciák szinte teljesen egybeesnek a pártok listás támogatottságával. Egy ilyen helyzet kedvez a szélsőséges parlamenti összetétel (például kétharmad) kialakulásának. A parlament valószínűleg hárompárti lesz. Nagyon kicsi az esélye egy Fidesz - Mi Hazánk többségnek, a legvalószínűbb kimenetel a Tisza többsége.
 
 ![](/img/alapfok.png)
 
