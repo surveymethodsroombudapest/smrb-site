@@ -44,3 +44,5 @@ A projekt eredményeként egy ellenőrzött és továbbfejlesztett becslési mod
 A projekt az ELTE Egyetemi Kiválósági Alap (EKA) támogatásával valósul meg.
 
 Április 30-án **Műhelybeszélgetést** tartottunk, ahol bemutattuk a projekt előzetes eredményeit és párbeszédre hívtunk minden olyan hazai adatgyűjtő és közvéleménykutató céget, amely publikált az áprilisi választásra vonatkozó előrejelzést. A rendezvényen részt vett a Závecz Research, a Publicus Intézet, a Minerva Intézet, a 21 Kutatóközpont, a Nézőpont Intézet és az IDEA Intézet is.  A rendezvényen bemutatott prezentációk [itt érhetőek el.](https://drive.google.com/drive/folders/1fOiMPirayArIgyXfMDbJdM_2bYLBoBeL?usp=sharing)
+
+![](/img/plakát.png)
