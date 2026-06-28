@@ -1,6 +1,6 @@
 ---
 name: Kajos-Nagy Bernadett
-pos: Junior kutató, Survey statisztika és adatanalitika MSc
+pos: Hallgató, Survey statisztika és adatanalitika MSc
 ref: nagy-bio
 img: /img/nagy_bernadett_resized.png
 order: 7
