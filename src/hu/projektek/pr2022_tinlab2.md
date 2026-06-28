@@ -5,8 +5,8 @@ ref: tinlab2descr
 subtitle: "ELTE TINLAB projekt második szakasz: 2023. január - 2024. január"
 kutatok:
   - nev: Szeitl Blanka
-    leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
-    img: /img/kep_szeitl2.png
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
+    img: /img/szeitl_blanka_2026_resize.png
   - img: /img/fellner_zita_resized2.jpg.png
     nev: Fellner Zita
     leiras: Tanársegéd, ELTE TáTK Statisztika Tanszék
