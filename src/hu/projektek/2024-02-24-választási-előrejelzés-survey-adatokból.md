@@ -8,7 +8,7 @@ kutatok:
     leiras: Professor Emeritus, ELTE TáTK Statisztika Tanszék
     img: /img/rudas_tamas.jpg
   - nev: Szeitl Blanka
-    img: /img/kep_szeitl2.png
+    img: /img/szeitl_blanka_2026_resize.png
     leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Túry-Angyal Emese
     img: /img/tury-angyal_emese_resized.png
