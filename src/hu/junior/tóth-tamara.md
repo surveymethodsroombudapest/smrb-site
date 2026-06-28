@@ -1,10 +1,10 @@
 ---
 name: Tóth Tamara
 description: Szociológia alapszakon végzett adatközpontú társadalomtudomány
-  specializációval. Szakdolgozatában a politikai attitűdök és a politikai
-  hírfogyasztás hatását vizsgálta a magyar internetező lakosság mentális
-  egészségére. Jelenleg az ELTE survey statisztika és adatanalitika mesterszakos
-  hallgatója. Főbb érdeklődési körei közé tartozik a kérdőíves felmérések
-  módszertana, az adatvizualizáció és a programozás.
+  specializációval. Jelenleg az ELTE Survey statisztika és adatanalitika
+  mesterszak hallgatója. Szakmai érdeklődése a kérdőíves felmérések
+  módszertanára, az adatvizualizációra és a programozásra irányul; alapképzéses
+  szakdolgozatában a politikai attitűdök és a politikai hírfogyasztás hatását
+  vizsgálta a magyar internetező lakosság mentális egészségére.
 img: /img/toth_tamara_resized.png
 ---
