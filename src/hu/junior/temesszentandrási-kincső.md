@@ -1,7 +1,7 @@
 ---
 name: Temesszentandrási Kincső
-description: Szociológia alapszakon végzett az ELTE-n adatközpontú
-  társadalomtudomány specializáción, jelenleg az ELTE
+description: Szociológia alapszakon végzett az ELTE adatközpontú
+  társadalomtudomány specializációján, jelenleg a KRE
   Társadalmi-viselkedéselemzés mesterszak big data szakirányának hallgatója,
   emellett a Government Transparency Institute junior data analystje.
   Alapképzéses szakdolgozatában az intézményesített korrupció kvantitatív
