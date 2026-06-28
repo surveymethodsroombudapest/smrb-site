@@ -4,12 +4,12 @@ date: 2025-06-20T12:28:00.000Z
 ref: mekri1descr
 subtitle: "Projekt időtartama: 2025. január - 2025. október"
 kutatok:
-  - img: /img/kep_szeitl2.png
+  - img: /img/szeitl_blanka_2026_resize.png
     nev: Szeitl Blanka
-    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
-  - img: /img/katona_eszter_resized.png
+    leiras: Adjunktus, Statisztika Tanszék
+  - img: /img/katona_eszter_2_resized.png
     nev: Katona Eszter Rita
-    leiras: Adjunktus, ELTE TáTK Társadalomkutatások Módszertana Tanszék
+    leiras: Adjunktus, Társadalomkutatások Módszertana Tanszék
 ---
 Az *ELTE Survey Megbízhatósági Kritériumrendszer (MeKri)* projekt célja, hogy segítséget nyújtson a **társadalomtudományi kutatásokban használt kérdőíves adatbázisok** **minőségének és általánosíthatóságának értékelésében**. A projekt a [Közvéleménykutatási módszerek új technológiai és társadalmi környezetben II.](https://surveymethodsroom.hu/hu/projektek/pr2022_tinlab2/) c. kutatás folytatásaként indult, amely az online kérdőíves módszertan megbízhatóságát vizsgálta a magyar lakosság körében. Ebben a korábbi projektben különféle adatforrások alapján elemeztük, hogy milyen társadalmi
 jellemzők mentén térnek el az online aktív válaszadók a teljes népességtől. 
