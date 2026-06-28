@@ -5,7 +5,7 @@ date: 2026-01-28T15:59:00.000+01:00
 ref: eka2descr
 subtitle: "Projekt időtartama: 2025. december - 2026. november"
 kutatok:
-  - img: /img/szeitl_blanka_new_resized.png
+  - img: /img/szeitl_blanka_2026_resize.png
     nev: Szeitl Blanka
     leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - img: /img/rudas_tamas.jpg
