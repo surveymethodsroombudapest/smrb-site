@@ -3,4 +3,6 @@ title: Bemutatkozás
 layout: layouts/home.liquid
 ref: home
 ---
-A Survey Methods Room Budapest az Eötvös Loránd Tudományegyetem Statisztika Tanszékén működő kutatócsoport, ami a survey statisztika aktuális és az empirikus társadalomkutatás számára releváns módszertani kérdésekkel foglalkozik.
+Az ELTE Survey Methods Room Budapest az ELTE Társadalomtudományi Kar Statisztika Tanszékének kutatócsoportja, amely a kérdőíves adatfelvételek módszertanával (survey methodology) foglalkozik. Munkánk középpontjában az a kérdés áll, hogyan lehet megbízható adatokat gyűjteni egy olyan világban, ahol a társadalomkutatás módszerei és az adatgyűjtési környezet folyamatosan változnak.
+
+A kérdőíves adatfelvételek a társadalomtudományok egyik legfontosabb adatforrását jelentik. Segítségükkel ismerhetjük meg az emberek véleményét, attitűdjeit, értékeit, életkörülményeit és viselkedését, így nélkülözhetetlenek a társadalmi folyamatok megértésében. A survey kutatások eredményeire támaszkodnak többek között a közvélemény-kutatások, a társadalompolitikai elemzések, a piackutatások, valamint számos hazai és nemzetközi tudományos kutatás is. A survey adatok minősége ezért nem csupán módszertani kérdés: alapvetően meghatározza, hogy milyen megbízható következtetéseket vonhatunk le a társadalom működéséről.
