@@ -12,7 +12,7 @@ kutatok:
     img: /img/toth_rebeka_2_resized.png
   - img: /img/szeitl_blanka_2026_resize.png
     nev: Szeitl Blanka
-    leiras: Adjunktus, Statisztika Tanszék
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Barta Péter
     leiras: Hallgató, Survey statisztika és adatanalitika MSc
     img: /img/barta_peter_resized.png
