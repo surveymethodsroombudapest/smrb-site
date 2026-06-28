@@ -1,5 +1,5 @@
 ---
 name: Kovács Anna
-description: ""
+description: Szociológia BA
 img: /img/kovacs_anna_resized.png
 ---
