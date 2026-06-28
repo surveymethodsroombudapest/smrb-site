@@ -1,7 +1,18 @@
 ---
 title: Mérési hiba az alkoholfogyasztás kérdőíves vizsgálatakor
 date: 2026-06-28T13:29:00.000+08:00
-ref: a
+ref: meresihib-2
+subtitle: "Projekt időtartama: 2026. január - 2027. január"
+kutatok:
+  - img: /img/szeitl_blanka_2026_resize.png
+    nev: Szeitl Blanka
+    leiras: Adjunktus, Statisztika Tanszék
+  - img: /img/barta_peter_resized.png
+    nev: Barta Péter
+    leiras: Hallgató, Survey statisztika és adatanalitika MSc
+  - img: /img/toth_rebeka_2_resized.png
+    nev: Tóth Rebeka
+    leiras: Hallgató, Szociológia BA
 ---
 A társadalmilag érzékeny viselkedések – például az alkoholfogyasztás – mérése különösen nagy kihívást jelent a kérdőíves kutatásokban. Az ilyen témák esetében a válaszadók hajlamosak lehetnek fogyasztásuk aluljelentésére, ami jelentősen befolyásolhatja a kutatások eredményeit és az ezekre épülő következtetéseket.
 
