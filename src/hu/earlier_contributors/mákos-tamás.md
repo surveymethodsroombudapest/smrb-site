@@ -1,5 +1,5 @@
 ---
 name: Mákos Tamás
-description: ""
+description: Survey statisztika és adatanalitika MSc
 img: /img/makos_tamas.jpg
 ---
