@@ -1,5 +1,5 @@
 ---
 name: Faragó Sára
-description: ""
+description: Szociológia BA
 img: /img/farago_sara_resized.png
 ---
