@@ -1,10 +1,11 @@
 ---
 name: Domján Csenge
 description: Szociológia alapszakon végzett adatközpontú társadalomtudomány
-  specializációval. Szakdolgozatában a feminin-maszkulin énkép hatását vizsgálta
-  a magyar nők munkaérték-választására, világrendszer-elméleti keretben elemezve
-  a nemek közötti strukturális egyenlőtlenségeket. Kvantitatív érdeklődése miatt
-  2025-ben a survey statisztika és adatanalitika mesterszakon kezdte meg
-  tanulmányait.
+  specializációval, majd 2025-ben kezdte meg tanulmányait az ELTE Survey
+  statisztika és adatanalitika mesterszakon. Alapképzéses szakdolgozatában a
+  feminin és maszkulin énkép hatását vizsgálta a magyar nők
+  munkaérték-választására, világrendszer-elméleti megközelítésben. Szakmai
+  érdeklődése a kvantitatív társadalomkutatás és a kérdőíves adatfelvételek
+  módszertana felé irányul.
 img: /img/domjan_csenge.jpg
 ---
