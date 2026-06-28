@@ -24,3 +24,5 @@ A kérdőíves kutatások módszertana azt vizsgálja, hogyan befolyásolja az a
 **Fókuszterületünkről**
 
 Az ELTE Survey Methods Room Budapest kutatásai a társadalomtudományok és a matematikai statisztika határterületén helyezkednek el. Munkánk során a kérdőíves adatfelvételek tervezésével, kivitelezésével és statisztikai elemzésével kapcsolatos módszertani kérdéseket vizsgáljuk. Célunk olyan módszerek fejlesztése és értékelése, amelyek hozzájárulnak a kérdőíves kutatások adatminőségének javításához és az empirikus társadalomtudományi kutatások megbízhatóságához.
+
+**2024 és 2026 közötti projektjeink finanszírozói:**
