@@ -2,7 +2,7 @@
 name: Szeitl Blanka
 pos: Adjunktus, ELTE TáTK Statisztika Tanszék
 ref: szeitl-bio
-img: /img/szeitl_blanka_new_resized.png
+img: /img/szeitl_ig_kep_2025_1_n.jpg
 order: 1
 pikto: []
 ---
