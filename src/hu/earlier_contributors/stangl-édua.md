@@ -1,5 +1,5 @@
 ---
 name: Stangl Édua
-description: ""
+description: Survey statisztika és adatanalitika MSc
 img: /img/stangl_edua_resized.png
 ---
