@@ -1,6 +1,6 @@
 ---
 name: Biszák Otília
-pos: Junior kutató, Survey statisztika és adatanalitika MSc
+pos: Hallgató, Survey statisztika és adatanalitika MSc
 ref: biszak-bio
 img: /img/biszak_otilia_resized.png
 order: 6
