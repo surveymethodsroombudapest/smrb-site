@@ -21,3 +21,5 @@ Ebben a projektben egy 2025-ös ELTE Egyetemi Kiválósági Alap által támogat
 Eredményeink szerint a kérdőíves felmérésekben mért alkoholfogyasztás jelentősen elmarad a kereskedelmi statisztikák alapján becsülhető szinttől. A nők körében különösen erősen megjelent az alkoholfogyasztás társadalmi stigmatizáltságának érzékelése és az alkoholfogyasztás elhallgatásának feltételezése, ami hozzájárulhat az önbevallás torzulásához. A kutatás rámutat arra, hogy a kérdőíves adatfelvételek eredményeinek értelmezésekor kiemelt figyelmet kell fordítani a mérési hibákra és az érzékeny kérdésekből fakadó torzításokra. Az ilyen módszertani vizsgálatok hozzájárulnak a survey kutatások adatminőségének javításához és a társadalomtudományi következtetések megbízhatóságának növeléséhez.
 
 A projektben résztvevő hallgatók TDK és alapszakos szakdolgozat formájában vizsgálják a kérdést.
+
+![](/img/peti_poszt.png)
