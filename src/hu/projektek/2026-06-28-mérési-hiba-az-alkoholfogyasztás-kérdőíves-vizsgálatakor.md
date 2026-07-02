@@ -22,4 +22,6 @@ Eredményeink szerint a kérdőíves felmérésekben mért alkoholfogyasztás je
 
 A projektben résztvevő hallgatók TDK és alapszakos szakdolgozat formájában vizsgálják a kérdést.
 
+Barta Péter dolgozata [itt ](https://drive.google.com/file/d/1Apbyu953WdG34ofOj2Bz7TabHLS-XIyH/view?usp=sharing)olvasható.
+
 ![](/img/peti_poszt.png)
