@@ -25,3 +25,7 @@ A projektben résztvevő hallgatók TDK és alapszakos szakdolgozat formájában
 Barta Péter dolgozata [itt ](https://drive.google.com/file/d/1Apbyu953WdG34ofOj2Bz7TabHLS-XIyH/view?usp=sharing)olvasható.
 
 ![](/img/peti_poszt.png)
+
+Tóth Rebeka a projekthez kapcsolódó alapszakos szakdolgozatával elnyerte a 2025/2026-os tanév év szakdolgozata címet. Munkája [itt ](https://drive.google.com/file/d/18LBurZTwAjREJzeXZt0U7fpJrPqzrKPX/view?usp=sharing)olvasható.
+
+![](/img/rebi_poszt.png)
