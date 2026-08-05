@@ -6,7 +6,7 @@ subtitle: "Projekt időtartama: 2026. január - 2027. január"
 kutatok:
   - img: /img/szeitl_blanka_2026_resize.png
     nev: Szeitl Blanka
-    leiras: Adjunktus, Statisztika Tanszék
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - img: /img/barta_peter_resized.png
     nev: Barta Péter
     leiras: Hallgató, Survey statisztika és adatanalitika MSc
