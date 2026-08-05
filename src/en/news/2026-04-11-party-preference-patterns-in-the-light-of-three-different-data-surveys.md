@@ -8,3 +8,17 @@ To test the impact of various data collection methods, the ELTE Survey Methods R
 When it comes to party preferences, voters are extremely divided based on their living conditions. Living in rural areas or small towns and having a low level of education are strongly associated with a willingness to vote for Fidesz. Conversely, living in cities or large urban areas and having a higher level of education are associated with voting for Tisza. Support for Tisza is more common among those with a moderate or poor subjective income situation. In addition to the above, a sharp generational divide is also worth mentioning: among those under 55, the Tisza Party is the most supported political party, while among those over 55, Fidesz holds a clear lead.
 
 Voting preferences for individual candidates almost completely align with support for party lists. Such a situation favors the formation of an extreme parliamentary composition (such as a two-thirds majority). Parliament will likely be a three-party system. The chances of a Fidesz - Mi Hazánk majority are very small; the most likely outcome is a Tisza majority.
+
+![](/img/alapfok_angol.png)
+
+![](/img/kozepfok_angol.png)
+
+![](/img/felsofok_angol.png)
+
+![](/img/telepulestipus_angol.png)
+
+![](/img/jovedelem_angol.png)
+
+![](/img/kor_angol.png)
+
+![](/img/part_angol.png)
