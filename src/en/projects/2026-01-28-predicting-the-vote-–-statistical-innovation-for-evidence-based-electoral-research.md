@@ -5,7 +5,7 @@ date: 2026-01-28T16:12:00.000+01:00
 ref: eka2descr_en
 subtitle: "Project duration: December 2025 - November 2026"
 kutatok:
-  - img: /img/szeitl_blanka_new_resized.png
+  - img: /img/szeitl_blanka_2026_resize.png
     leiras: Assistant Professor, Department of Statistics, ELTE
     nev: Blanka Szeitl
   - img: /img/rudas_tamas.jpg
