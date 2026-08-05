@@ -1,7 +1,7 @@
 ---
 title: Public opinion research methods in a new technological and social
   environment I.
-date: 2023-10-01T22:00:04.831Z
+date: 2022-01-02T00:00:00.000+01:00
 ref: tinlab1descr_en
 subtitle: "ELTE TINLAB project first phase: January 2022 - June 2022 "
 ---
