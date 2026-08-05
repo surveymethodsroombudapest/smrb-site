@@ -4,7 +4,7 @@ date: 2025-06-30T12:04:00.000Z
 ref: mekri1descr_en
 subtitle: "Project duration: January 2025 - October 2025"
 kutatok:
-  - img: /img/kep_szeitl2.png
+  - img: /img/szeitl_blanka_2026_resize.png
     nev: Blanka Szeitl
     leiras: Assistant Professor, Department of Statistics, ELTE
   - img: /img/katona_eszter_resized.png
