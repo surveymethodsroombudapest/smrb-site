@@ -6,7 +6,7 @@ ref: tinlab2descr_en
 subtitle: "ELTE TINLAB project second phase: January 2023 - January 2024 "
 kutatok:
   - nev: Blanka Szeitl
-    img: /img/kep_szeitl2.png
+    img: /img/szeitl_blanka_2026_resize.png
     leiras: Assistant Lecturer, Department of Statistics, ELTE
   - img: /img/fellner_zita_resized2.jpg.png
     nev: Zita Fellner
