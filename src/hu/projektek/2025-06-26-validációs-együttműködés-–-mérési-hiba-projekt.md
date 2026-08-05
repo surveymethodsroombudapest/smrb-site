@@ -4,15 +4,15 @@ date: 2025-06-26T10:57:00.000Z
 ref: validaco1descr
 subtitle: "Projekt időtartama: 2025. szeptember - 2026. augusztus"
 kutatok:
+  - img: /img/szeitl_blanka_2026_resize.png
+    nev: Szeitl Blanka
+    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Pogrányi Tamás
     leiras: Végzett hallgató, ELTE Survey statisztika és adatanalitika MSc
     img: /img/pogranyi_tamas_resized.png
   - nev: Tóth Rebeka
     leiras: Hallgató, ELTE Szociológia BA
     img: /img/toth_rebeka_2_resized.png
-  - img: /img/szeitl_blanka_2026_resize.png
-    nev: Szeitl Blanka
-    leiras: Adjunktus, ELTE TáTK Statisztika Tanszék
   - nev: Barta Péter
     leiras: Hallgató, Survey statisztika és adatanalitika MSc
     img: /img/barta_peter_resized.png
