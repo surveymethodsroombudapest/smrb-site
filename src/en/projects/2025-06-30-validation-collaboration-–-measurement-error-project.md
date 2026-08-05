@@ -14,7 +14,8 @@ kutatok:
     leiras: Student, Sociology BA, ELTE
     img: /img/toth_rebeka_2_resized.png
   - nev: Péter Barta
-    img: /img/zita_temp.JPG
+    img: /img/barta_peter_resized.png
+    leiras: Student, Survey Statistics and Data Analysis MSc, ELTE
 ---
 The main goal of our research is to contribute to the reliability of online survey data by examining the possibilities of classical demographic weighting by including new, thematically relevant attitude variables. The direct predecessor of the project is the research entitled [Election forecast from survey data](https://surveymethodsroom.hu/en/projects/2024-02-24-election-forecast-from-survey-data/), where we developed an approach that took respondent availability and political interest into account during weighting. Our current project further tests this approach in other, more sensitive topic areas.
 
