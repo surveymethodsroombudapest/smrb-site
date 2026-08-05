@@ -4,7 +4,7 @@ date: 2025-06-30T12:36:00.000Z
 ref: validaco1descr_en
 subtitle: "Project duration: September 2025 - August 2026"
 kutatok:
-  - img: /img/kep_szeitl2.png
+  - img: /img/szeitl_blanka_2026_resize.png
     nev: Blanka Szeitl
     leiras: Assistant Professor, Department of Statistics, ELTE
   - nev: Tamás Pogrányi
