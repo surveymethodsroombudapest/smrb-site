@@ -24,8 +24,8 @@ The students participating in the project are examining the issue in the form of
 
 Péter Barta's essay can be read here (in Hungarian).
 
-![]()
+![](/img/peti_poszt.png)
 
 Rebeka Tóth won the “Thesis of the Year” award for the 2025/2026 academic year with her undergraduate thesis related to the project. Her work can be read here (in Hungarian).
 
-![]()
+![](/img/rebi_poszt.png)
