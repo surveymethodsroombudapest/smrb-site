@@ -7,7 +7,7 @@ kutatok:
   - nev: Tamás Rudas
     img: /img/rudas_tamas.jpg
     leiras: Professor Emeritus, Department of Statistics, ELTE
-  - img: /img/kep_szeitl2.png
+  - img: /img/szeitl_blanka_2026_resize.png
     nev: Blanka Szeitl
     leiras: Assistant Professor, Department of Statistics, ELTE
   - nev: Emese Túry-Angyal
