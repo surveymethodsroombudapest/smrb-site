@@ -22,10 +22,10 @@ Our results show that alcohol consumption measured in questionnaire surveys is s
 
 The students participating in the project are examining the issue in the form of a TDK (Association for Student Research) and an undergraduate thesis.
 
-Péter Barta's essay can be read here (in Hungarian).
+Péter Barta's essay can be read [here](https://drive.google.com/file/d/1Apbyu953WdG34ofOj2Bz7TabHLS-XIyH/view?usp=sharing) (in Hungarian).
 
 ![](/img/peti_poszt.png)
 
-Rebeka Tóth won the “Thesis of the Year” award for the 2025/2026 academic year with her undergraduate thesis related to the project. Her work can be read here (in Hungarian).
+Rebeka Tóth won the “Thesis of the Year” award for the 2025/2026 academic year with her undergraduate thesis related to the project. Her work can be read [here](https://drive.google.com/file/d/18LBurZTwAjREJzeXZt0U7fpJrPqzrKPX/view?usp=sharing) (in Hungarian).
 
 ![](/img/rebi_poszt.png)
