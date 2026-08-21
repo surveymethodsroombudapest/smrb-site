@@ -20,16 +20,12 @@ In this project, we continue to work on the results of a research project suppor
 
 Our results show that alcohol consumption measured in questionnaire surveys is significantly lower than the level estimated based on commercial statistics. The perception of social stigmatization of alcohol consumption and the assumption of concealment of alcohol consumption were particularly strong among women, which may contribute to the distortion of self-reporting. The research points out that when interpreting the results of questionnaire data, special attention should be paid to measurement errors and biases arising from sensitive questions. Such methodological studies contribute to improving the data quality of survey research and increasing the reliability of social science conclusions.
 
-
-
 The students participating in the project are examining the issue in the form of a TDK (Association for Student Research) and an undergraduate thesis.
 
 Péter Barta's essay can be read [here](https://drive.google.com/file/d/1Apbyu953WdG34ofOj2Bz7TabHLS-XIyH/view?usp=sharing) (in Hungarian).
 
-![](/img/peti_poszt.png)
-
-
+![](/img/peti_poszt_angol.png)
 
 Rebeka Tóth won the “Thesis of the Year” award for the 2025/2026 academic year with her undergraduate thesis related to the project. Her work can be read [here](https://drive.google.com/file/d/18LBurZTwAjREJzeXZt0U7fpJrPqzrKPX/view?usp=sharing) (in Hungarian).
 
-![](/img/rebi_poszt.png)
+![](/img/rebi_poszt_angol.png)
