@@ -1,6 +1,6 @@
 ---
 name: Rebeka Tóth
-description: Currently pursuing a Bachelor’s degree in Sociology, with
+description: Currently pursuing a bachelor’s degree in Sociology, with
   additional training from a one-year supplementary program in Information
   Technology focused on developing practical skills in data analysis and
   programming. Works in the economic sector as a modelling analyst, applying
